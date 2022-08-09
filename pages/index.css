@@ -6,3 +6,12 @@
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/__wrapper/section__wrapper.css);
 @import url(../blocks/section/__title/section__title.css);
+
+/*header*/
+@import url(../blocks/header/header.css);
+/*footer*/
+@import url(../blocks/footer/footer.css);
+
+
+
+
