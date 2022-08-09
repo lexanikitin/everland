@@ -1,2 +1,8 @@
 /* шрифты */
 @import url(../vendor/fonts/raleway.css);
+
+/*базовые обертки для секций*/
+@import url(../blocks/page/page.css);
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__wrapper/section__wrapper.css);
+@import url(../blocks/section/__title/section__title.css);
