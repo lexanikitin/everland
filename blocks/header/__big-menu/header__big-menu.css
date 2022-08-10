@@ -1,0 +1,15 @@
+.header__big-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  z-index: 2;
+  background-color: #ffffff;
+  max-width: 1440px;
+  left: 0;
+  top:80px;
+  width: 100%;
+  min-height: 520px;
+  padding: 0;
+  margin: 0;
+}

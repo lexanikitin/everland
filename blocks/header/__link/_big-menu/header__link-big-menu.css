@@ -1,5 +1,5 @@
-.header__link-small-menu {
-  font-weight: 700;
+.header__link_big-menu {
+  font-weight: 400;
   font-size: 20px;
   line-height: 130%;
   font-feature-settings: 'pnum' on, 'lnum' on;

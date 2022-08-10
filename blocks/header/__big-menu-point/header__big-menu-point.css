@@ -1,0 +1,9 @@
+.header__big-menu-point {
+  list-style: none;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  /*justify-content: space-around;*/
+  row-gap: 20px;
+  display: flex;
+}
