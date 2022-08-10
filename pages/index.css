@@ -12,9 +12,11 @@
 @import url(../blocks/header/__wrapper/header__wrapper.css);
 @import url(../blocks/header/__head/header__head.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-button/header__menu-button.css);
 @import url(../blocks/header/__menu-name/header__menu-name.css);
 @import url(../blocks/header/__buttons/header__buttons.css);
+@import url(../blocks/header/__small-menu/header__small-menu.css);
+@import url(../blocks/header/__link-small-menu/header__link-small-menu.css);
 /*footer*/
 @import url(../blocks/footer/footer.css);
 

@@ -1,4 +1,4 @@
-.header__menu {
+.header__menu-button {
   border: none;
   background-color: rgba(0,0,0,0);
   display: flex;
@@ -9,7 +9,7 @@
   gap: 12px;
 }
 @media screen and (max-width: 1023px) {
-  .header__menu {
+  .header__menu-button {
     order: 2;
   }
 }

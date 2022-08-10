@@ -1,10 +1,10 @@
-.header__buttons{
+.header__menu-button{
   display: flex;
   flex-direction: row;
   column-gap: 16px;
 }
 @media screen and (max-width: 767px){
- .header__buttons{
+ .header__menu-button{
    display: none;
  }
 }
