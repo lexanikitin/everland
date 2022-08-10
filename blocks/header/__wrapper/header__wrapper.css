@@ -1,0 +1,7 @@
+.header__wrapper {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  min-height: 100%;
+  padding: 0 40px;
+}

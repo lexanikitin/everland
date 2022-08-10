@@ -9,6 +9,11 @@
 
 /*header*/
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__wrapper/header__wrapper.css);
+@import url(../blocks/header/__head/header__head.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-name/header__menu-name.css);
 /*footer*/
 @import url(../blocks/footer/footer.css);
 
