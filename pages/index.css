@@ -1,5 +1,5 @@
 /* шрифты */
-@import url(../vendor/fonts/raleway.css);
+@import url(../vendor/fonts/fonts.css);
 
 /*базовые обертки для секций*/
 @import url(../blocks/page/page.css);
