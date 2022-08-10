@@ -14,6 +14,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu-name/header__menu-name.css);
+@import url(../blocks/header/__buttons/header__buttons.css);
 /*footer*/
 @import url(../blocks/footer/footer.css);
 
