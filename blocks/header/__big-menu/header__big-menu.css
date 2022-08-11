@@ -1,15 +1,24 @@
 .header__big-menu {
-  display: flex;
+  display: none;
   flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-around;
   position: absolute;
   z-index: 2;
   background-color: #ffffff;
   max-width: 1440px;
+  top:0;
   left: 0;
-  top:80px;
   width: 100%;
   min-height: 520px;
-  padding: 0;
+  padding: 40px;
   margin: 0;
+  box-sizing: border-box;
 }
+@media screen and (max-width: 1439px){
+    .header__big-menu {
+      flex-wrap: wrap;
+
+    }
+}
+

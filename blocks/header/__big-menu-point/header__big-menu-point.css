@@ -7,3 +7,8 @@
   row-gap: 20px;
   display: flex;
 }
+@media screen and (max-width: 1439px) {
+  .header__big-menu-point {
+    row-gap: 16px;
+  }
+}

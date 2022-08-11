@@ -2,5 +2,12 @@
   font-weight: 700;
   font-size: 34px;
   line-height: 120%;
-  font-feature-settings: 'pnum' on, 'lnum' on;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 1439px) {
+  .header__link_top {
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 8px;
+  }
 }
