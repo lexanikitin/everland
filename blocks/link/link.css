@@ -1,0 +1,45 @@
+.link {    
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #333;
+    display: inline-flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    gap: 10px;
+    justify-content: center;
+    line-height: 120%; 
+    overflow: hidden;
+    text-decoration: none;
+    transition: background-color .3s ease-out,
+                color .3s ease-out;
+}
+
+.link:hover {
+    color: #00275C;
+}
+
+.link:active {
+    color: #0C4BA0;
+}
+
+.link:hover .link__image {
+    fill: #00275C;
+}
+
+.link:active .link__image {
+    fill: #0C4BA0;
+}
+
+@media screen and (max-width: 1023px) {
+    .link {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .link {
+        font-size: 14px;
+    }
+}
