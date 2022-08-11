@@ -15,8 +15,9 @@
 
 /* секция Для кого мы работаем */
 @import url(../blocks/purpose/purpose.css);
-@import url(../blocks/purpose/__content/purpose__cards.css);
+@import url(../blocks/purpose/__cards/purpose__cards.css);
 @import url(../blocks/purpose/__card/purpose__card.css);
+@import url(../blocks/purpose/__content/purpose__content.css);
 @import url(../blocks/purpose/__tag/purpose__tag.css);
 @import url(../blocks/purpose/__title/purpose__title.css);
 @import url(../blocks/purpose/__description/purpose__description.css);
