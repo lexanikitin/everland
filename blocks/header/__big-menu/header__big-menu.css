@@ -6,8 +6,8 @@
   position: absolute;
   z-index: 2;
   background-color: #ffffff;
-  max-width: 1440px;
-  top:0;
+  /*max-width: 1440px;*/
+  top: 0;
   left: 0;
   width: 100%;
   min-height: 520px;
@@ -15,10 +15,16 @@
   margin: 0;
   box-sizing: border-box;
 }
-@media screen and (max-width: 1439px){
-    .header__big-menu {
-      flex-wrap: wrap;
 
-    }
+@media screen and (max-width: 1439px) {
+  .header__big-menu {
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-between;*/
+  }
 }
 
+@media screen and (max-width: 1023px) {
+  .header__big-menu {
+    flex-wrap: wrap;
+  }
+}
