@@ -1,0 +1,13 @@
+.link__image {
+    fill: #333;
+    height: 16px;
+    transition: fill .3s ease-out;
+    width: 16px;
+}
+
+@media screen and (max-width: 1023px) {
+    .link__image {
+        height: 13.33px;
+        width: 13.33px;
+    }
+}
