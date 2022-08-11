@@ -7,12 +7,20 @@
   font-weight: 400;
   display: inline-block;
 }
-@media screen and (max-width: 1439px) {
+
+@media screen and (max-width: 1023px) {
   .header__link {
     font-size: 16px;
     line-height: 120%;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .header__link {
+    font-size: 14px;
+  }
+}
+
 .header__link:hover {
   cursor: pointer;
 }

@@ -19,9 +19,12 @@
 @import url(../blocks/header/__link/_small-menu/header__link_small-menu.css);
 @import url(../blocks/header/__big-menu/header__big-menu.css);
 @import url(../blocks/header/__big-menu-point/header__big-menu-point.css);
+@import url(../blocks/header/__button-big-menu/header__button-big-menu.css);
+@import url(../blocks/header/__icon-shevron/header__icon-shevron.css);
 @import url(../blocks/header/__link/_top/header__link_top.css);
 @import url(../blocks/header/__link/_big-menu/header__link-big-menu.css);
 @import url(../blocks/header/__big-menu/_opened/header__big-menu_opened.css);
+@import url(../blocks/header/__big-menu-point/_last/header__big-menu-point_last.css);
 
 @import url('../blocks/content/content.css');
 

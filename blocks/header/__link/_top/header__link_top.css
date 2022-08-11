@@ -4,10 +4,14 @@
   line-height: 120%;
   margin-bottom: 10px;
 }
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1023px) {
   .header__link_top {
     font-size: 20px;
-    line-height: 120%;
     margin-bottom: 8px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header__link_top {
+    font-size: 18px;
   }
 }

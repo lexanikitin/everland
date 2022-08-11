@@ -1,0 +1,28 @@
+.header__button-big-menu {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0;
+  margin: 0 0 12px 0;
+  border: none;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  text-align: left;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__button-big-menu {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__button-big-menu {
+    font-size: 18px;
+  }
+}

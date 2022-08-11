@@ -1,0 +1,8 @@
+.header__icon-shevron {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .header__icon-shevron {
+    display: block;
+  }
+}

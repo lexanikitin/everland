@@ -2,8 +2,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 80px;
+  min-height: 80px;
   align-items: center;
   position: sticky;
   top: 0;
 }
+@media screen and (max-width: 767px) {
+  .header__head {
+    min-height: 54px;
+  }
+}
+
