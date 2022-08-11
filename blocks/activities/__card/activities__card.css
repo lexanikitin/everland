@@ -1,0 +1,24 @@
+.activities__card {
+  border-radius: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 428px;
+  justify-content: space-between;
+  padding: 30px;
+  width: 440px;
+}
+
+@media screen and (max-width: 1439px) {
+  .activities__card {
+    height: 291px;
+    width: 334px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .activities__card {
+    padding: 24px;
+    height: 254px;
+    width: 300px;
+  }
+}
