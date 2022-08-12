@@ -1,5 +1,6 @@
 .header__icon-shevron {
   display: none;
+  transition: transform .5s ease-in-out;
 }
 @media screen and (max-width: 767px) {
   .header__icon-shevron {
