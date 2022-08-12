@@ -1,0 +1,14 @@
+.link__image-container {
+    align-items: center;
+    display: flex;
+    height: 24px;
+    justify-content: center;
+    width: 24px;
+}
+
+@media screen and (max-width: 1023px) {
+    .link__image-container {
+        height: 20px;
+        width: 20px;
+    }
+}
