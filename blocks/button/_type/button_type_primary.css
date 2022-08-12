@@ -1,0 +1,13 @@
+.button_type_primary {
+    background-color: #0C4BA0;
+    color: #fff;
+    transition: background-color 0.3s ease-out;
+}
+
+.button_type_primary:hover {
+    background-color: #4183DC;
+} 
+
+.button_type_primary:active {
+    background-color: #00275C;
+}

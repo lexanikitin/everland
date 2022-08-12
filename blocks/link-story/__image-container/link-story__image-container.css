@@ -1,0 +1,23 @@
+.link-story__image-container {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+    .link-story__image-container  {
+        height: 28px;
+        width: 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .link-story__image-container {
+        height: 24px;
+        width: 24px;
+    }
+}

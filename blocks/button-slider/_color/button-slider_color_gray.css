@@ -1,0 +1,11 @@
+.button-slider_color_gray {
+    background-color: #333;
+}
+
+.button-slider_color_gray:hover {
+    background-color: #0C4BA0;
+}
+
+.button-slider_color_gray:active {
+    background-color: #00275C;
+}
