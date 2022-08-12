@@ -1,0 +1,15 @@
+.header__menu-button_type_burger {
+  width: 25px;
+  height: 20px;
+  display: none;
+}
+@media screen and (max-width: 1023px) {
+  .header__menu-button_type_burger{
+    height: 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header__menu-button_type_burger{
+    height: 16px;
+  }
+}

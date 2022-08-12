@@ -13,3 +13,6 @@
     order: 2;
   }
 }
+.header__menu-button:hover {
+  cursor: pointer;
+}

@@ -1,13 +1,11 @@
 .header__big-menu {
   display: none;
   position: absolute;
-  z-index: 2;
   background-color: #ffffff;
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 520px;
-  padding: 0;
+  padding: 40px 0 0 0;
   margin: 0;
   box-sizing: border-box;
   grid-template-columns: repeat(4, 1fr);
@@ -23,6 +21,7 @@
 
 @media screen and (max-width: 767px) {
   .header__big-menu {
+    padding-top: 20px;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 20px;
   }

@@ -11,7 +11,10 @@
 @import url(../blocks/header/__head/header__head.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu-button/header__menu-button.css);
-@import url(../blocks/header/__menu-name/header__menu-name.css);
+@import url(../blocks/header/__menu-button/_type/header__menu-button_type_burger.css);
+@import url(../blocks/header/__menu-button/_type/header__menu-button_type_close.css);
+@import url(../blocks/header/__menu-button/_opened/header__menu-button_opened.css);
+@import url(../blocks/header/__menu-button-name/header__menu-button-name.css);
 @import url(../blocks/header/__buttons/header__buttons.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__menu/header__menu.css);
