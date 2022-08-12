@@ -25,6 +25,5 @@
   .header__big-menu {
     grid-template-columns: repeat(1, 1fr);
     row-gap: 20px;
-    padding: 10px;
   }
 }

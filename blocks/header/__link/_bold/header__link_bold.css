@@ -1,17 +1,17 @@
-.header__link_top {
+.header__link_bold {
   font-weight: 700;
   font-size: 34px;
   line-height: 120%;
   margin-bottom: 10px;
 }
 @media screen and (max-width: 1023px) {
-  .header__link_top {
+  .header__link_bold {
     font-size: 20px;
     margin-bottom: 8px;
   }
 }
 @media screen and (max-width: 767px) {
-  .header__link_top {
+  .header__link_bold {
     font-size: 18px;
   }
 }

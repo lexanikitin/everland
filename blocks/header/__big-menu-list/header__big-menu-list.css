@@ -1,0 +1,19 @@
+.header__big-menu-list {
+  list-style: none;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  row-gap: 20px;
+  display: flex;
+  max-height: min-content;
+}
+@media screen and (max-width: 1439px) {
+  .header__big-menu-list {
+    row-gap: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header__big-menu-list {
+    display: none;
+  }
+}

@@ -1,15 +1,15 @@
-.header__big-menu-point {
+.header__big-menu-lists {
   list-style: none;
   flex-direction: column;
   margin: 0;
   padding: 0;
-  /*justify-content: space-around;*/
-  row-gap: 20px;
+  row-gap: 32px;
   display: flex;
   max-height: min-content;
 }
 @media screen and (max-width: 1439px) {
-  .header__big-menu-point {
-    row-gap: 16px;
+  .header__big-menu-lists {
+    row-gap: 24px;
   }
 }
+
