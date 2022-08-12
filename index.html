@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <title>Everland</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link href="pages/index.css" rel="stylesheet">
 </head>
+
 <body class="page">
   <header class="header">
     <div class="container">
@@ -14,21 +16,39 @@
   </header>
 
   <main class="content">
-    <section class="section">
-      <div class="container">
-        <h2 class="section__title">Heading</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cupiditate deleniti dolores, ea et nobis
-          odit possimus quidem, quod totam ut veniam. Consectetur corporis deleniti deserunt eius tempore! Quas,
-          repudiandae.</p>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <h2 class="section__title">Heading</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cupiditate deleniti dolores, ea et nobis
-          odit possimus quidem, quod totam ut veniam. Consectetur corporis deleniti deserunt eius tempore! Quas,
-          repudiandae.</p>
+    <section class="section news" id="news">
+      <div class="container news__container">
+        <h2 class="section__title">Новости</h2>
+        <button class="button button_type_secondary news__button">Все новости</button>
+        <div class="news__card-container">
+          <div class="news__card">
+              <p class="news__card-theme">Тема</p>
+              <img src="./images/news-card-1.png" alt="news-card-1" class="news__card-image">
+              <h3 class="news__card-title">Ура! Новое партнерство — с PepsiCo</h3>
+              <p class="news__card-text">Everland совместно с PepsiCo приняли участие в акции «Благотворительность
+                вместо
+                сувениров»</p>
+            <p class="news__card-date">20 сентября 2021</p>
+          </div>
+          <div class="news__card news__card_type_colored">
+              <p class="news__card-theme">Тема</p>
+              <h3 class="news__card-title">Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия: как строить
+                эффективные программы»</h3>
+              <p class="news__card-text">Эксперты с инвалидностью, представители бизнеса и некоммерческих организаций
+                поговорили о том, что такое инклюзия, рассмотрели подходы к трудоустройству людей с инвалидностью,
+                обсудили проблемы, к которым нужно быть готовым, и поделились успешными кейсами</p>
+            <p class="news__card-date">20 сентября 2021</p>
+          </div>
+          <div class="news__card">
+              <p class="news__card-theme">Тема</p>
+              <h3 class="news__card-title">Тестируем супермаркеты на доступность</h3>
+              <p class="news__card-text">Everland совместно с торговой сетью «Перекресток» провели аудит продуктовых
+                магазинов на доступность для людей с разными видами инвалидности</p>
+              <img src="./images/news-card-3.png" alt="news-card-3" class="news__card-image">
+            <p class="news__card-date">20 сентября 2021</p>
+          </div>
+        </div>
+        <button class="button button_type_secondary news__button-tablet">Посмотреть все</button>
       </div>
     </section>
 
@@ -40,4 +60,5 @@
   </footer>
   <script src="pages/index.js"></script>
 </body>
+
 </html>
