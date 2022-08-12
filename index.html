@@ -1,82 +1,109 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>Everland</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <link href="pages/index.css" rel="stylesheet">
-</head>
-<body class="page">
-  <header class="header">
-    <div class="container">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Everland</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="pages/index.css" rel="stylesheet" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="container"></div>
+    </header>
 
-    </div>
-  </header>
-
-  <main class="content">
-    <section class="section">
-      <div class="container">
-        <h2 class="section__title">Heading</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cupiditate deleniti dolores, ea et nobis
-          odit possimus quidem, quod totam ut veniam. Consectetur corporis deleniti deserunt eius tempore! Quas,
-          repudiandae.</p>
-      </div>
-    </section>
-    <section class="section purpose" id="we-work-for">
-      <div class="container">
-        <h2 class="section__title">Для кого мы работаем</h2>
-        <ul class="purpose__cards">
-          <li class="purpose__card">
-            <div class="purpose__content">
-              <img
-                src="./images/we-work-for/tags/disability-sign.svg"
-                alt="Знак 'Для людей с ограниченными возможностями'."
-                class="purpose__tag"
-              />
-              <h3 class="purpose__title">Для людей с&nbsp;инвалидностью</h3>
-              <p class="purpose__description">
-                Помогаем найти работу, пройти обучение, предоставляем разные
-                виды&nbsp;поддержки
-              </p>
-            </div>
-            <button>Подробнее -></button>
-          </li>
-          <li class="purpose__card">
-            <div class="purpose__content">
-              <img src="./images/we-work-for/tags/briefcase.svg" alt="Символ портфеля." class="purpose__tag" />
-              <h3 class="purpose__title">Для работодателей</h3>
-              <p class="purpose__description">
-                Помогаем создать устойчивые инклюзивные команды, вовлекаем
-                интеллектуальных волонтеров
-              </p>
-            </div>
-            <button>Подробнее -></button>
-          </li>
-          <li class="purpose__card">
-            <div class="purpose__content">
-              <img
-                src="./images/we-work-for/tags/following.svg"
-                alt="Символ человека протягивающего сердечко."
-                class="purpose__tag"
-              />
-              <h3 class="purpose__title">Для КСО-партнеров</h3>
-              <p class="purpose__description">
-                Помогаем найти работу, пройти обучение, предоставляем разные
-                виды&nbsp;поддержки
-              </p>
-            </div>
-            <button>Подробнее -></button>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-  </main>
-  <footer class="footer">
-    <div class="container">
-
-    </div>
-  </footer>
-  <script src="pages/index.js"></script>
-</body>
+    <main class="content">
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title">Heading</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
+            cupiditate deleniti dolores, ea et nobis odit possimus quidem, quod
+            totam ut veniam. Consectetur corporis deleniti deserunt eius
+            tempore! Quas, repudiandae.
+          </p>
+        </div>
+      </section>
+      <section class="section purpose" id="we-work-for">
+        <div class="container">
+          <h2 class="section__title">Для кого мы работаем</h2>
+          <ul class="purpose__cards">
+            <li class="purpose__card">
+              <div class="purpose__content">
+                <img
+                  src="./images/we-work-for/tags/disability-sign.svg"
+                  alt="Знак 'Для людей с ограниченными возможностями'."
+                  class="purpose__tag purpose__tag_color_blue"
+                />
+                <h3 class="purpose__title">Для людей с&nbsp;инвалидностью</h3>
+                <p class="purpose__description">
+                  Помогаем найти работу, пройти обучение, предоставляем разные
+                  виды&nbsp;поддержки
+                </p>
+              </div>
+              <a href="#" class="link link_color_blue link_size_purpose"
+                >Подробнее
+                <div class="link__image-container">
+                  <img
+                    src="./images/Icon/arrow_blue.svg"
+                    alt="Иконка стрелки вправо."
+                    class="link__image"
+                  /></div
+              ></a>
+            </li>
+            <li class="purpose__card">
+              <div class="purpose__content">
+                <img
+                  src="./images/we-work-for/tags/briefcase.svg"
+                  alt="Символ портфеля."
+                  class="purpose__tag purpose__tag_color_orange"
+                />
+                <h3 class="purpose__title">Для работодателей</h3>
+                <p class="purpose__description">
+                  Помогаем создать устойчивые инклюзивные команды, вовлекаем
+                  интеллектуальных волонтеров
+                </p>
+              </div>
+              <a href="#" class="link link_color_orange link_size_purpose"
+                >Подробнее
+                <div class="link__image-container">
+                  <img
+                    src="./images/Icon/arrow_orange.svg"
+                    alt="Иконка стрелки вправо."
+                    class="link__image"
+                  />
+                </div>
+              </a>
+            </li>
+            <li class="purpose__card">
+              <div class="purpose__content">
+                <img
+                  src="./images/we-work-for/tags/following.svg"
+                  alt="Символ человека протягивающего сердечко."
+                  class="purpose__tag purpose__tag_color_green"
+                />
+                <h3 class="purpose__title">Для КСО-партнеров</h3>
+                <p class="purpose__description">
+                  Помогаем найти работу, пройти обучение, предоставляем разные
+                  виды&nbsp;поддержки
+                </p>
+              </div>
+              <a href="#" class="link link_color_green link_size_purpose"
+                >Подробнее
+                <div class="link__image-container">
+                  <img
+                    src="./images/Icon/arrow_green.svg"
+                    alt="Иконка стрелки вправо."
+                    class="link__image"
+                  /></div
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container"></div>
+    </footer>
+    <script src="pages/index.js"></script>
+  </body>
 </html>

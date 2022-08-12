@@ -1,6 +1,7 @@
 .purpose__title {
+  color: #333333;
   font-family: 'Raleway', sans-serif;
-  font-size: calc(1vw + 19px - 0.36px);
+  font-size: 34px;
   font-weight: 700;
   line-height: 40.8px;
   margin: 0;
@@ -16,7 +17,7 @@
 }
 @media screen and (max-width: 767px) {
   .purpose__title {
-    font-size: calc(1vw + 14.8px);
+    font-size: 18px;
     line-height: 21.6px;
   }
 }
