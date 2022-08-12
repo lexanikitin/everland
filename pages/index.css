@@ -25,7 +25,11 @@
 @import url(../blocks/header/__link/_big-menu/header__link-big-menu.css);
 @import url(../blocks/header/__big-menu/_opened/header__big-menu_opened.css);
 @import url(../blocks/header/__big-menu-point/_last/header__big-menu-point_last.css);
-
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_primary.css);
+@import url(../blocks/button/_type/button_type_secondary.css);
+@import url(../blocks/header/__button/header__button.css);
+/*content*/
 @import url('../blocks/content/content.css');
 
 @import url('../blocks/section/section.css');

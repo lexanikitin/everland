@@ -7,7 +7,7 @@
   left: 0;
   width: 100%;
   min-height: 520px;
-  padding: 40px;
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
   grid-template-columns: repeat(4, 1fr);
