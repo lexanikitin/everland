@@ -1,9 +1,15 @@
 .header__icon-shevron {
   display: none;
-  transition: transform .5s ease-in-out;
+
 }
+.header__invisible-checkbox:checked + .header__checkbox-button-big-menu .header__icon-shevron {
+  /*display: none;*/
+  transform: rotate(180deg);
+}
+
 @media screen and (max-width: 767px) {
   .header__icon-shevron {
+    transition: transform .5s ease-in-out;
     display: block;
   }
 }

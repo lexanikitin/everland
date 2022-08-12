@@ -33,7 +33,7 @@
 @import url(../blocks/button/_type/button_type_primary.css);
 @import url(../blocks/button/_type/button_type_secondary.css);
 @import url(../blocks/header/__button/header__button.css);
-@import url(../blocks/header/__invisible-radio/header__invisible-radio.css);
+@import url(../blocks/header/__invisible-checkbox/header__invisible-checkbox.css);
 /*content*/
 @import url('../blocks/content/content.css');
 
