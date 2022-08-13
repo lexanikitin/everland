@@ -3,20 +3,16 @@
   width: 165px;
 }
 
-@media screen and (max-width:1023px) {
-
+@media screen and (max-width: 1023px) {
   .purpose__link {
     height: 44px;
     width: 139px;
   }
-
 }
 
-@media screen and (max-width:767px) {
-
+@media screen and (max-width: 767px) {
   .purpose__link {
     height: 44px;
     width: 128px;
   }
-
 }
