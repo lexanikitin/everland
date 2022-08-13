@@ -4,7 +4,28 @@
 /*базовые обертки для секций*/
 @import url('../blocks/page/page.css');
 @import url('../blocks/container/container.css');
-
+/* базовые кнопки */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_primary.css);
+@import url(../blocks/button/_type/button_type_secondary.css);
+@import url(../blocks/button/_type/button_type_tertiary.css);
+@import url(../blocks/button-accordion/button-accordion.css);
+@import url(../blocks/button-accordion/__image/button-accordion__image.css);
+@import url(../blocks/button-accordion/_active/button-accordion_active.css);
+@import url(../blocks/button-slider/button-slider.css);
+@import url(../blocks/button-slider/__image/button-slider__image.css);
+@import url(../blocks/button-slider/__image/_left/button-slider__image_left.css);
+@import url(../blocks/button-slider/_color/button-slider_color_blue.css);
+@import url(../blocks/button-slider/_color/button-slider_color_gray.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/__image/link__image.css);
+@import url(../blocks/link/__image-container/link__image-container.css);
+@import url(../blocks/link/_color/link_color_blue.css);
+@import url(../blocks/link/_color/link_color_green.css);
+@import url(../blocks/link/_color/link_color_orange.css);
+@import url(../blocks/link-story/link-story.css);
+@import url(../blocks/link-story/__image/link-story__image.css);
+@import url(../blocks/link-story/__image-container/link-story__image-container.css);
 
 /*header*/
 @import url('../blocks/header/header.css');

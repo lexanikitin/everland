@@ -7,3 +7,15 @@
   line-height: 120%;
   margin: 0;
 }
+
+@media screen and (max-width: 1439px) {
+  .section__title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section__title {
+    font-size: 26px;
+  }
+}
