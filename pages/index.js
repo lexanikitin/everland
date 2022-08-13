@@ -1,18 +1,35 @@
 //Объявляем переменные и константы
 const content = document.querySelector('.page');
 const header = content.querySelector('.header')
-const menuButton = content.querySelector('.header__menu-button');
-const menuItems = content.querySelectorAll('.header__checkbox-button-big-menu');
-const iconBurgerMenu = content.querySelector('.header__menu-button_type_burger');
-const iconCloseMenu = content.querySelector('.header__menu-button_type_close');
-const bigMenu = content.querySelector('.header__big-menu');
+const menuButton = header.querySelector('.header__menu-button');
+const iconBurgerMenu = header.querySelector('.header__menu-button_type_burger');
+const iconCloseMenu = header.querySelector('.header__menu-button_type_close');
+const bigMenu = header.querySelector('.header__big-menu');
+const menuItems = bigMenu.querySelectorAll('.header__checkbox-button-big-menu');
+const menuLists = bigMenu.querySelectorAll('.header__big-menu-list');
 
-//Обработка события click при нажитии на кпонку бургер меню
+// фукнция обработки нажития на кпонку бургер меню
 function toggleBigMenu() {
   bigMenu.classList.toggle('header__big-menu_opened');
   iconBurgerMenu.classList.toggle('header__menu-button_opened');
   iconCloseMenu.classList.toggle('header__menu-button_opened');
   header.classList.toggle('header_shadow');
 }
-// Обработка включения и выключения большого меню
+
+// фукнция обработки нажития на подпункт меню второго уровня
+function toggleMenuItems() {
+  const menuItem = event.target.closest('.header__big-menu-lists');
+  const menuList = menuItem.querySelector('.header__big-menu-list');
+  menuList.classList.toggle('header__big-menu-list_opened');
+  menuLists.forEach((list) =>{
+    if(list !== menuList) {
+      list.classList.remove('header__big-menu-list_opened');
+    }
+  });
+}
+// обработка события click при нажитии на кпонку бургер меню
 menuButton.addEventListener('click', toggleBigMenu);
+
+// обработка события click при нажитии на раздел меню второго уровня
+menuItems.forEach((menuItem)  =>
+  menuItem.addEventListener('click', () => toggleMenuItems()));

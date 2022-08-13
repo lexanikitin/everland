@@ -12,3 +12,8 @@
     row-gap: 24px;
   }
 }
+@media screen and (max-width: 767px) {
+  .header__big-menu-lists {
+    row-gap: 20px;
+  }
+}

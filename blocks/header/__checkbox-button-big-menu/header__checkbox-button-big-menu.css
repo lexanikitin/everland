@@ -24,5 +24,6 @@
   .header__checkbox-button-big-menu {
     font-size: 18px;
     cursor: pointer;
+    /*padding-bottom: 24px;*/
   }
 }
