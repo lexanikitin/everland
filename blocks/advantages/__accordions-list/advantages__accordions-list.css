@@ -1,3 +1,14 @@
 .advantages__accordions-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 50px 0 0;
+  list-style: none;
+  gap: 20px;
+}
 
+@media screen and (max-width:767px) {
+  .advantages__accordions-list {
+    gap:16px;
+  }
 }

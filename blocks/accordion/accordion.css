@@ -1,3 +1,16 @@
 .accordion {
+  padding: 29.5px 20px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 30px;
+  border: 2px solid #dadada;
+  width: calc(50% - 10px);
+  height: fit-content;
+}
 
+@media screen and (max-width: 1023px) {
+  .accordion {
+    padding: 20.5px 20px;
+    width: 100%;
+  }
 }

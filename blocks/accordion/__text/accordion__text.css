@@ -1,3 +1,16 @@
 .accordion__text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  visibility: visible;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
+  padding: 20px 20px 0;
+  max-height: 100px;
+  height: fit-content;
+  transition: max-height 0.3s ease-out, padding-top 0.3s ease-out, padding-bottom 0.3s ease-out;
 
+  /* transition: visibility 0.3s, opacity 0.3s, ease-out; */
+  /* transition: max-height 0.3s, opacity 0.3s, ease-out; */
 }

@@ -1,0 +1,9 @@
+.accordion__text_hidden {
+  margin: 0;
+  visibility: hidden;
+  overflow: hidden;
+  max-height: 0;
+  padding: 0 20px;
+  transition: max-height 0.3s ease-out, padding-top 0.3s ease-out, padding-bottom 0.3s ease-out, visibility 0.3s;
+
+}
