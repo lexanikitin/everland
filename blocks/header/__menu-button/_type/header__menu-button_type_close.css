@@ -1,3 +1,8 @@
 .header__menu-button_type_close {
+  background-image: url(../../../../images/header/icon-close.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
   display: none;
 }

@@ -1,4 +1,10 @@
 .header__icon-shevron {
+  background-image: url(../../../images/header/icon-shevron.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  width: 24px;
+  height: 24px;
   display: none;
 
 }

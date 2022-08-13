@@ -1,4 +1,7 @@
 .header__menu-button_type_burger {
+  background-image: url(../../../../images/header/burger-menu.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 25px;
   height: 20px;
   display: none;
