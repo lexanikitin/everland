@@ -16,6 +16,7 @@
   .news__card {
     max-width: 334px;
     height: 551px;
+    border-radius: 20px;
   }
 }
 @media screen and (max-width: 767px) {
