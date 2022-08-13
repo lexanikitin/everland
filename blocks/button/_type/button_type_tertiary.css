@@ -1,0 +1,16 @@
+.button_type_tertiary {
+    box-shadow: 0px 0px 0px 1px #333;
+    color: #333;
+    transition: background-color 0.3s ease-out, 
+                box-shadow 0.3s ease-out,
+                color 0.3s ease-out;
+}
+
+.button_type_tertiary:hover {
+    box-shadow: 0px 0px 0px 2px #333;
+} 
+
+.button_type_tertiary:active {
+    background-color: #333;
+    color: #fff;
+}

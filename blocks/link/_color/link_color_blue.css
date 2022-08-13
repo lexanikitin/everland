@@ -1,0 +1,21 @@
+.link_color_blue {    
+    background-color: #E7F0FF;
+    color: #0C4BA0;
+}
+
+.link_color_blue:hover {
+    background-color: #0C4BA0;
+    color: #fff;
+}
+
+.link_color_blue:active {
+    background-color: #00275C;
+}
+
+.link_color_blue .link__image {
+    fill: #0C4BA0;;
+}
+
+.link_color_blue:hover .link__image {
+    fill: #fff;
+}

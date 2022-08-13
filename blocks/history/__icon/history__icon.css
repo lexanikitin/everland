@@ -1,0 +1,22 @@
+.history__icon {
+  background-image: url(/images/History__icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  width: 60px;
+}
+
+@media screen and (max-width: 1023px) {
+  .history__icon {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history__icon {
+    width: 24px;
+    height: 24px;
+  }
+}

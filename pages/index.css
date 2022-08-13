@@ -1,0 +1,70 @@
+/* шрифты */
+@import url('../vendor/fonts/fonts.css');
+
+/*базовые обертки для секций*/
+@import url('../blocks/page/page.css');
+@import url('../blocks/container/container.css');
+/* базовые кнопки */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_primary.css);
+@import url(../blocks/button/_type/button_type_secondary.css);
+@import url(../blocks/button/_type/button_type_tertiary.css);
+@import url(../blocks/button-accordion/button-accordion.css);
+@import url(../blocks/button-accordion/__image/button-accordion__image.css);
+@import url(../blocks/button-accordion/_active/button-accordion_active.css);
+@import url(../blocks/button-slider/button-slider.css);
+@import url(../blocks/button-slider/__image/button-slider__image.css);
+@import url(../blocks/button-slider/__image/_left/button-slider__image_left.css);
+@import url(../blocks/button-slider/_color/button-slider_color_blue.css);
+@import url(../blocks/button-slider/_color/button-slider_color_gray.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/__image/link__image.css);
+@import url(../blocks/link/__image-container/link__image-container.css);
+@import url(../blocks/link/_color/link_color_blue.css);
+@import url(../blocks/link/_color/link_color_green.css);
+@import url(../blocks/link/_color/link_color_orange.css);
+@import url(../blocks/link-story/link-story.css);
+@import url(../blocks/link-story/__image/link-story__image.css);
+@import url(../blocks/link-story/__image-container/link-story__image-container.css);
+@import url(../blocks/link-story/__text/link-story__text.css);
+
+/* history */
+@import url(../blocks/history/history.css);
+@import url(../blocks/history/__container/history__container.css);
+@import url(../blocks/history/__cards/history__cards.css);
+@import url(../blocks/history/__photo/history__photo.css);
+@import url(../blocks/history/__photo-first/history__photo-first.css);
+@import url(../blocks/history/__photo-second/history__photo-second.css);
+@import url(../blocks/history/__icon/history__icon.css);
+@import url(../blocks/history/__description/history__description.css);
+@import url(../blocks/history/__paragraph/history__paragraph.css);
+@import url(../blocks/history/__bold-text/history__bold-text.css);
+@import url(../blocks/history/__paragraph-heading/history__paragraph-heading.css);
+@import url(../blocks/history/__paragraph-info/history__paragraph-info.css);
+@import url(../blocks/history/__photo-cards/history__photo-cards.css);
+@import url(../blocks/history/__photo-card/history__photo-card.css);
+@import url(../blocks/history/__photo-card/history__photo-card-description.css);
+@import url(../blocks/history/__avatar/history__avatar.css);
+@import url(../blocks/history/__avatar-first/history__avatar-first.css);
+@import url(../blocks/history/__avatar-second/history__avatar-second.css);
+@import url(../blocks/avatar/avatar.css);
+@import url(../blocks/avatar/__heading/avatar__heading.css);
+@import url(../blocks/avatar/__name/avatar__name.css);
+@import url(../blocks/history/__button/history__button.css);
+@import url(../blocks/history/__button/history__button-down.css);
+@import url(../blocks/history/__link/history__link.css);
+@import url(../blocks/history/__heading/history__heading.css);
+
+@import url('../blocks/header/header.css');
+
+@import url('../blocks/content/content.css');
+
+@import url('../blocks/section/section.css');
+@import url('../blocks/section/__title/section__title.css');
+
+
+@import url('../blocks/footer/footer.css');
+
+
+
+

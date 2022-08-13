@@ -1,0 +1,13 @@
+.button-accordion__image {
+    height: 17px;
+    stroke: #0C4BA0; 
+    transition: transform .3s ease-out;
+    width: 17px;
+}
+
+@media screen and (max-width: 1023px) {
+    .button-accordion__image {
+        height: 12px;
+        width: 12px;
+    }
+}
