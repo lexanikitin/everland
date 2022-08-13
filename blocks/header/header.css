@@ -1,8 +1,8 @@
-.header{
+.header {
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
   display: flex;
   flex-shrink: 0;
+  font-family: 'Raleway', sans-serif;
   justify-content: center;
   width: 100%;
 }

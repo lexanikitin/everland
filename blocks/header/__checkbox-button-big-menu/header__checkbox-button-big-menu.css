@@ -1,17 +1,17 @@
 .header__checkbox-button-big-menu {
+  align-items: center;
   background-color: rgba(0, 0, 0, 0);
-  padding: 0;
-  margin: 0;
   border: none;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 120%;
   display: flex;
   flex-direction: row;
+  font-size: 34px;
+  font-weight: 700;
   justify-content: space-between;
-  width: 100%;
-  align-items: center;
+  line-height: 120%;
+  margin: 0;
+  padding: 0;
   text-align: left;
+  width: 100%;
 }
 
 @media screen and (max-width: 1023px) {
@@ -22,8 +22,7 @@
 
 @media screen and (max-width: 767px) {
   .header__checkbox-button-big-menu {
-    font-size: 18px;
     cursor: pointer;
-    /*padding-bottom: 24px;*/
+    font-size: 18px;
   }
 }

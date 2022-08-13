@@ -1,17 +1,19 @@
 .header__big-menu-lists {
-  list-style: none;
+  display: flex;
   flex-direction: column;
+  list-style: none;
   margin: 0;
+  max-height: min-content;
   padding: 0;
   row-gap: 32px;
-  display: flex;
-  max-height: min-content;
 }
+
 @media screen and (max-width: 1439px) {
   .header__big-menu-lists {
     row-gap: 24px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .header__big-menu-lists {
     row-gap: 10px;

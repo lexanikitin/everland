@@ -1,9 +1,9 @@
 .header__menu-button-name {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 130%;
-  font-feature-settings: 'pnum' on, 'lnum' on;
   color: #333333;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%;
 }
 
 @media screen and (max-width: 1023px) {

@@ -1,7 +1,7 @@
 .header__invisible-checkbox {
-  position: absolute;
-  width: 1px;
+  clip: rect(0 0 0 0);
   height: 1px;
   overflow: hidden;
-  clip: rect(0 0 0 0);
+  position: absolute;
+  width: 1px;
 }

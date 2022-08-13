@@ -1,15 +1,15 @@
 .header__big-menu {
-  display: none;
-  position: absolute;
   background-color: #ffffff;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 32px 0 0 0;
-  margin: 0;
   box-sizing: border-box;
-  grid-template-columns: repeat(4, 1fr);
   column-gap: 30px;
+  display: none;
+  grid-template-columns: repeat(4, 1fr);
+  left: 0;
+  margin: 0;
+  padding: 32px 0 0 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 @media screen and (max-width: 1439px) {
@@ -21,8 +21,8 @@
 
 @media screen and (max-width: 767px) {
   .header__big-menu {
-    padding-top: 20px;
     grid-template-columns: repeat(1, 1fr);
+    padding-top: 20px;
     row-gap: 10px;
   }
 }

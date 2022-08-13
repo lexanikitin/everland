@@ -1,7 +1,7 @@
 @media screen and (max-width: 767px) {
   .header__big-menu-list_opened {
     display: flex;
-    padding-top: 14px;
     padding-bottom: 8px;
+    padding-top: 14px;
   }
 }

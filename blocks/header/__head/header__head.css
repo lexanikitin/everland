@@ -1,9 +1,9 @@
 .header__head {
+  align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   min-height: 80px;
-  align-items: center;
   position: sticky;
   top: 0;
 }

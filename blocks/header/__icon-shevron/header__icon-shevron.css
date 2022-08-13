@@ -1,21 +1,20 @@
 .header__icon-shevron {
   background-image: url(../../../images/header/icon-shevron.svg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: center;
-  width: 24px;
-  height: 24px;
   display: none;
-
+  height: 24px;
+  width: 24px;
 }
+
 .header__invisible-checkbox:checked + .header__checkbox-button-big-menu .header__icon-shevron {
-  /*display: none;*/
   transform: rotate(180deg);
 }
 
 @media screen and (max-width: 767px) {
   .header__icon-shevron {
-    transition: transform .5s ease-in-out;
     display: block;
+    transition: transform .5s ease-in-out;
   }
 }
