@@ -1,9 +1,10 @@
 .header__logo {
-  min-height: 30px;
+  height: 30px;
   width: auto;
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1439px) {
   .header__logo {
-    min-height: 24px;
+    height: 24px;
+    margin-right: 20%;
   }
 }

@@ -7,11 +7,7 @@
   position: sticky;
   top: 0;
 }
-@media screen and (max-width: 1439px) {
-  .header__head {
-    min-height: 54px;
-  }
-}
+
 @media screen and (max-width: 767px) {
   .header__head {
     min-height: 54px;
