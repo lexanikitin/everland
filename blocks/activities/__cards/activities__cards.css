@@ -9,11 +9,6 @@
   padding: 0;
 }
 
-@media screen and (max-width: 1439px) {
-  .activities__cards {
-  }
-}
-
 @media screen and (max-width: 767px) {
   .activities__cards {
     gap: 16px;
