@@ -40,6 +40,7 @@
 
 /* секция Для кого мы работаем */
 @import url('../blocks/link/_size/link_size_purpose.css');
+@import url('../blocks/purpose/__link/purpose__link.css');
 @import url('../blocks/purpose/purpose.css');
 @import url('../blocks/purpose/__cards/purpose__cards.css');
 @import url('../blocks/purpose/__card/purpose__card.css');

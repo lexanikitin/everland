@@ -1,11 +1,11 @@
-.link_size_purpose {
+.purpose__link {
   height: 48px;
   width: 165px;
 }
 
 @media screen and (max-width:1023px) {
 
-  .link_size_purpose {
+  .purpose__link {
     height: 44px;
     width: 139px;
   }
@@ -14,7 +14,7 @@
 
 @media screen and (max-width:767px) {
 
-  .link_size_purpose {
+  .purpose__link {
     height: 44px;
     width: 128px;
   }
