@@ -3,12 +3,7 @@
     background-color: transparent;
     color: #333;
     display: inline-flex;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
     gap: 10px;
-    justify-content: center;
-    line-height: 120%;
     text-decoration: none;
     transition: color 0.3s ease-out;
 }
@@ -31,13 +26,7 @@
 
 @media screen and (max-width: 1023px) {
     .link-story  {
-        font-size: 16px;
+        width: 165px;
     }
 }
 
-@media screen and (max-width: 767px) {
-    .link-story {
-        font-size: 12px;
-        font-weight: 500;
-    }
-}

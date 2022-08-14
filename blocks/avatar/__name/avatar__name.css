@@ -1,0 +1,19 @@
+.avatar__name {
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .avatar__name {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .avatar__name {
+    font-size: 14px;
+  }
+}
