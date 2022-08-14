@@ -4,6 +4,9 @@
 /*базовые обертки для секций*/
 @import url('../blocks/page/page.css');
 @import url('../blocks/container/container.css');
+@import url('../blocks/section/section.css');
+@import url('../blocks/section/__title/section__title.css');
+@import url('../blocks/content/content.css');
 /* базовые кнопки */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_primary.css);
@@ -39,9 +42,6 @@
 @import url('../blocks/header/__menu-button-name/header__menu-button-name.css');
 @import url('../blocks/header/__buttons/header__buttons.css');
 @import url('../blocks/header/__link/header__link.css');
-@import url('../blocks/header/__menu/header__menu.css');
-@import url('../blocks/header/__small-menu/header__small-menu.css');
-@import url('../blocks/header/__link/_position/header__link_position_small-menu.css');
 @import url('../blocks/header/__big-menu/header__big-menu.css');
 @import url('../blocks/header/__big-menu-lists/header__big-menu-lists.css');
 @import url('../blocks/header/__big-menu-list/header__big-menu-list.css');
@@ -59,11 +59,14 @@
 @import url('../blocks/button/_type/button_type_secondary.css');
 @import url('../blocks/header/__button/header__button.css');
 @import url('../blocks/header/__invisible-checkbox/header__invisible-checkbox.css');
-/*content*/
-@import url('../blocks/content/content.css');
 
-@import url('../blocks/section/section.css');
-@import url('../blocks/section/__title/section__title.css');
+/*small-menu*/
+@import url('../blocks/small-menu/small-menu.css');
+@import url('../blocks/small-menu/__link/small-menu__link.css');
+/*content*/
+
+
+
 
 /* секция Наши направлени */
 @import url(../blocks/activities/activities.css);
