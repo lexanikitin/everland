@@ -1,0 +1,30 @@
+.purpose__card {
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: space-between;
+  max-width: 440px;
+  min-height: 428px;
+  padding: 30px;
+  width: calc(100% / 3);
+}
+
+@media screen and (max-width: 1023px) {
+  .purpose__card {
+    border-radius: 20px;
+    gap:20px;
+    max-width: 450px;
+    min-height: 272px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .purpose__card {
+    padding: 24px 24px 24px 24px;
+  }
+}

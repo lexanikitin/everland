@@ -65,9 +65,31 @@
 @import url('../blocks/section/section.css');
 @import url('../blocks/section/__title/section__title.css');
 
+/* секция Наши направлени */
+@import url(../blocks/activities/activities.css);
+@import url(../blocks/activities/_container/activities__container.css);
+@import url(../blocks/activities/__cards/activities__cards.css);
+@import url(../blocks/activities/__card/activities__card.css);
+@import url(../blocks/activities/__card/_color/activities__card_color_blue.css);
+@import url(../blocks/activities/__card/_color/activities__card_color_green.css);
+@import url(../blocks/activities/__card/_color/activities__card_color_orange.css);
+@import url(../blocks/activities/__card-title/activities__card-title.css);
+@import url(../blocks/activities/__card-content/activities__card-content.css);
+@import url(../blocks/activities/__card-text/activities__card-text.css);
+@import url(../blocks/activities/__card-link/activities__card-link.css);
 
 @import url('../blocks/footer/footer.css');
 
-
-
-
+/* секция Для кого мы работаем */
+@import url('../blocks/purpose/__link/purpose__link.css');
+@import url('../blocks/purpose/purpose.css');
+@import url('../blocks/purpose/__cards/purpose__cards.css');
+@import url('../blocks/purpose/__card/purpose__card.css');
+@import url('../blocks/purpose/__content/purpose__content.css');
+@import url('../blocks/purpose/__tag/purpose__tag.css');
+@import url('../blocks/purpose/__tag/_color/purpose__tag_color_blue.css');
+@import url('../blocks/purpose/__tag/_color/purpose__tag_color_orange.css');
+@import url('../blocks/purpose/__tag/_color/purpose__tag_color_green.css');
+@import url('../blocks/purpose/__title/purpose__title.css');
+@import url('../blocks/purpose/__section-title/purpose__section-title.css');
+@import url('../blocks/purpose/__description/purpose__description.css');

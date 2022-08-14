@@ -1,171 +1,344 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>Everland</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <link href="pages/index.css" rel="stylesheet">
-</head>
-<body class="page">
-  <header class="header header_shadow">
-    <div class="container">
-      <div class="header__head">
-        <img src="./images/header/logo-header.svg" alt="логотип everland." class="header__logo">
-        <button type="button" class="header__menu-button">
-          <span class="header__menu-button_type_burger header__menu-button_opened"></span>
-          <span class="header__menu-button_type_close "></span>
-          <span class="header__menu-button-name">Меню</span>
-        </button>
-        <div class="header__buttons">
-          <button class="button button_type_secondary header__button" type="button">Платформа</button>
-          <button class="button button_type_primary header__button" type="button">Поддержать</button>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Everland</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="pages/index.css" rel="stylesheet" />
+  </head>
+  <body class="page">
+    <header class="header header_shadow">
+      <div class="container">
+        <div class="header__head">
+          <img src="./images/header/logo-header.svg" alt="логотип everland." class="header__logo">
+          <button type="button" class="header__menu-button">
+            <span class="header__menu-button_type_burger header__menu-button_opened"></span>
+            <span class="header__menu-button_type_close "></span>
+            <span class="header__menu-button-name">Меню</span>
+          </button>
+          <div class="header__buttons">
+            <button class="button button_type_secondary header__button" type="button">Платформа</button>
+            <button class="button button_type_primary header__button" type="button">Поддержать</button>
+          </div>
         </div>
-      </div>
-      <nav class="header__menu">
-        <ul class="header__small-menu">
-          <li>
-            <a href="#purpose" class="header__link_position_small-menu header__link">Для кого</a>
-          </li>
-          <li>
-            <a href="#activities" class="header__link_position_small-menu header__link">Направления работы</a>
-          </li>
-          <li>
-            <a href="#advantages" class="header__link_position_small-menu header__link">Преимущества</a>
-          </li>
-          <li>
-            <a href="#numbers" class="header__link_position_small-menu header__link">Основные цифры</a>
-          </li>
-          <li>
-            <a href="#special-projects" class="header__link_position_small-menu header__link">Спецпроекты</a>
-          </li>
-          <li>
-            <a href="#stories" class="header__link_position_small-menu header__link">Истории</a>
-          </li>
-          <li>
-            <a href="#" class="header__link_position_small-menu header__link">Агентство</a>
-          </li>
-          <li>
-            <a href="#news" class="header__link_position_small-menu header__link">Новости</a>
-          </li>
-        </ul>
-        <div class="header__big-menu ">
-          <ul class="header__big-menu-lists">
+        <nav class="header__menu">
+          <ul class="header__small-menu">
             <li>
-              <label>
-                <input type="checkbox" class="header__invisible-checkbox" name="checkbox-button-header-big-menu">
-                <span class="header__checkbox-button-big-menu">
+              <a href="#purpose" class="header__link_position_small-menu header__link">Для кого</a>
+            </li>
+            <li>
+              <a href="#activities" class="header__link_position_small-menu header__link">Направления работы</a>
+            </li>
+            <li>
+              <a href="#advantages" class="header__link_position_small-menu header__link">Преимущества</a>
+            </li>
+            <li>
+              <a href="#numbers" class="header__link_position_small-menu header__link">Основные цифры</a>
+            </li>
+            <li>
+              <a href="#special-projects" class="header__link_position_small-menu header__link">Спецпроекты</a>
+            </li>
+            <li>
+              <a href="#stories" class="header__link_position_small-menu header__link">Истории</a>
+            </li>
+            <li>
+              <a href="#" class="header__link_position_small-menu header__link">Агентство</a>
+            </li>
+            <li>
+              <a href="#news" class="header__link_position_small-menu header__link">Новости</a>
+            </li>
+          </ul>
+          <div class="header__big-menu ">
+            <ul class="header__big-menu-lists">
+              <li>
+                <label>
+                  <input type="checkbox" class="header__invisible-checkbox" name="checkbox-button-header-big-menu">
+                  <span class="header__checkbox-button-big-menu">
                   <span>О проекте</span>
                   <span class="header__icon-shevron "></span>
                 </span>
-              </label>
-            </li>
-            <li>
-              <ul class="header__big-menu-list ">
-                <li>
-                  <a href="#" class="header__link_position_big-menu header__link ">АНО&nbsp;Пространство равных&nbsp;возможностей</a>
-                </li>
-                <li>
-                  <a href="#" class="header__link_position_big-menu header__link ">Новости</a>
-                </li>
-                <li>
-                  <a href="#" class="header__link_position_big-menu header__link ">Сотрудничество</a>
-                </li>
-                <li>
-                  <a href="#" class="header__link_position_big-menu header__link ">Инклюзия</a>
-                </li>
-                <li>
-                  <a href="#" class="header__link_position_big-menu header__link ">Учебным заведениям</a>
-                </li>
-                <li>
-                  <a href="#" class="header__link_position_big-menu header__link ">Годовые отчеты</a>
-                </li>
-              </ul>
-            </li>
+                </label>
+              </li>
+              <li>
+                <ul class="header__big-menu-list ">
+                  <li>
+                    <a href="#" class="header__link_position_big-menu header__link ">АНО&nbsp;Пространство равных&nbsp;возможностей</a>
+                  </li>
+                  <li>
+                    <a href="#" class="header__link_position_big-menu header__link ">Новости</a>
+                  </li>
+                  <li>
+                    <a href="#" class="header__link_position_big-menu header__link ">Сотрудничество</a>
+                  </li>
+                  <li>
+                    <a href="#" class="header__link_position_big-menu header__link ">Инклюзия</a>
+                  </li>
+                  <li>
+                    <a href="#" class="header__link_position_big-menu header__link ">Учебным заведениям</a>
+                  </li>
+                  <li>
+                    <a href="#" class="header__link_position_big-menu header__link ">Годовые отчеты</a>
+                  </li>
+                </ul>
+              </li>
 
-          </ul>
-          <ul class="header__big-menu-lists">
-            <li>
-              <label>
-                <input type="checkbox" class="header__invisible-checkbox" name="checkbox-button-header-big-menu">
-                <span class="header__checkbox-button-big-menu">
+            </ul>
+            <ul class="header__big-menu-lists">
+              <li>
+                <label>
+                  <input type="checkbox" class="header__invisible-checkbox" name="checkbox-button-header-big-menu">
+                  <span class="header__checkbox-button-big-menu">
                   <span>Людям с&nbsp;инвалидностью</span>
                  <span class="header__icon-shevron "></span>
                 </span>
-              </label>
-            </li>
-            <li>
-              <ul class="header__big-menu-list">
-                <li>
-                  <a href="#" class="header__link_position_big-menu header__link ">Платформа</a>
-                </li>
-                <li>
-                  <a href="#" class="header__link_position_big-menu header__link ">Курсы</a>
-                </li>
-                <li>
-                  <a href="#" class="header__link_position_big-menu header__link ">Everland Profi</a>
-                </li>
-                <li>
-                  <a href="#" class="header__link_position_big-menu header__link ">Бесплатное такси</a>
-                </li>
-              </ul>
-            </li>
+                </label>
+              </li>
+              <li>
+                <ul class="header__big-menu-list">
+                  <li>
+                    <a href="#" class="header__link_position_big-menu header__link ">Платформа</a>
+                  </li>
+                  <li>
+                    <a href="#" class="header__link_position_big-menu header__link ">Курсы</a>
+                  </li>
+                  <li>
+                    <a href="#" class="header__link_position_big-menu header__link ">Everland Profi</a>
+                  </li>
+                  <li>
+                    <a href="#" class="header__link_position_big-menu header__link ">Бесплатное такси</a>
+                  </li>
+                </ul>
+              </li>
 
-          </ul>
-          <ul class="header__big-menu-lists">
-            <li>
-              <label>
-                <input type="checkbox" class="header__invisible-checkbox" name="checkbox-button-header-big-menu">
-                <span class="header__checkbox-button-big-menu">
+            </ul>
+            <ul class="header__big-menu-lists">
+              <li>
+                <label>
+                  <input type="checkbox" class="header__invisible-checkbox" name="checkbox-button-header-big-menu">
+                  <span class="header__checkbox-button-big-menu">
                   <span>Услуги</span>
                   <span class="header__icon-shevron "></span>
                 </span>
-              </label>
-            </li>
-            <li>
-              <ul class="header__big-menu-list">
-                <li>
-                  <a href="#" class="header__link_big-menu header__link ">Услуги агентства</a>
-                </li>
-                <li>
-                  <a href="#" class="header__link_big-menu header__link ">Готовые сайты </a>
-                </li>
-                <li>
-                  <a href="#" class="header__link_big-menu header__link ">Доступность для людей с&nbsp;инвалидностью</a>
-                </li>
-                <li>
-                  <a href="#" class="header__link_big-menu header__link ">Работодателям</a>
-                </li>
-                <li>
-                  <a href="#" class="header__link_big-menu header__link ">Портфолио</a>
-                </li>
-              </ul>
-            </li>
+                </label>
+              </li>
+              <li>
+                <ul class="header__big-menu-list">
+                  <li>
+                    <a href="#" class="header__link_big-menu header__link ">Услуги агентства</a>
+                  </li>
+                  <li>
+                    <a href="#" class="header__link_big-menu header__link ">Готовые сайты </a>
+                  </li>
+                  <li>
+                    <a href="#" class="header__link_big-menu header__link ">Доступность для людей с&nbsp;инвалидностью</a>
+                  </li>
+                  <li>
+                    <a href="#" class="header__link_big-menu header__link ">Работодателям</a>
+                  </li>
+                  <li>
+                    <a href="#" class="header__link_big-menu header__link ">Портфолио</a>
+                  </li>
+                </ul>
+              </li>
 
-          </ul>
-          <ul class="header__big-menu-lists header__big-menu-lists_last">
-            <li class="header__big-menu-list_last">
-              <a href="#" class="header__link_bold header__link ">Мы&nbsp;благодарим</a>
-            </li>
-            <li class="header__big-menu-list_last">
-              <a href="#" class="header__link_bold header__link ">Программы</a>
-            </li>
-            <li class="header__big-menu-list_last">
-              <a href="#" class="header__link_bold header__link ">Наставникам</a>
-            </li>
-            <li class="header__big-menu-list_last">
-              <a href="#" class="header__link_bold header__link ">Помочь</a>
-            </li>
-          </ul>
-        </div>
+            </ul>
+            <ul class="header__big-menu-lists header__big-menu-lists_last">
+              <li class="header__big-menu-list_last">
+                <a href="#" class="header__link_bold header__link ">Мы&nbsp;благодарим</a>
+              </li>
+              <li class="header__big-menu-list_last">
+                <a href="#" class="header__link_bold header__link ">Программы</a>
+              </li>
+              <li class="header__big-menu-list_last">
+                <a href="#" class="header__link_bold header__link ">Наставникам</a>
+              </li>
+              <li class="header__big-menu-list_last">
+                <a href="#" class="header__link_bold header__link ">Помочь</a>
+              </li>
+            </ul>
+          </div>
 
-      </nav>
-    </div>
+        </nav>
+      </div>
 
-  </header>
+    </header>
 
   <main class="content">
-
-
+    <section class="section purpose" id="purpose">
+      <div class="container">
+        <h2 class="section__title purpose__section-title">
+          Для кого мы работаем
+        </h2>
+        <ul class="purpose__cards">
+          <li class="purpose__card">
+            <div class="purpose__content">
+              <img
+                src="./images/we-work-for/tags/disability-sign.svg"
+                alt="Знак 'Для людей с ограниченными возможностями'."
+                class="purpose__tag purpose__tag_color_blue"
+              />
+              <h4 class="purpose__title">Для людей с&nbsp;инвалидностью</h4>
+              <p class="purpose__description">
+                Помогаем найти работу, пройти обучение, предоставляем разные
+                виды&nbsp;поддержки
+              </p>
+            </div>
+            <a href="#" class="link link_color_blue purpose__link">
+              <span class="link__text">Подробнее</span>
+              <div class="link__image-container">
+                <svg class="link__image">
+                  <use href="./images/link/link-image.svg#arrow"></use>
+                </svg>
+              </div>
+            </a>
+          </li>
+          <li class="purpose__card">
+            <div class="purpose__content">
+              <img
+                src="./images/we-work-for/tags/briefcase.svg"
+                alt="Символ портфеля."
+                class="purpose__tag purpose__tag_color_orange"
+              />
+              <h4 class="purpose__title">Для работодателей</h4>
+              <p class="purpose__description">
+                Помогаем создать устойчивые инклюзивные команды, вовлекаем
+                интеллектуальных волонтеров
+              </p>
+            </div>
+            <a href="#" class="link link_color_orange purpose__link">
+              <span class="link__text">Подробнее</span>
+              <div class="link__image-container">
+                <svg class="link__image">
+                  <use href="./images/link/link-image.svg#arrow"></use>
+                </svg>
+              </div>
+            </a>
+          </li>
+          <li class="purpose__card">
+            <div class="purpose__content">
+              <img
+                src="./images/we-work-for/tags/following.svg"
+                alt="Символ человека протягивающего сердечко."
+                class="purpose__tag purpose__tag_color_green"
+              />
+              <h4 class="purpose__title">Для КСО-партнеров</h4>
+              <p class="purpose__description">
+                Помогаем найти работу, пройти обучение, предоставляем разные
+                виды&nbsp;поддержки
+              </p>
+            </div>
+            <a href="#" class="link link_color_green purpose__link">
+              <span class="link__text">Подробнее</span>
+              <div class="link__image-container">
+                <svg class="link__image">
+                  <use href="./images/link/link-image.svg#arrow"></use>
+                </svg>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="activities" class="section activities">
+      <div class="container activities__container">
+        <h2 class="section__title">Наши направления</h2>
+        <ul class="activities__cards">
+          <li class="activities__card activities__card_color_orange">
+            <div class="activities__card-content">
+              <h4 class="activities__card-title">Доступность услуг DisQuestion</h4>
+              <p class="activities__card-text">Сервисы для бизнеса по повышению доступности услуг для маломобильных
+                клиентов ― контракты с крупнейшими компаниями в России</p>
+            </div>
+            <a href="#" class="link activities__card-link" target="_blank">
+              <span class="link__text">Подробнее</span>
+              <div class="link__image-container">
+                <svg class="link__image">
+                  <use href="./images/link/link-image.svg#arrow"></use>
+                </svg>
+              </div>
+            </a>
+          </li>
+          <li class="activities__card activities__card_color_blue">
+            <div class="activities__card-content">
+              <h4 class="activities__card-title">Трудоустройство</h4>
+              <p class="activities__card-text">Решение социальной проблемы с использованием предпринимательских
+                инструментов: оказываем услуги разным компаниям и НКО, таким образом зарабатываем и даем работу людям с
+                инвалидностью
+              </p>
+            </div>
+            <a href="#" class="link activities__card-link" target="_blank">
+              <span class="link__text">Подробнее</span>
+              <div class="link__image-container">
+                <svg class="link__image">
+                  <use href="./images/link/link-image.svg#arrow"></use>
+                </svg>
+              </div>
+            </a>
+          </li>
+          <li class="activities__card activities__card_color_green">
+            <div class="activities__card-content">
+              <h4 class="activities__card-title">Биржа проектов и&nbsp;готовые решения</h4>
+              <p class="activities__card-text">ИТ-система для интеграции в открытый рынок труда людей с инвалидностью в
+                качестве самозанятых и в рамках трудоустройства в другие компании</p>
+            </div>
+            <a href="#" class="link activities__card-link" target="_blank">
+              <span class="link__text">Подробнее</span>
+              <div class="link__image-container">
+                <svg class="link__image">
+                  <use href="./images/link/link-image.svg#arrow"></use>
+                </svg>
+              </div>
+            </a>
+          </li>
+          <li class="activities__card activities__card_color_blue">
+            <div class="activities__card-content">
+              <h4 class="activities__card-title">Агентство</h4>
+              <p class="activities__card-text">Услуги специалистов с инвалидностью для крупных компаний (дизайн, право,
+                контент и другие)</p>
+            </div>
+            <a href="#" class="link activities__card-link" target="_blank">
+              <span class="link__text">Подробнее</span>
+              <div class="link__image-container">
+                <svg class="link__image">
+                  <use href="./images/link/link-image.svg#arrow"></use>
+                </svg>
+              </div>
+            </a>
+          </li>
+          <li class="activities__card activities__card_color_green">
+            <div class="activities__card-content">
+              <h4 class="activities__card-title">Коворкинг</h4>
+              <p class="activities__card-text">Уникальное пространство, в котором специалисты с инвалидностью могут
+                работать и офлайн – приходить, участвовать в образовательных мероприятиях, встречаться с заказчиками,
+                работать в команде</p>
+            </div>
+            <a href="#" class="link activities__card-link" target="_blank">
+              <span class="link__text">Подробнее</span>
+              <div class="link__image-container">
+                <svg class="link__image">
+                  <use href="./images/link/link-image.svg#arrow"></use>
+                </svg>
+              </div>
+            </a>
+          </li>
+          <li class="activities__card activities__card_color_orange">
+            <div class="activities__card-content">
+              <h4 class="activities__card-title">Для людей с&nbsp;инвалидностью</h4>
+              <p class="activities__card-text">Помогаем найти работу, пройти обучение, предоставляем разные виды
+                поддержки</p>
+            </div>
+            <a href="#" class="link activities__card-link" target="_blank">
+              <span class="link__text">Подробнее</span>
+              <div class="link__image-container">
+                <svg class="link__image">
+                  <use href="./images/link/link-image.svg#arrow"></use>
+                </svg>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
   <footer class="footer">
     <div class="container">
