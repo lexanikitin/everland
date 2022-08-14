@@ -14,6 +14,7 @@
 
 @media screen and (max-width: 1439px) {
   .header__big-menu {
+    column-gap: 22px;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 64px;
   }

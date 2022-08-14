@@ -9,11 +9,14 @@
 
 @media screen and (max-width: 1439px) {
   .header__big-menu-lists_last {
-    margin-left: 0;
+    column-gap: 22px;
     grid-column: 1 / -2;
     grid-template-columns: repeat(2, 1fr);
+    margin-left: 0;
+    row-gap: 24px;
   }
 }
+
 
 @media screen and (max-width: 767px) {
   .header__big-menu-lists_last {
