@@ -1,191 +1,113 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Everland</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <link href="pages/index.css" rel="stylesheet" />
-  </head>
-  <body class="page">
-    <header class="header">
-      <div class="container"></div>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <title>Everland</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="pages/index.css" rel="stylesheet">
+</head>
+<body class="page">
+  <header class="header">
+    <div class="container">
+
+    </div>
+  </header>
 
   <main class="content">
-    <section class="section purpose" id="purpose">
-      <div class="container">
-        <h2 class="section__title purpose__section-title">
-          Для кого мы работаем
-        </h2>
-        <ul class="purpose__cards">
-          <li class="purpose__card">
-            <div class="purpose__content">
-              <img
-                src="./images/we-work-for/tags/disability-sign.svg"
-                alt="Знак 'Для людей с ограниченными возможностями'."
-                class="purpose__tag purpose__tag_color_blue"
-              />
-              <h4 class="purpose__title">Для людей с&nbsp;инвалидностью</h4>
-              <p class="purpose__description">
-                Помогаем найти работу, пройти обучение, предоставляем разные
-                виды&nbsp;поддержки
-              </p>
-            </div>
-            <a href="#" class="link link_color_blue purpose__link">
-              <span class="link__text">Подробнее</span>
-              <div class="link__image-container">
-                <svg class="link__image">
-                  <use href="./images/link/link-image.svg#arrow"></use>
-                </svg>
-              </div>
-            </a>
-          </li>
-          <li class="purpose__card">
-            <div class="purpose__content">
-              <img
-                src="./images/we-work-for/tags/briefcase.svg"
-                alt="Символ портфеля."
-                class="purpose__tag purpose__tag_color_orange"
-              />
-              <h4 class="purpose__title">Для работодателей</h4>
-              <p class="purpose__description">
-                Помогаем создать устойчивые инклюзивные команды, вовлекаем
-                интеллектуальных волонтеров
-              </p>
-            </div>
-            <a href="#" class="link link_color_orange purpose__link">
-              <span class="link__text">Подробнее</span>
-              <div class="link__image-container">
-                <svg class="link__image">
-                  <use href="./images/link/link-image.svg#arrow"></use>
-                </svg>
-              </div>
-            </a>
-          </li>
-          <li class="purpose__card">
-            <div class="purpose__content">
-              <img
-                src="./images/we-work-for/tags/following.svg"
-                alt="Символ человека протягивающего сердечко."
-                class="purpose__tag purpose__tag_color_green"
-              />
-              <h4 class="purpose__title">Для КСО-партнеров</h4>
-              <p class="purpose__description">
-                Помогаем найти работу, пройти обучение, предоставляем разные
-                виды&nbsp;поддержки
-              </p>
-            </div>
-            <a href="#" class="link link_color_green purpose__link">
-              <span class="link__text">Подробнее</span>
-              <div class="link__image-container">
-                <svg class="link__image">
-                  <use href="./images/link/link-image.svg#arrow"></use>
-                </svg>
-              </div>
-            </a>
-          </li>
-        </ul>
+    <!-- history -->
+    <section class="section history" id="stories">
+      <div class="container history__container">
+      <div class="history__heading">
+        <h3 class="section__title">Истории</h3>
+        <button class="button button_type_secondary history__button">Все истории</button>
       </div>
-    </section>
-    <section id="activities" class="section activities">
-      <div class="container activities__container">
-        <h2 class="section__title">Наши направления</h2>
-        <ul class="activities__cards">
-          <li class="activities__card activities__card_color_orange">
-            <div class="activities__card-content">
-              <h4 class="activities__card-title">Доступность услуг DisQuestion</h4>
-              <p class="activities__card-text">Сервисы для бизнеса по повышению доступности услуг для маломобильных
-                клиентов ― контракты с крупнейшими компаниями в России</p>
-            </div>
-            <a href="#" class="link activities__card-link" target="_blank">
-              <span class="link__text">Подробнее</span>
+      <div class="history__cards">
+        <div class="history__photo history__photo-first"></div>
+        <div class="history__description">
+          <div class="history__icon"></div>
+          <div class="history__paragraph">
+            <p class="history__paragraph-heading">
+                Мне интересно слушать интервью с людьми. Это мотивация и
+                вдохновение, которых так не хватает
+            </p>
+            <p class="history__paragraph-info">
+              Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и
+              курсы по веб-дизайну не решили проблему с трудоустройством
+            </p>
+            <a href="#" class="link link_color_blue history__link">
+              <span class="link__text">История Максима</span>
               <div class="link__image-container">
-                <svg class="link__image">
-                  <use href="./images/link/link-image.svg#arrow"></use>
-                </svg>
+                  <svg class="link__image">
+                    <use href="/images/link/link-image.svg#arrow"></use>
+                  </svg>
               </div>
-            </a>
-          </li>
-          <li class="activities__card activities__card_color_blue">
-            <div class="activities__card-content">
-              <h4 class="activities__card-title">Трудоустройство</h4>
-              <p class="activities__card-text">Решение социальной проблемы с использованием предпринимательских
-                инструментов: оказываем услуги разным компаниям и НКО, таким образом зарабатываем и даем работу людям с
-                инвалидностью
-              </p>
-            </div>
-            <a href="#" class="link activities__card-link" target="_blank">
-              <span class="link__text">Подробнее</span>
-              <div class="link__image-container">
-                <svg class="link__image">
-                  <use href="./images/link/link-image.svg#arrow"></use>
-                </svg>
-              </div>
-            </a>
-          </li>
-          <li class="activities__card activities__card_color_green">
-            <div class="activities__card-content">
-              <h4 class="activities__card-title">Биржа проектов и&nbsp;готовые решения</h4>
-              <p class="activities__card-text">ИТ-система для интеграции в открытый рынок труда людей с инвалидностью в
-                качестве самозанятых и в рамках трудоустройства в другие компании</p>
-            </div>
-            <a href="#" class="link activities__card-link" target="_blank">
-              <span class="link__text">Подробнее</span>
-              <div class="link__image-container">
-                <svg class="link__image">
-                  <use href="./images/link/link-image.svg#arrow"></use>
-                </svg>
-              </div>
-            </a>
-          </li>
-          <li class="activities__card activities__card_color_blue">
-            <div class="activities__card-content">
-              <h4 class="activities__card-title">Агентство</h4>
-              <p class="activities__card-text">Услуги специалистов с инвалидностью для крупных компаний (дизайн, право,
-                контент и другие)</p>
-            </div>
-            <a href="#" class="link activities__card-link" target="_blank">
-              <span class="link__text">Подробнее</span>
-              <div class="link__image-container">
-                <svg class="link__image">
-                  <use href="./images/link/link-image.svg#arrow"></use>
-                </svg>
-              </div>
-            </a>
-          </li>
-          <li class="activities__card activities__card_color_green">
-            <div class="activities__card-content">
-              <h4 class="activities__card-title">Коворкинг</h4>
-              <p class="activities__card-text">Уникальное пространство, в котором специалисты с инвалидностью могут
-                работать и офлайн – приходить, участвовать в образовательных мероприятиях, встречаться с заказчиками,
-                работать в команде</p>
-            </div>
-            <a href="#" class="link activities__card-link" target="_blank">
-              <span class="link__text">Подробнее</span>
-              <div class="link__image-container">
-                <svg class="link__image">
-                  <use href="./images/link/link-image.svg#arrow"></use>
-                </svg>
-              </div>
-            </a>
-          </li>
-          <li class="activities__card activities__card_color_orange">
-            <div class="activities__card-content">
-              <h4 class="activities__card-title">Для людей с&nbsp;инвалидностью</h4>
-              <p class="activities__card-text">Помогаем найти работу, пройти обучение, предоставляем разные виды
-                поддержки</p>
-            </div>
-            <a href="#" class="link activities__card-link" target="_blank">
-              <span class="link__text">Подробнее</span>
-              <div class="link__image-container">
-                <svg class="link__image">
-                  <use href="./images/link/link-image.svg#arrow"></use>
-                </svg>
-              </div>
-            </a>
-          </li>
-        </ul>
+          </a>
+          </div>
+        </div>
       </div>
+      <div class="history__cards">
+        <div class="history__description">
+          <div class="history__icon"></div>
+          <div class="history__paragraph">
+            <p class="history__paragraph-heading">
+              <span class="history__bold-text"
+                >Платформа дала надежду: кто-то заинтересован в трудоустройстве
+                инвалидов</span
+              >
+            </p>
+            <p class="history__paragraph-info">
+              Максиму Чернышову из Набережных Челнов 32 года. В детстве он
+              неудачно сделал сальто и повредил позвоночник. С тех пор ему
+              тяжело передвигаться на большие расстояния
+            </p>
+            <a href="#" class="link link_color_blue history__link">
+              <span class="link__text">История Максима</span>
+              <div class="link__image-container">
+                  <svg class="link__image">
+                    <use href="./images/link/link-image.svg#arrow"></use>
+                  </svg>
+              </div>
+          </a>
+          </div>
+        </div>
+        <div class="history__photo history__photo-second"></div>
+      </div>
+      <div class="history__photo-cards">
+        <div class="history__photo-card">
+          <div class="history__avatar history__avatar-first"></div>
+          <div class="history__photo-card-description">
+            <div class="avatar">
+              <p class="avatar__name">Айслу Асан</p>
+              <h3 class="avatar__heading">Когда хочется жить</h3>
+            </div>
+            <a href="#" class="link-story">
+              <span class="link-story__text">История Айслу</span>
+              <div class="link-story__image-container">
+                <div class="link-story__image">
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="history__photo-card">
+          <div class="history__avatar history__avatar-second"></div>
+          <div class="history__photo-card-description">
+            <div class="avatar">
+              <p class="avatar__name">Артём Плаксин</p>
+              <h3 class="avatar__heading">Не видеть <br> и смотреть в будущее</h3>
+            </div>
+            <a href="#" class="link-story">
+              <span class="link-story__text">История&nbsp;Артема</span>
+              <div class="link-story__image-container">
+                <div class="link-story__image">
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <button class="button button_type_secondary history__button-down">Все истории</button>
+    </div>
     </section>
   </main>
   <footer class="footer">

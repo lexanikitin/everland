@@ -1,0 +1,30 @@
+.history__cards {
+  background-color: #fff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: space-between;
+  margin: 50px auto 0;
+  max-width: 1360px;
+  padding: 0px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .history__cards {
+    gap: 32px;
+    margin-top: 32px;
+    max-width: 687px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history__cards {
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 24px;
+    max-width: 299px;
+  }
+}
