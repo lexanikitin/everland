@@ -1,0 +1,26 @@
+.numbers__photo {
+  background-image: url(../../../images/numbers__image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 30px;
+  height: 368px;
+  width: 100%;
+  width: 555px;
+}
+
+@media screen and (max-width: 1023px) {
+  .numbers__photo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .numbers__photo {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    order: 1;
+    margin-top: 24px;
+  }
+}

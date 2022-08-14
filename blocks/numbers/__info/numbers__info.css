@@ -1,0 +1,22 @@
+.numbers__info {
+  display: flex;
+  flex-direction: row;
+  column-gap: 135px;
+  max-width: 1360px;
+  width: 100%;
+  padding-top: 49px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .numbers__info {
+    flex-direction: column;
+    padding-top: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .numbers__info {
+    padding-top: 24px;
+  }
+}

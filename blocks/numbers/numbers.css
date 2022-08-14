@@ -1,0 +1,22 @@
+.numbers {
+  margin-top: 151px;
+}
+
+@media screen and (max-width: 1440px) {
+  .numbers {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .numbers {
+    margin-top: 100px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .numbers {
+    margin-top: 64px;
+  }
+}

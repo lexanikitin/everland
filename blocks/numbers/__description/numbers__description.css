@@ -1,0 +1,25 @@
+.numbers__description {
+  margin: 0;
+  max-width: 670px;
+  width: 100%;
+  display: grid;
+  align-self: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 30px;
+}
+
+@media screen and (max-width: 1023px) {
+  .numbers__description {
+    row-gap: 33px;
+    max-width: 688px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .numbers__description {
+    grid-template-columns: none;
+    row-gap: 16px;
+  }
+}
