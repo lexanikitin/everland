@@ -1,0 +1,6 @@
+.accordion__column {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}

@@ -44,8 +44,9 @@
 
 @import url('../blocks/advantages/advantages.css');
 @import url('../blocks/advantages/__accordions-list/advantages__accordions-list.css');
-@import url('../blocks/advantages/__title/advantages__title.css');
+@import url('../blocks/advantages/__section-title/advantages__section-title.css');
 @import url('../blocks/accordion/accordion.css');
+@import url('../blocks/accordion/__column/accordion__column.css');
 @import url('../blocks/accordion/__panel/accordion__panel.css');
 @import url('../blocks/accordion/__title/accordion__title.css');
 @import url('../blocks/accordion/__text/accordion__text.css');
