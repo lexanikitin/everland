@@ -50,6 +50,16 @@
 
 @import url('../blocks/footer/footer.css');
 
-
-
-
+/* секция Для кого мы работаем */
+@import url('../blocks/purpose/__link/purpose__link.css');
+@import url('../blocks/purpose/purpose.css');
+@import url('../blocks/purpose/__cards/purpose__cards.css');
+@import url('../blocks/purpose/__card/purpose__card.css');
+@import url('../blocks/purpose/__content/purpose__content.css');
+@import url('../blocks/purpose/__tag/purpose__tag.css');
+@import url('../blocks/purpose/__tag/_color/purpose__tag_color_blue.css');
+@import url('../blocks/purpose/__tag/_color/purpose__tag_color_orange.css');
+@import url('../blocks/purpose/__tag/_color/purpose__tag_color_green.css');
+@import url('../blocks/purpose/__title/purpose__title.css');
+@import url('../blocks/purpose/__section-title/purpose__section-title.css');
+@import url('../blocks/purpose/__description/purpose__description.css');
