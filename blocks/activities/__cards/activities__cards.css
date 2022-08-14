@@ -1,0 +1,20 @@
+.activities__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .activities__cards {
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+  }
+}
+
