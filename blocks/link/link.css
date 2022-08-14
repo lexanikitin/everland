@@ -1,4 +1,4 @@
-.link {    
+.link {
     align-items: center;
     background-color: #fff;
     border-radius: 10px;
@@ -9,7 +9,7 @@
     font-weight: 500;
     gap: 10px;
     justify-content: center;
-    line-height: 120%; 
+    line-height: 120%;
     overflow: hidden;
     text-decoration: none;
     transition: background-color .3s ease-out,
