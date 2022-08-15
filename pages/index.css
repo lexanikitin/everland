@@ -66,7 +66,6 @@
 
 /* секция Лучшие проекты агентства */
 @import url('../blocks/projects/projects.css');
-@import url('../blocks/projects/__container/projects__container.css');
 @import url('../blocks/projects/__section-title/projects__section-title.css');
 @import url('../blocks/projects/__subtitle/projects__subtitle.css');
 @import url('../blocks/projects/__wrapper/projects__wrapper.css');
