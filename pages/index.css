@@ -84,7 +84,7 @@
 @import url(../blocks/activities/__card-link/activities__card-link.css);
 /*footer*/
 @import url('../blocks/footer/footer.css');
-
+@import url('../blocks/footer/__container/footer__container.css');
 /* секция Для кого мы работаем */
 @import url('../blocks/purpose/__link/purpose__link.css');
 @import url('../blocks/purpose/purpose.css');

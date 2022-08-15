@@ -1,3 +1,7 @@
 .footer__container {
-
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 90px;
+  row-gap: 90px;
 }
