@@ -1,6 +1,12 @@
-.footer{
+.footer {
   display: flex;
   flex-shrink: 0;
   justify-content: center;
   width: 100%;
+  background: #FFFFFF;
+  border-radius: 16px;
+  box-sizing: border-box;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
 }
