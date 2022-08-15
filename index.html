@@ -1,18 +1,167 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <link href="pages/index.css" rel="stylesheet"/>
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon"/>
-    <title>Everland</title>
-  </head>
-  <body class="page">
-    <header class="header">
-      <div class="container"></div>
-    </header>
+<head>
+  <meta charset="UTF-8"/>
+  <title>Everland</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="pages/index.css" rel="stylesheet"/>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon"/>
+</head>
+<body class="page">
+  <header class="header header_shadow">
+    <div class="header__head">
+      <img src="./images/header/logo-header.svg" alt="логотип everland." class="header__logo">
+      <button type="button" class="header__menu-button">
+        <span class="header__menu-button_type_burger header__menu-button_opened"></span>
+        <span class="header__menu-button_type_close "></span>
+        <span class="header__menu-button-name">Меню</span>
+      </button>
+      <div class="header__buttons">
+        <button class="button button_type_secondary header__button" type="button">Платформа</button>
+        <button class="button button_type_primary header__button" type="button">Поддержать</button>
+      </div>
+    </div>
+    <nav class="header__menu">
+      <div class="header__big-menu ">
+        <ul class="header__big-menu-lists">
+          <li>
+            <label>
+              <input type="checkbox" class="header__invisible-checkbox" name="checkbox-button-header-big-menu">
+              <span class="header__checkbox-button-big-menu">
+                  <span>О проекте</span>
+                  <span class="header__icon-shevron "></span>
+                </span>
+            </label>
+          </li>
+          <li>
+            <ul class="header__big-menu-list ">
+              <li>
+                <a href="#" class="header__link_position_big-menu header__link ">АНО&nbsp;Пространство равных&nbsp;возможностей</a>
+              </li>
+              <li>
+                <a href="#" class="header__link_position_big-menu header__link ">Новости</a>
+              </li>
+              <li>
+                <a href="#" class="header__link_position_big-menu header__link ">Сотрудничество</a>
+              </li>
+              <li>
+                <a href="#" class="header__link_position_big-menu header__link ">Инклюзия</a>
+              </li>
+              <li>
+                <a href="#" class="header__link_position_big-menu header__link ">Учебным заведениям</a>
+              </li>
+              <li>
+                <a href="#" class="header__link_position_big-menu header__link ">Годовые отчеты</a>
+              </li>
+            </ul>
+          </li>
 
+        </ul>
+        <ul class="header__big-menu-lists">
+          <li>
+            <label>
+              <input type="checkbox" class="header__invisible-checkbox" name="checkbox-button-header-big-menu">
+              <span class="header__checkbox-button-big-menu">
+                  <span>Людям с&nbsp;инвалидностью</span>
+                 <span class="header__icon-shevron "></span>
+                </span>
+            </label>
+          </li>
+          <li>
+            <ul class="header__big-menu-list">
+              <li>
+                <a href="#" class="header__link_position_big-menu header__link ">Платформа</a>
+              </li>
+              <li>
+                <a href="#" class="header__link_position_big-menu header__link ">Курсы</a>
+              </li>
+              <li>
+                <a href="#" class="header__link_position_big-menu header__link ">Everland Profi</a>
+              </li>
+              <li>
+                <a href="#" class="header__link_position_big-menu header__link ">Бесплатное такси</a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+        <ul class="header__big-menu-lists">
+          <li>
+            <label>
+              <input type="checkbox" class="header__invisible-checkbox" name="checkbox-button-header-big-menu">
+              <span class="header__checkbox-button-big-menu">
+                  <span>Услуги</span>
+                  <span class="header__icon-shevron "></span>
+                </span>
+            </label>
+          </li>
+          <li>
+            <ul class="header__big-menu-list">
+              <li>
+                <a href="#" class="header__link_big-menu header__link ">Услуги агентства</a>
+              </li>
+              <li>
+                <a href="#" class="header__link_big-menu header__link ">Готовые сайты </a>
+              </li>
+              <li>
+                <a href="#" class="header__link_big-menu header__link ">Доступность для людей с&nbsp;инвалидностью</a>
+              </li>
+              <li>
+                <a href="#" class="header__link_big-menu header__link ">Работодателям</a>
+              </li>
+              <li>
+                <a href="#" class="header__link_big-menu header__link ">Портфолио</a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+        <ul class="header__big-menu-lists header__big-menu-lists_last">
+          <li class="header__big-menu-list_last">
+            <a href="#" class="header__link_bold header__link ">Мы&nbsp;благодарим</a>
+          </li>
+          <li class="header__big-menu-list_last">
+            <a href="#" class="header__link_bold header__link ">Программы</a>
+          </li>
+          <li class="header__big-menu-list_last">
+            <a href="#" class="header__link_bold header__link ">Наставникам</a>
+          </li>
+          <li class="header__big-menu-list_last">
+            <a href="#" class="header__link_bold header__link ">Помочь</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
   <main class="content">
+    <section class="section" aria-label="дополнительное меню">
+      <ul class="small-menu">
+        <li>
+          <a href="#purpose" class=" small-menu__link">Для кого</a>
+        </li>
+        <li>
+          <a href="#activities" class=" small-menu__link">Направления работы</a>
+        </li>
+        <li>
+          <a href="#advantages" class=" small-menu__link">Преимущества</a>
+        </li>
+        <li>
+          <a href="#numbers" class=" small-menu__link">Основные цифры</a>
+        </li>
+        <li>
+          <a href="#special-projects" class=" small-menu__link">Спецпроекты</a>
+        </li>
+        <li>
+          <a href="#stories" class=" small-menu__link">Истории</a>
+        </li>
+        <li>
+          <a href="#" class=" small-menu__link">Агентство</a>
+        </li>
+        <li>
+          <a href="#news" class=" small-menu__link">Новости</a>
+        </li>
+      </ul>
+    </section>
     <section class="section intro" id="intro">
       <div class="container intro__container">
         <div class="intro__slider">
@@ -26,9 +175,9 @@
               </div>
               <div class="intro__slider-image-container">
                 <img src="./images/intro/slider-1-2.jpg" alt="Мужчина пишет список на доске."
-                  class="intro__slider-image intro__slider-image_position_bottom" />
+                     class="intro__slider-image intro__slider-image_position_bottom" />
                 <img src="./images/intro/slider-1-1.jpg" alt="Мужчина с микрофоном выступает перед группой."
-                  class="intro__slider-image intro__slider-image_position_top" />
+                     class="intro__slider-image intro__slider-image_position_top" />
               </div>
             </li>
             <li class="intro__slider-item">
@@ -85,7 +234,7 @@
           <div class="intro__slider-pagination">
             <button class="button-slider button-slider_color_blue" id="buttonPrev">
               <img class="button-slider__image button-slider__image_left" src="./images/button/button-slider-image.svg"
-                alt="Пролистнуть влево."/>
+                   alt="Пролистнуть влево."/>
             </button>
             <div class="intro__slider-pagination-text"><span class="intro__slider-pagination-page">1</span>/<span class="intro__slider-pagination-pages">6</span></div>
             <button class="button-slider button-slider_color_blue" id="buttonNext">
@@ -298,6 +447,33 @@
             </a>
           </li>
         </ul>
+      </div>
+    </section>
+    <section class="section projects" id="projects">
+      <div class="container">
+        <h2 class="section__title projects__section-title">Лучшие проекты агентства</h2>
+        <p class="projects__subtitle">Мы выполняем работы в области веб-разработки, дизайна, права, видео, анимации и
+          контента</p>
+        <div class="projects__wrapper">
+          <ul class="projects__cards">
+            <li class="projects__card">
+              <img alt="Внешнйи вид страниц сайта DisQuestion." class="projects__card-image"
+                   src="images/projects/projects-image-disquestion.png">
+              <h5 class="projects__card-title">Скрипты-рекомендации для бизнеса (DisQuestion)</h5>
+            </li>
+            <li class="projects__card">
+              <img alt="Внешний вид сайта Онконавигатор на планшете и телефоне." class="projects__card-image"
+                   src="images/projects/projects-image-onkonavigator.png">
+              <h5 class="projects__card-title">Проект «Онконавигатор»</h5>
+            </li>
+            <li class="projects__card">
+              <img alt="Внешний вид страниц сайта «Миграции: приоткрывая личное»." class="projects__card-image"
+                   src="images/projects/projects-image-migration.png">
+              <h5 class="projects__card-title">Проект «Миграции: приоткрывая личное»</h5>
+            </li>
+          </ul>
+          <button class="button button_type_secondary projects__button">Посмотреть все</button>
+        </div>
       </div>
     </section>
   </main>

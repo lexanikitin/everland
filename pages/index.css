@@ -4,6 +4,9 @@
 /*базовые обертки для секций*/
 @import url('../blocks/page/page.css');
 @import url('../blocks/container/container.css');
+@import url('../blocks/section/section.css');
+@import url('../blocks/section/__title/section__title.css');
+@import url('../blocks/content/content.css');
 /* базовые кнопки */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_primary.css);
@@ -27,13 +30,43 @@
 @import url(../blocks/link-story/__image/link-story__image.css);
 @import url(../blocks/link-story/__image-container/link-story__image-container.css);
 
-
+/*header*/
 @import url('../blocks/header/header.css');
+@import url('../blocks/header/_shadow/header_shadow.css');
+@import url('../blocks/header/__head/header__head.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__menu-button/header__menu-button.css');
+@import url('../blocks/header/__menu-button/_type/header__menu-button_type_burger.css');
+@import url('../blocks/header/__menu-button/_type/header__menu-button_type_close.css');
+@import url('../blocks/header/__menu-button/_opened/header__menu-button_opened.css');
+@import url('../blocks/header/__menu-button-name/header__menu-button-name.css');
+@import url('../blocks/header/__buttons/header__buttons.css');
+@import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__big-menu/header__big-menu.css');
+@import url('../blocks/header/__big-menu-lists/header__big-menu-lists.css');
+@import url('../blocks/header/__big-menu-list/header__big-menu-list.css');
+@import url('../blocks/header/__big-menu-list/_opened/header__big-menu-list_opened.css');
+@import url('../blocks/header/__big-menu-list/_last/header__big-menu-list_last.css');
+@import url('../blocks/header/__checkbox-button-big-menu/header__checkbox-button-big-menu.css');
+@import url('../blocks/header/__icon-shevron/header__icon-shevron.css');
+@import url('../blocks/header/__icon-shevron/_rotate/header__icon-shevron_rotate.css');
+@import url('../blocks/header/__link/_bold/header__link_bold.css');
+@import url('../blocks/header/__link/_position/header__link_position_big-menu.css');
+@import url('../blocks/header/__big-menu/_opened/header__big-menu_opened.css');
+@import url('../blocks/header/__big-menu-lists/_last/header__big-menu-lists_last.css');
+@import url('../blocks/button/button.css');
+@import url('../blocks/button/_type/button_type_primary.css');
+@import url('../blocks/button/_type/button_type_secondary.css');
+@import url('../blocks/header/__button/header__button.css');
+@import url('../blocks/header/__invisible-checkbox/header__invisible-checkbox.css');
 
-@import url('../blocks/content/content.css');
+/*small-menu*/
+@import url('../blocks/small-menu/small-menu.css');
+@import url('../blocks/small-menu/__link/small-menu__link.css');
+/*content*/
 
-@import url('../blocks/section/section.css');
-@import url('../blocks/section/__title/section__title.css');
+
+
 
 /* Секция Intro */
 @import url('../blocks/intro/intro.css');
@@ -88,3 +121,14 @@
 @import url('../blocks/purpose/__title/purpose__title.css');
 @import url('../blocks/purpose/__section-title/purpose__section-title.css');
 @import url('../blocks/purpose/__description/purpose__description.css');
+
+/* секция Лучшие проекты агентства */
+@import url('../blocks/projects/projects.css');
+@import url('../blocks/projects/__section-title/projects__section-title.css');
+@import url('../blocks/projects/__subtitle/projects__subtitle.css');
+@import url('../blocks/projects/__wrapper/projects__wrapper.css');
+@import url('../blocks/projects/__cards/projects__cards.css');
+@import url('../blocks/projects/__card/projects__card.css');
+@import url('../blocks/projects/__card-image/projects__card-image.css');
+@import url('../blocks/projects/__card-title/projects__card-title.css');
+@import url('../blocks/projects/__button/projects__button.css');
