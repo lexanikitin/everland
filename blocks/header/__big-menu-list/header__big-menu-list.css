@@ -17,6 +17,6 @@
 @media screen and (max-width: 767px) {
   .header__big-menu-list {
     display: none;
-    row-gap: 10px;
+    row-gap: 10px;;
   }
 }
