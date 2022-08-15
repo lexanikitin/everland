@@ -1,0 +1,12 @@
+.activities__card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .activities__card-content {
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+}

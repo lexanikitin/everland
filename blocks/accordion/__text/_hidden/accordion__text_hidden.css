@@ -1,14 +1,9 @@
 .accordion__text_hidden {
   margin: 0;
-  visibility: hidden;
-  overflow: hidden;
   max-height: 0;
-  padding: 0 20px;
-  transition: max-height 0.3s ease-out, padding-top 0.3s ease-out, padding-bottom 0.3s ease-out, visibility 0.3s;
-}
-
-@media screen and (max-width:1439px) {
-  .accordion__text_hidden {
-    padding: 0;
-  }
+  overflow: hidden;
+  padding: 0;
+  transition: max-height 0.3s ease-out, padding-top 0.3s ease-out,
+    padding-bottom 0.3s ease-out, visibility 0.3s;
+  visibility: hidden;
 }

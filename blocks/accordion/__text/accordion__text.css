@@ -1,20 +1,20 @@
 .accordion__text {
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  visibility: visible;
   box-sizing: border-box;
-  overflow: hidden;
-  margin: 0;
-  padding: 20px 20px 0;
-  max-height: 100px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
   height: fit-content;
+  line-height: 24px;
+  margin: 0;
+  max-height: 100px;
+  overflow: hidden;
+  padding: 20px 0 0;
   transition: max-height 0.3s ease-out, padding-top 0.3s ease-out,
     padding-bottom 0.3s ease-out;
+  visibility: visible;
 }
 
-@media screen and (max-width:1439px) {
+@media screen and (max-width: 1439px) {
   .accordion__text {
     font-size: 14px;
     line-height: 16.8px;

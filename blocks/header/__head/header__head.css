@@ -1,0 +1,16 @@
+.header__head {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 80px;
+  padding: 0 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__head {
+    min-height: 54px;
+    padding: 0 10px;
+  }
+}
+
