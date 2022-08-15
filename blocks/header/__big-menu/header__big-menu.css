@@ -1,0 +1,30 @@
+.header__big-menu {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  column-gap: 30px;
+  display: none;
+  grid-template-columns: repeat(4, 1fr);
+  left: 0;
+  margin: 0;
+  padding: 32px 40px 0 40px;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__big-menu {
+    column-gap: 22px;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 64px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__big-menu {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 16px 10px 0 10px;
+    row-gap: 10px;
+    top: 54px;
+  }
+}
