@@ -1,8 +1,8 @@
 .news {
-  margin: 0;
-  padding: 100px 0;
   font-family: 'Raleway';
   font-style: normal;
+  margin: 0;
+  padding: 100px 0;
 }
 
 @media screen and (max-width: 1023px) {

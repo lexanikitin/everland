@@ -1,20 +1,20 @@
 .news__button-tablet {
-  margin: 0;
-  visibility: hidden;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 16px;
   gap: 10px;
-  width: 200px;
   height: 44px;
+  justify-content: center;
+  margin: 0;
+  padding: 12px 16px;
+  visibility: hidden;
+  width: 200px;
 }
 
 @media screen and (max-width: 1023px) {
   .news__button-tablet {
-    visibility: visible;
     margin: 32px auto 0;
+    visibility: visible;
   }
 }
 

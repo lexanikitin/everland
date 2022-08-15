@@ -1,22 +1,20 @@
 .news__card {
-  position: relative;
-  margin: 0;
-  padding: 30px;
-  max-width: 440px;
-  height: 800px;
+  align-items: left;
   background: #FFFFFF;
-  border: 1px solid #DADADA;
   border-radius: 30px;
+  border: 1px solid #DADADA;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  justify-content: space-between;
+  margin: 0;
+  max-width: 440px;
+  padding: 30px;
 }
 
 @media screen and (max-width: 1023px) {
   .news__card {
-    max-width: 334px;
-    height: 551px;
     border-radius: 20px;
+    max-width: 334px;
   }
 }
 @media screen and (max-width: 767px) {

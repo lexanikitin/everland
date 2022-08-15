@@ -10,8 +10,10 @@
 
 /* Секция news */
 @import url('../blocks/news/news.css');
+@import url('../blocks/news/__section-title/news__section-title.css');
 @import url('../blocks/news/__header/news__header.css');
 @import url('../blocks/news/__container/news__container.css');
+@import url('../blocks/news/__card-content/news__card-content.css');
 @import url('../blocks/news/__button/news__button.css');
 @import url('../blocks/news/__button/news__button-tablet.css');
 @import url('../blocks/news/__card-container/news__card-container.css');

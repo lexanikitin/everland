@@ -1,0 +1,15 @@
+.news__section-title {
+  width: 1023px;
+}
+
+@media screen and (max-width: 1023px) {
+  .news__section-title {
+    width: 688px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .news__section-title {
+    width: 100%;
+    max-width: 300px;
+  }
+}
