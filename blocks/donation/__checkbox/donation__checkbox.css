@@ -1,7 +1,7 @@
 .donation__checkbox {
+  left: -9999px;
   margin: 0;
   position: absolute;
-  left: -9999px;
 }
 
 .donation__checkbox:checked + .donation__text-container {

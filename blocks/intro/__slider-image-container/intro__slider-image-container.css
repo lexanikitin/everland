@@ -1,24 +1,24 @@
 .intro__slider-image-container {
-  width: 520px;
-  position: relative;
   height: 565px;
   overflow: hidden;
+  position: relative;
+  width: 520px;
 }
 
 @media screen and (max-width: 1023px) {
   .intro__slider-image-container {
-    width: 244px;
     height: 272px;
     padding-top: 14px;
+    width: 244px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro__slider-image-container {
     align-self: center;
-    padding-top: 0;
-    width: 98.685%;
     height: 0;
     padding-bottom: 65.79%;
+    padding-top: 0;
+    width: 98.685%;
   }
 }

@@ -7,15 +7,15 @@
 
 @media screen and (max-width: 1023px) {
   .intro__container {
-    padding-top: 56px;
     gap: 50px;
+    padding-top: 56px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro__container {
-    width: 95%;
-    padding: 50px 0 32px;
     gap: 40px;
+    padding: 50px 0 32px;
+    width: 95%;
   }
 }

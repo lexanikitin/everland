@@ -1,18 +1,18 @@
 .donation__input {
-  width: 211px;
-  height: 48px;
-  border: none;
-  padding: 0;
   border-radius: 10px;
-  text-align: center;
+  border: 1px solid #fff;
+  border: none;
+  box-sizing: border-box;
   color: #333;
   font-family: 'Raleway', sans-serif;
-  font-weight: 500;
   font-size: 20px;
+  font-weight: 500;
+  height: 48px;
   line-height: 120%;
-  border: 1px solid #fff;
-  box-sizing: border-box;
+  padding: 0;
+  text-align: center;
   transition: border-color .3s linear;
+  width: 211px;
 }
 
 .donation__input::placeholder {
@@ -20,8 +20,8 @@
 }
 
 .donation__input:focus {
-  outline: none;
   border-color: #0C4BA0;
+  outline: none;
 }
 
 @media screen and (max-width: 1250px) {
@@ -32,8 +32,8 @@
 
 @media screen and (max-width: 1200px) {
   .donation__input {
-    height: 44px;
     font-size: 16px;
+    height: 44px;
   }
 }
 
@@ -45,8 +45,8 @@
 
 @media screen and (max-width: 767px) {
   .donation__input {
-    width: 100%;
     font-size: 14px;
+    width: 100%;
   }
 
   .donation__input:nth-last-child(1):not(:nth-child(even)) {

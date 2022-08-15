@@ -1,6 +1,6 @@
 .intro__slider-text {
-  max-width: 543px;
   margin: 0;
+  max-width: 543px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -11,8 +11,8 @@
 
 @media screen and (max-width: 767px) {
   .intro__slider-text {
-    width: 97%;
-    padding-left: 2px;
     margin-bottom: 2.44px;
+    padding-left: 2px;
+    width: 97%;
   }
 }

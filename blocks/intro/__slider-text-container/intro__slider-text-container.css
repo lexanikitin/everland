@@ -1,8 +1,8 @@
 .intro__slider-text-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   flex: 0 0 826px;
+  gap: 20px;
   padding-bottom: 50px;
 }
 
@@ -14,16 +14,16 @@
 
 @media screen and (max-width: 1023px) {
   .intro__slider-text-container {
-    padding-bottom: 40px;
     min-height: 246px;
+    padding-bottom: 40px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro__slider-text-container {
-    padding-bottom: 0;
-    min-height: auto;
     flex: 1 0 auto;
     gap: 16px;
+    min-height: auto;
+    padding-bottom: 0;
   }
 }

@@ -1,9 +1,7 @@
 .intro__slider-list {
-  position: relative;
+  height: 100%;
   list-style: none;
   margin: 0;
   padding: 0;
-  height: 100%;
-  /* display: flex;
-  transition: transform .3s ease-out; */
+  position: relative;
 }
