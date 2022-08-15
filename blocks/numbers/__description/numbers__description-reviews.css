@@ -1,4 +1,19 @@
 .numbers__description-reviews {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+}
+
+@media screen and (max-width: 1023px) {
+  .numbers__description-reviews {
+    max-width: 333px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .numbers__description-reviews {
+    max-width: 300px;
+  }
 }

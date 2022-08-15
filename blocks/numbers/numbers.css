@@ -1,22 +1,25 @@
 .numbers {
-  margin-top: 151px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 @media screen and (max-width: 1440px) {
   .numbers {
-    padding: 0 10px;
+    padding: 100px 10px 50px;
+    padding-bottom: 50px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .numbers {
-    margin-top: 100px;
-    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .numbers {
-    margin-top: 64px;
+    padding-top: 14px;
+    padding-bottom: 50px;
   }
 }
