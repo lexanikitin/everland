@@ -1,0 +1,15 @@
+.header__menu-button_type_close {
+  background-image: url(../../../../images/header/icon-close.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: none;
+  height: 24px;
+  width: 24px;
+}
+
+@media screen and (max-width: 1439px){
+  .header__menu-button_type_close {
+    height: 20px;
+    width: 20px;
+  }
+}
