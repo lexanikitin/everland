@@ -85,6 +85,9 @@
 /*footer*/
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__container/footer__container.css');
+@import url('../blocks/footer/__about-us/footer__about-us.css');
+@import url('../blocks/footer/__menu/footer__menu.css');
+@import url('../blocks/footer/__link/footer__link.css');
 /* секция Для кого мы работаем */
 @import url('../blocks/purpose/__link/purpose__link.css');
 @import url('../blocks/purpose/purpose.css');

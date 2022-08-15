@@ -1,0 +1,9 @@
+.footer__menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 166px 1fr;
+  gap: 10px 145px;
+  height: min-content;
+}
