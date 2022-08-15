@@ -1,10 +1,10 @@
 @media screen and (max-width: 1439px) {
-  .project__section-title {
+  .projects__section-title {
     max-width: 300px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .project__section-title {
+  .projects__section-title {
   }
 }
