@@ -1,0 +1,6 @@
+.donation__sum {
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}

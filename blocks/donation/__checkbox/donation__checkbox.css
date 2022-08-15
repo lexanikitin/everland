@@ -1,0 +1,9 @@
+.donation__checkbox {
+  left: -9999px;
+  margin: 0;
+  position: absolute;
+}
+
+.donation__checkbox:checked + .donation__text-container {
+  border-color: #0C4BA0;
+}
