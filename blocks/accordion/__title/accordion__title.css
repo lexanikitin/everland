@@ -15,6 +15,7 @@
 
 @media screen and (max-width: 767px) {
   .accordion__title {
+    max-width: 212px;
     font-size: 18px;
     line-height: 21.6px;
   }
