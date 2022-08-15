@@ -1,0 +1,20 @@
+.intro__slider-image_position_top {
+  bottom: 0;
+  height: 407px;
+  left: 0;
+  width: 392px;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__slider-image_position_top {
+    height: 175px;
+    width: 170px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__slider-image_position_top {
+    height: 80%;
+    width: 56.67%;
+  }
+}

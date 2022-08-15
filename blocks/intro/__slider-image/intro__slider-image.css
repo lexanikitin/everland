@@ -1,0 +1,6 @@
+.intro__slider-image {
+  border-radius: 10px;
+  display: block;
+  object-fit: cover;
+  position: absolute;
+}

@@ -68,6 +68,31 @@
 
 
 
+/* Секция Intro */
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__container/intro__container.css');
+@import url('../blocks/intro/__slider/intro__slider.css');
+@import url('../blocks/intro/__slider-list/intro__slider-list.css');
+@import url('../blocks/intro/__slider-item/intro__slider-item.css');
+@import url('../blocks/intro/__slider-text-container/intro__slider-text-container.css');
+@import url('../blocks/intro/__slider-title/intro__slider-title.css');
+@import url('../blocks/intro/__slider-name/intro__slider-name.css');
+@import url('../blocks/intro/__slider-text/intro__slider-text.css');
+@import url('../blocks/intro/__slider-image-container/intro__slider-image-container.css');
+@import url('../blocks/intro/__slider-image/intro__slider-image.css');
+@import url('../blocks/intro/__slider-pagination/intro__slider-pagination.css');
+@import url('../blocks/intro/__slider-pagination-text/intro__slider-pagination-text.css');
+@import url('../blocks/intro/__slider-item/_active/intro__slider-item_active.css');
+@import url('../blocks/intro/__slider-image/_position/intro__slider-image_position_bottom.css');
+@import url('../blocks/intro/__slider-image/_position/intro__slider-image_position_top.css');
+@import url('../blocks/donation/donation.css');
+@import url('../blocks/donation/__container/donation__container.css');
+@import url('../blocks/donation/__sum/donation__sum.css');
+@import url('../blocks/donation/__checkbox/donation__checkbox.css');
+@import url('../blocks/donation/__text-container/donation__text-container.css');
+@import url('../blocks/donation/__input/donation__input.css');
+@import url('../blocks/donation/__button-size/donation__button-size.css');
+
 /* секция Наши направлени */
 @import url(../blocks/activities/activities.css);
 @import url(../blocks/activities/_container/activities__container.css);
