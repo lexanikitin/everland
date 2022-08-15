@@ -1,0 +1,16 @@
+.intro__slider-pagination-text {
+  width: 38px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__slider-pagination-text {
+    width: 31px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__slider-pagination-text {
+    width: 27px;
+  }
+}

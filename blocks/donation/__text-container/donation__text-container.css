@@ -1,0 +1,36 @@
+.donation__text-container {
+  background-color: #fff;
+  width: 159px;
+  height: 48px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border-color .3s linear;
+}
+
+@media screen and (max-width: 1250px) {
+  .donation__text-container {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .donation__text-container {
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .donation__text-container {
+    width: 75px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation__text-container {
+    width: 100%;
+  }
+}

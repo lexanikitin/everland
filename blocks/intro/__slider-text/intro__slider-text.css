@@ -1,0 +1,18 @@
+.intro__slider-text {
+  max-width: 543px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__slider-text {
+    width: 93.3%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__slider-text {
+    width: 97%;
+    padding-left: 2px;
+    margin-bottom: 2.44px;
+  }
+}

@@ -1,0 +1,22 @@
+.donation__container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  width: 1007px;
+}
+
+@media screen and (max-width: 1023px) {
+  .donation__container  {
+    width: 632.71px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min-content, 1fr));
+    grid-auto-rows: 44px;
+    gap: 16px;
+  }
+}

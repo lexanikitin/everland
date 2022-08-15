@@ -1,0 +1,22 @@
+.intro__slider-item {
+  position: absolute;
+  display: flex;
+  gap: 14px;
+  flex-shrink: 0;
+  flex-basis: 100%;
+  opacity: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__slider-item {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__slider-item {
+    flex-direction: column;
+    gap: 26px;
+    padding-bottom: 40px;
+  }
+}

@@ -1,0 +1,16 @@
+.intro__slider-pagination {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  gap: 10px;
+  font-weight: 700;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__slider-pagination {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

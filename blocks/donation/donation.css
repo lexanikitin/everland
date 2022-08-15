@@ -1,0 +1,36 @@
+.donation {
+  padding: 58px 54px 58px 30px;
+  background-color: #E7F0FF;
+  border-radius: 10px;
+  display: flex;
+  gap: 22px;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+  .donation {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .donation {
+    padding: 32px 24px 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation {
+    width: 98.685%;
+    box-sizing: border-box;
+    padding: 32px 20px;
+    font-size: 14px;
+    flex-direction: column;
+    gap: 32px;
+  }
+}

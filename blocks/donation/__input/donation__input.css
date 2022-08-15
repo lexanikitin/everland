@@ -1,0 +1,55 @@
+.donation__input {
+  width: 211px;
+  height: 48px;
+  border: none;
+  padding: 0;
+  border-radius: 10px;
+  text-align: center;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  transition: border-color .3s linear;
+}
+
+.donation__input::placeholder {
+  color: #333;
+}
+
+.donation__input:focus {
+  outline: none;
+  border-color: #0C4BA0;
+}
+
+@media screen and (max-width: 1250px) {
+  .donation__input {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .donation__input {
+    height: 44px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .donation__input {
+    width: 135px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation__input {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .donation__input:nth-last-child(1):not(:nth-child(even)) {
+    grid-column: 1/3;
+  }
+}

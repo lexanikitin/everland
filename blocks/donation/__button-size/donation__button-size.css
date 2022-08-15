@@ -1,0 +1,31 @@
+.donation__button-size {
+  width: 179px;
+  height: 48px;
+  display: block;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 1250px) {
+  .donation__button-size {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .donation__button-size {
+    height: 44px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .donation__button-size {
+    width: 143px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation__button-size {
+    width: 100%;
+  }
+}
