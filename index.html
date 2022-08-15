@@ -7,6 +7,16 @@
   <link href="pages/index.css" rel="stylesheet"/>
 </head>
 <body class="page">
+  <header class="header">
+    <div class="container"></div>
+  </header>
+<head>
+  <meta charset="UTF-8"/>
+  <title>Everland</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="pages/index.css" rel="stylesheet"/>
+</head>
+<body class="page">
   <header class="header header_shadow">
     <div class="header__head">
       <img src="./images/header/logo-header.svg" alt="логотип everland." class="header__logo">
@@ -132,7 +142,6 @@
       </div>
     </nav>
   </header>
-
   <main class="content">
     <section class="section" aria-label="дополнительное меню">
         <ul class="small-menu">
@@ -335,6 +344,33 @@
             </a>
           </li>
         </ul>
+      </div>
+    </section>
+    <section class="section projects" id="projects">
+      <div class="container">
+        <h2 class="section__title projects__section-title">Лучшие проекты агентства</h2>
+        <p class="projects__subtitle">Мы выполняем работы в области веб-разработки, дизайна, права, видео, анимации и
+          контента</p>
+        <div class="projects__wrapper">
+          <ul class="projects__cards">
+            <li class="projects__card">
+              <img alt="Внешнйи вид страниц сайта DisQuestion." class="projects__card-image"
+                   src="images/projects/projects-image-disquestion.png">
+              <h5 class="projects__card-title">Скрипты-рекомендации для бизнеса (DisQuestion)</h5>
+            </li>
+            <li class="projects__card">
+              <img alt="Внешний вид сайта Онконавигатор на планшете и телефоне." class="projects__card-image"
+                   src="images/projects/projects-image-onkonavigator.png">
+              <h5 class="projects__card-title">Проект «Онконавигатор»</h5>
+            </li>
+            <li class="projects__card">
+              <img alt="Внешний вид страниц сайта «Миграции: приоткрывая личное»." class="projects__card-image"
+                   src="images/projects/projects-image-migration.png">
+              <h5 class="projects__card-title">Проект «Миграции: приоткрывая личное»</h5>
+            </li>
+          </ul>
+          <button class="button button_type_secondary projects__button">Посмотреть все</button>
+        </div>
       </div>
     </section>
   </main>
