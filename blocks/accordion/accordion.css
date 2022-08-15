@@ -1,0 +1,22 @@
+.accordion {
+  background-color: white;
+  border-radius: 30px;
+  border: 2px solid #dadada;
+  box-sizing: border-box;
+  padding: 24.5px 18px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1439px) {
+  .accordion {
+    border-radius: 20px;
+    padding: 18px 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .accordion {
+    border-radius: 15px;
+    padding: 10.5px 19px 10.5px 15px;
+  }
+}

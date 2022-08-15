@@ -7,6 +7,7 @@
 @import url('../blocks/section/section.css');
 @import url('../blocks/section/__title/section__title.css');
 @import url('../blocks/content/content.css');
+
 /* базовые кнопки */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_primary.css);
@@ -63,10 +64,6 @@
 /*small-menu*/
 @import url('../blocks/small-menu/small-menu.css');
 @import url('../blocks/small-menu/__link/small-menu__link.css');
-/*content*/
-
-
-
 
 /* Секция Intro */
 @import url('../blocks/intro/intro.css');
@@ -121,6 +118,18 @@
 @import url('../blocks/purpose/__title/purpose__title.css');
 @import url('../blocks/purpose/__section-title/purpose__section-title.css');
 @import url('../blocks/purpose/__description/purpose__description.css');
+
+/* Секция Главное в работе */
+@import url('../blocks/advantages/advantages.css');
+@import url('../blocks/advantages/__accordions-list/advantages__accordions-list.css');
+@import url('../blocks/advantages/__section-title/advantages__section-title.css');
+@import url('../blocks/accordion/accordion.css');
+@import url('../blocks/accordion/__column/accordion__column.css');
+@import url('../blocks/accordion/__panel/accordion__panel.css');
+@import url('../blocks/accordion/__title/accordion__title.css');
+@import url('../blocks/accordion/__text/accordion__text.css');
+@import url('../blocks/accordion/__text/_hidden/accordion__text_hidden.css');
+@import url('../blocks/accordion/__button-accordion/accordion__button-accordion.css');
 
 /* секция Лучшие проекты агентства */
 @import url('../blocks/projects/projects.css');
