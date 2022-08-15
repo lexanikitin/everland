@@ -1,0 +1,10 @@
+.footer__address {
+  padding: 0;
+  margin: 0 0 0 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  grid-column: 2 / -1;
+  grid-row: 1 / 3;
+}

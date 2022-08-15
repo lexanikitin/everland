@@ -5,3 +5,7 @@
   text-decoration: none;
   color: #333333;
 }
+
+.footer__link:hover {
+  cursor: pointer;
+}
