@@ -1,0 +1,4 @@
+.numbers__description-number {
+  color: rgba(12, 75, 160, 1);
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
