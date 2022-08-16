@@ -1,11 +1,11 @@
 .numbers__description-heading {
+  color: rgba(51, 51, 51, 1);
   font-family: "Raleway", sans-serif;
+  font-size: 34px;
   font-style: normal;
   font-weight: 700;
-  font-size: 34px;
   line-height: 120%;
   margin: 0;
-  color: rgba(51, 51, 51, 1);
 }
 
 @media screen and (max-width: 1023px) {

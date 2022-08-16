@@ -38,10 +38,6 @@
 @import url(../blocks/numbers/__description/numbers__description-paragraph.css);
 @import url(../blocks/numbers/__description/numbers__description-reviews.css);
 @import url(../blocks/numbers/__description/numbers__description-number.css);
-@import url(../blocks/numbers/__description/numbers__description-earnings.css);
-@import url(../blocks/numbers/__description/numbers__description-comunity.css);
-@import url(../blocks/numbers/__description/numbers__description-people.css);
-@import url(../blocks/numbers/__description/numbers__description-times.css);
 
 @import url('../blocks/header/header.css');
 

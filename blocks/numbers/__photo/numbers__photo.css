@@ -1,5 +1,4 @@
 .numbers__photo {
-  background-image: url(../../../images/numbers__image.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -17,10 +16,11 @@
 
 @media screen and (max-width: 767px) {
   .numbers__photo {
+    border-radius: 20px;
     display: flex;
-    width: 300px;
     height: 200px;
-    order: 1;
     margin-top: 24px;
+    order: 1;
+    width: 300px;
   }
 }
