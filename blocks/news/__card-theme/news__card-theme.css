@@ -1,9 +1,10 @@
 .news__card-theme {
-  font-weight: 400;
-  margin: 0;
+  font-family: 'Raleway';
   font-size: 18px;
+  font-weight: 400;
   line-height: 130%;
-  padding: 0 0 30px;
+  margin: 0;
+  font-style: normal;
 }
 
 @media screen and (max-width: 1023px) {
@@ -13,6 +14,7 @@
     line-height: 120%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .news__card-theme {
     padding-bottom: 20px;

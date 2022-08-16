@@ -3,3 +3,9 @@
   max-width: 380px;
   width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+  .news__card-content {
+    min-width: 252px;
+  }
+}

@@ -1,13 +1,15 @@
 .news__card-text {
-  margin: 0;
-  font-weight: 400;
-  font-size: 20px;
-  max-height: 318px;
-  line-height: 130%;
   color: #333333;
+  font-family: 'Raleway';
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin: 0;
+  max-height: 318px;
   overflow: hidden;
   padding-bottom: 30px;
-  font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 @media screen and (max-width: 1023px) {
