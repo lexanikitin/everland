@@ -1,3 +1,11 @@
 .support__section-title {
   padding: 100px 0 50px;
 }
+
+@media screen and (max-width: 1280px) {
+  .support__section-title {
+    padding: 44px 0 24px;
+    max-width: 347px;
+    margin: 0 auto;
+  }
+}

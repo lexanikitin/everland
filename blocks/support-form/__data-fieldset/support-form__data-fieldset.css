@@ -8,3 +8,9 @@
   gap: 16px;
   outline: none;
 }
+
+@media screen and (max-width: 1023px) {
+  .support-form__data-fieldset {
+    padding: 24px 0;
+  }
+}

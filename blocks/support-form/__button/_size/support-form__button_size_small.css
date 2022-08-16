@@ -2,3 +2,10 @@
   height: 48px;
   width: 159px;
 }
+
+@media screen and (max-width: 1023px) {
+  .support-form__button_size_small {
+    height: 44px;
+    max-width: 145px;
+  }
+}

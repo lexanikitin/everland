@@ -13,3 +13,9 @@
   justify-content: center;
   transition: border-color .3s linear;
 }
+
+@media screen and (max-width: 1023px) {
+  .support-form__button {
+    font-size: 16px;
+  }
+}
