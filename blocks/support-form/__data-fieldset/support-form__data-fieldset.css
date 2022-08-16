@@ -1,12 +1,12 @@
 .support-form__data-fieldset {
-  margin: 0;
-  padding: 28px 0 39px 0;
   appearance: none;
   border: none;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin: 0;
   outline: none;
+  padding: 28px 0 39px 0;
 }
 
 @media screen and (max-width: 1023px) {

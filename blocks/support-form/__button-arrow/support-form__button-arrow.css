@@ -1,9 +1,15 @@
 .support-form__button-arrow {
+  background-color: #fff;
   background-image: url('../../../images/support-form/Icon_shevron.png');
   background-position: center;
-  background-size: contain;
   background-repeat: no-repeat;
-  outline: none;
+  background-size: contain;
   border: none;
-  background-color: #fff;
+  outline: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .support-form__button-arrow {
+    transform: rotate(90deg);
+  }
 }

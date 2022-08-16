@@ -9,3 +9,10 @@
     width: 296px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .support-form__button_size_big {
+    min-width: 122px;
+    width: 100%;
+  }
+}

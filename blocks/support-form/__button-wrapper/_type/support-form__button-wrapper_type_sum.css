@@ -1,20 +1,25 @@
 .support-form__button-wrapper_type_sum {
-  margin: 0;
-  padding: 16px 0;
+  align-content: center;
   display: grid;
+  gap: 12px 5px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  gap: 12px 5px;
-  align-content: center;
   justify-content: center;
+  margin: 0;
+  padding: 16px 0;
 }
 
 @media screen and (max-width: 1023px) {
   .support-form__button-wrapper_type_sum {
     display: flex;
     flex-direction: row;
+    gap: 16px;
     justify-content: flex-start;
     padding: 24px 0 19px;
-    gap: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .support-form__button-wrapper_type_sum {
+    padding: 20px 0 16px;
   }
 }

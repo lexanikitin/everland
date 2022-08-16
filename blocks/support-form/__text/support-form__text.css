@@ -11,9 +11,15 @@
 
 @media screen and (max-width: 1023px) {
   .support-form__text {
-    font-weight: 500;
-    padding-bottom: 14px;
     font-size: 14px;
+    font-weight: 500;
     line-height: 120%;
+    padding-bottom: 14px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .support-form__text {
+    font-size: 12px;
+    padding-bottom: 32px;
   }
 }

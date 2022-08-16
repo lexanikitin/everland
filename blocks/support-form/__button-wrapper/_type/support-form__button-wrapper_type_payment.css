@@ -10,3 +10,8 @@
     padding: 24px 0 48px;
   }
 }
+@media screen and (max-width: 767px) {
+  .support-form__button-wrapper_type_payment {
+    padding: 16px 0 45px;
+  }
+}

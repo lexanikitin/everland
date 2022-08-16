@@ -1,7 +1,5 @@
 .support-form__button-wrapper {
-  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
 }

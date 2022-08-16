@@ -2,18 +2,26 @@
   background: #FFFFFF;
   border-radius: 30px;
   box-shadow: 0px 4px 30px rgba(42, 48, 56, 0.1);
-  margin: 0;
-  padding: 30px 23px 30px 16px;
-  max-width: 691px;
-  display: flex;
   box-sizing: border-box;
+  display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0;
+  max-width: 691px;
+  padding: 30px 23px 30px 16px;
 }
 
 @media screen and (max-width: 1023px) {
   .support-form {
     max-width: 688px;
     padding: 30px 30px 30px 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .support-form {
+    max-width: 300px;
+    padding: 32px 20px;
+    /* width: 100%; */
+
   }
 }

@@ -25,3 +25,9 @@
     line-height: 120%;
   }
 }
+@media screen and (max-width: 767px) {
+  .support-form__input {
+    width: 260px;
+    height: 48px;
+  }
+}
