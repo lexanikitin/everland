@@ -1,4 +1,4 @@
-.footer__made-by-desp {
+.footer__author-desp {
   padding: 0;
   margin: 0;
   font-weight: 400;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .footer__made-by-desp {
+  .footer__author-desp {
     font-weight: 500;
     font-size: 14px;
     line-height: 120%;

@@ -9,5 +9,6 @@
 @media screen and (max-width: 1439px) {
   .footer__title {
     font-size: 20px;
+    max-width: 190px;
   }
 }

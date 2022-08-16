@@ -108,6 +108,7 @@
 @import url('../blocks/footer/__container/footer__container.css');
 @import url('../blocks/footer/__about-us/footer__about-us.css');
 @import url('../blocks/footer/__menu/footer__menu.css');
+@import url('../blocks/footer/__down-grids/footer__down-grids.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__title/footer__title.css');
 @import url('../blocks/footer/__logotypes/footer__logotypes.css');
@@ -119,9 +120,9 @@
 @import url('../blocks/footer/__phone/footer__phone.css');
 @import url('../blocks/footer/__address/footer__address.css');
 @import url('../blocks/footer/__copyrigth/footer__copyrigth.css');
-@import url('../blocks/footer/__made-by/footer__made-by.css');
-@import url('../blocks/footer/__made-by-desp/footer__made-by-desp.css');
-@import url('../blocks/footer/__made-by-logo/footer__made-by-logo.css');
+@import url('../blocks/footer/__author/footer__author.css');
+@import url('../blocks/footer/__author-desp/footer__author-desp.css');
+@import url('../blocks/footer/__author-logo/footer__author-logo.css');
 @import url('../blocks/footer/__logotype/_type/footer__logotype_type_beeline.css');
 @import url('../blocks/footer/__logotype/_type/footer__logotype_type_fond.css');
 /* секция Для кого мы работаем */

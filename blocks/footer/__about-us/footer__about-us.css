@@ -5,12 +5,19 @@
   font-size: 18px;
   line-height: 130%;
   font-feature-settings: 'pnum' on, 'lnum' on;
+  max-width: 483px;
 }
 
 @media screen and (max-width: 1439px) {
   .footer__about-us {
+    max-width: 300px;
     font-weight: 500;
     font-size: 14px;
     line-height: 120%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer__about-us {
+    font-size: 12px;
   }
 }
