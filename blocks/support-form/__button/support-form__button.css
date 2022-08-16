@@ -1,0 +1,11 @@
+.support-form__button {
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  margin: 0;
+  padding: 5px 15px;
+  font-style: normal;
+}

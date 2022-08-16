@@ -1,0 +1,22 @@
+.support-form__heading-wrap {
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+}
+.support-form__heading-wrap::before,
+.support-form__heading-wrap::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  border: 1px solid #DADADA;
+  position: relative;
+}
+.support-form__heading-wrap::before {
+  margin-left: -100%;
+    left: -14px;
+}
+.support-form__heading-wrap::after {
+  margin-right: -100%;
+  right: -14px;
+}

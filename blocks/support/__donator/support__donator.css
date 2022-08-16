@@ -1,0 +1,13 @@
+.support__donator {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-family: 'Raleway';
+  gap: 10px;
+  padding: 0px;
+  color: #333333;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}

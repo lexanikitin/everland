@@ -1,0 +1,9 @@
+.support-form__button-arrow {
+  background-image: url('../../../images/support-form/Icon_shevron.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  outline: none;
+  border: none;
+  background-color: #fff;
+}

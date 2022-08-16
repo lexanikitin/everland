@@ -1,0 +1,9 @@
+.support-form__button_size_big {
+  font-size: 20px;
+  font-weight: 500;
+  height: 48px;
+  line-height: 120%;
+  width: 315px;
+  border: 1px solid #DADADA;
+  color: #333;
+}

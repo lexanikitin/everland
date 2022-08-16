@@ -1,0 +1,12 @@
+.support-form {
+  background: #FFFFFF;
+  border-radius: 30px;
+  box-shadow: 0px 4px 30px rgba(42, 48, 56, 0.1);
+  margin: 0;
+  padding: 30px 23px 30px 16px;
+  width: 691px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+}
