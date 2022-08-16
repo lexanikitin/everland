@@ -1,0 +1,21 @@
+.accordion__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40.8px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .accordion__title {
+    font-size: 26px;
+    line-height: 31.2px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .accordion__title {
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+}

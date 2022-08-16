@@ -1,0 +1,16 @@
+.projects__button {
+  padding: 12px 24px;
+}
+
+@media screen and (max-width: 1439px) {
+  .projects__button {
+    padding: 12px 37px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects__button {
+    width: 100%;
+  }
+}
+

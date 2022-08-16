@@ -1,0 +1,12 @@
+.accordion__column {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media screen and (max-width:767px) {
+  .accordion__column {
+    gap: 16px;
+  }
+}

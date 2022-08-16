@@ -1,0 +1,28 @@
+.header__checkbox-button-big-menu {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 34px;
+  font-weight: 700;
+  justify-content: space-between;
+  line-height: 120%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__checkbox-button-big-menu {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__checkbox-button-big-menu {
+    cursor: pointer;
+    font-size: 18px;
+  }
+}

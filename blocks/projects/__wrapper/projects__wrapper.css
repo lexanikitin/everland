@@ -1,0 +1,18 @@
+.projects__wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+@media screen and (max-width: 1439px) {
+  .projects__wrapper {
+    gap: 33px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects__wrapper {
+    gap: 22px;
+  }
+}
