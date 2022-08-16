@@ -1,7 +1,7 @@
 .footer__social-logotype {
-  height: 64px;
+  height: 32px;
   object-fit: contain;
-  width: 64px;
+  width: 32px;
 }
 
 @media screen and (max-width: 1439px) {

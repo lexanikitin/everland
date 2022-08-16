@@ -1,16 +1,15 @@
 .footer__social-logotypes {
   align-items: center;
-  column-gap: 10px;
+  column-gap: 48px;
   display: flex;
   flex-direction: row;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 0 0 0 10px;
+  padding: 16px 0;
 }
 
 @media screen and (max-width: 1439px) {
   .footer__social-logotypes {
-    margin-left: 10px;
     padding: 10px 0;
     column-gap: 24px;
   }

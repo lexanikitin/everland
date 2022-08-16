@@ -16,6 +16,7 @@
 
 @media screen and (max-width: 767px) {
   .footer__down-grids {
+    padding-top: 10px;
     grid-column: 1 / 2;
     grid-template-columns: 1fr;
     row-gap: 24px;
