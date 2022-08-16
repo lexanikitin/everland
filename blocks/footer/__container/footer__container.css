@@ -1,7 +1,16 @@
 .footer__container {
   padding: 80px 0 150px 0;
   display: grid;
-  grid-template-columns: 520px 1fr;
-  column-gap: 80px;
-  row-gap: 80px;
+  grid-template-columns: 560px 1fr;
+  column-gap: 40px;
+  row-gap: 82px;
+  /*overflow: hidden;*/
+}
+@media screen and (max-width: 1439px) {
+  .footer__container {
+    padding: 50px 0;
+    grid-template-columns: 40% 60%;
+    row-gap: 38px;
+    column-gap: 78px;
+  }
 }

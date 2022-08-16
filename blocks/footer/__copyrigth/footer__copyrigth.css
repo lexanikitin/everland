@@ -1,7 +1,19 @@
 .footer__copyrigth {
-  margin: -40px 0 0 0;
+  margin: -36px 0 0 0;
   padding: 0;
   font-feature-settings: 'pnum' on, 'lnum' on;
   color: rgba(38, 38, 38, 0.5);
   width: 630px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__copyrigth {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    max-width: 336px;
+  }
 }

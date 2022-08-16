@@ -2,3 +2,6 @@
   background-color: rgba(12, 75, 160, 1);
   border-radius: 10px;
 }
+.footer__social-logotype:hover {
+  cursor: pointer;
+}

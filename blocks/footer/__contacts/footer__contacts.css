@@ -1,7 +1,7 @@
 .footer__contacts {
   list-style: none;
   padding: 0;
-  margin: -40px 0 0 0;
+  margin: -36px 0 0 0;
   display: grid;
   grid-template-columns: 180px 1fr;
   font-weight: 400;
@@ -9,4 +9,13 @@
   line-height: 130%;
   font-feature-settings: 'pnum' on, 'lnum' on;
   height: min-content;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__contacts {
+    row-gap: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+  }
 }

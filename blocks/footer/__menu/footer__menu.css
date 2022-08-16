@@ -4,6 +4,13 @@
   margin: 0;
   display: grid;
   grid-template-columns: 166px 1fr;
-  gap: 10px 145px;
+  gap: 8px 145px;
   height: min-content;
+  max-width: min-content;
+}
+@media screen and (max-width: 1439px) {
+  .footer__menu {
+    padding-top: 8px;
+    gap: 8px 50px;
+  }
 }

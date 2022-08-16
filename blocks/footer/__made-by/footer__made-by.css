@@ -1,8 +1,16 @@
 .footer__made-by {
+  align-items: center;
   list-style: none;
-  margin: -40px 0 0 0;
+  margin: -32px 0 0 0;
   padding: 0;
   display: flex;
   flex-direction: row;
   column-gap: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__made-by {
+    column-gap: 10px;
+    grid-column: 1 / -1;
+  }
 }

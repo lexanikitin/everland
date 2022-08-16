@@ -5,3 +5,9 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__title {
+    font-size: 20px;
+  }
+}
