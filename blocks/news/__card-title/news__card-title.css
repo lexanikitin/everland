@@ -1,0 +1,23 @@
+.news__card-title {
+  margin: 0;
+  padding: 0 0 20px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  color: #333333;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@media screen and (max-width: 1023px) {
+  .news__card-title {
+    padding: 20px 0 10px;
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__card-title {
+    font-size: 18px;
+    padding:  0 0 10px;
+  }
+}

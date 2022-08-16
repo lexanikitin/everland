@@ -1,0 +1,15 @@
+.news__card-date {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: rgba(38, 38, 38, 0.5);
+}
+
+@media screen and (max-width: 1023px) {
+  .news__card-date {
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: 500;
+  }
+}
