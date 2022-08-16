@@ -9,3 +9,8 @@
     margin: 0 auto;
   }
 }
+@media screen and (max-width: 767px) {
+  .support__section-title {
+    max-width: 215px;
+  }
+}
