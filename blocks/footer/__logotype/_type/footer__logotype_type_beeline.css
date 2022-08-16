@@ -3,22 +3,21 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 100px;
   height: 53px;
+  width: 100px;
 }
 
 @media screen and (max-width: 1439px) {
   .footer__logotype_type_beeline {
     background-image: url("../../../../images/footer/logo-bilain-tablet.svg");
-    width: 56px;
     height: 40px;
-
+    width: 56px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer__logotype_type_beeline {
-    width: 47px;
     height: 34px;
+    width: 47px;
   }
 }

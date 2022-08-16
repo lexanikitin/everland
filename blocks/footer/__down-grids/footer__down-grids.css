@@ -1,15 +1,16 @@
 .footer__down-grids {
+  column-gap: 40px;
   display: grid;
   grid-template-columns: 560px 1fr;
-  column-gap: 40px;
   row-gap: 44px;
 }
+
 @media screen and (max-width: 1439px) {
   .footer__down-grids {
+    column-gap: 78px;
     grid-column: 1 / -1;
     grid-template-columns: 40% 1fr;
     row-gap: 26px;
-    column-gap: 78px;
   }
 }
 

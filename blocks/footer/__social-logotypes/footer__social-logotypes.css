@@ -1,11 +1,11 @@
 .footer__social-logotypes {
+  align-items: center;
+  column-gap: 10px;
+  display: flex;
+  flex-direction: row;
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: row;
-  column-gap: 10px;
-  align-items: center;
 }
 
 @media screen and (max-width: 1439px) {

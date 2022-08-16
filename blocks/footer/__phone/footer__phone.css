@@ -11,8 +11,8 @@
 
 @media screen and (max-width: 767px) {
   .footer__phone {
-    grid-column: 1 / -1;
     column-gap: 16px;
     flex-direction: row;
+    grid-column: 1 / -1;
   }
 }
