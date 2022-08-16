@@ -11,3 +11,9 @@
 .support-form__checkbox:hover + .support-form__button {
   border-color: #333;
 }
+.support-form__checkbox:checked + .support-form__checkbox-visible {
+  background-image: url('../../../images/support-form/Icon_check.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}

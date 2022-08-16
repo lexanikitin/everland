@@ -1,0 +1,13 @@
+.support-form__checkbox-visible {
+  box-sizing: border-box;
+  align-items: center;
+  background: #DADADA;
+  display: flex;
+  flex-direction: row;
+  width: 25px;
+  height: 25px;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}

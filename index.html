@@ -704,17 +704,25 @@
                 <input type="email" class="support-form__input" id="email" placeholder="myemail@example.com">
               </fieldset>
               <fieldset class="support-form__radio-fieldset">
-                <div class="support-form__place-radio">
-                  <input type="checkbox" class="support-form__checkbox" id="oferta">
-                  <label for="oferta" class="support-form__label">Соглашаюсь с <a class="support-form__label-link"
-                      href="#">офертой</a></label>
-                </div>
-                <div class="support-form__place-radio">
+                <label for="my-data" class="support-form__place-radio">
                   <input type="checkbox" class="support-form__checkbox" id="my-data">
+                  <span class="support-form__checkbox-visible"></span>
+                  <span class="support-form__label">Соглашаюсь c <a class="support-form__label-link"
+                    href="#">офертой</a></span>
+                </label>
+                <label for="my-data" class="support-form__place-radio">
+                  <input type="checkbox" class="support-form__checkbox" id="my-data">
+                  <span class="support-form__checkbox-visible"></span>
+                  <span class="support-form__label">Соглашаюсь на <a class="support-form__label-link"
+                    href="#">обработку моих персональных
+                    данных</a></span>
+                </label>
+                <!-- <div class="support-form__place-radio">
+
                   <label for="my-data" class="support-form__label">Соглашаюсь на <a class="support-form__label-link"
                       href="#">обработку моих персональных
                       данных</a></label>
-                </div>
+                </div> -->
               </fieldset>
               <button class="button button_type_primary support-form__button-primary">Поддержать</button>
           </form>

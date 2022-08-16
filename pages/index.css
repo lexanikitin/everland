@@ -163,6 +163,7 @@
 @import url('../blocks/support-form/__button/support-form__button-primary.css');
 @import url('../blocks/support-form/__input/support-form__input.css');
 @import url('../blocks/support-form/__checkbox/support-form__checkbox.css');
+@import url('../blocks/support-form/__checkbox-visible/support-form__checkbox-visible.css');
 @import url('../blocks/support-form/__sum-input/support-form__sum-input.css');
 @import url('../blocks/support-form/__place-radio/support-form__place-radio.css');
 @import url('../blocks/support-form/__radio-fieldset/support-form__radio-fieldset.css');
