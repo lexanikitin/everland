@@ -1,0 +1,19 @@
+.advantages {
+  padding-bottom: 50px;
+  padding-top: 100px;
+  width: 100%;
+}
+
+@media screen and (max-width:1439px) {
+  .advantages {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .advantages {
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+}

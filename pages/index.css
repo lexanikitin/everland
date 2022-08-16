@@ -7,8 +7,7 @@
 @import url('../blocks/section/section.css');
 @import url('../blocks/section/__title/section__title.css');
 @import url('../blocks/content/content.css');
-@import url('../blocks/logo/_position/logo_position_header.css');
-@import url('../blocks/logo/_position/logo_position_footer.css');
+
 /* базовые кнопки */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_primary.css);
@@ -65,10 +64,31 @@
 /*small-menu*/
 @import url('../blocks/small-menu/small-menu.css');
 @import url('../blocks/small-menu/__link/small-menu__link.css');
-/*content*/
 
-
-
+/* Секция Intro */
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__container/intro__container.css');
+@import url('../blocks/intro/__slider/intro__slider.css');
+@import url('../blocks/intro/__slider-list/intro__slider-list.css');
+@import url('../blocks/intro/__slider-item/intro__slider-item.css');
+@import url('../blocks/intro/__slider-text-container/intro__slider-text-container.css');
+@import url('../blocks/intro/__slider-title/intro__slider-title.css');
+@import url('../blocks/intro/__slider-name/intro__slider-name.css');
+@import url('../blocks/intro/__slider-text/intro__slider-text.css');
+@import url('../blocks/intro/__slider-image-container/intro__slider-image-container.css');
+@import url('../blocks/intro/__slider-image/intro__slider-image.css');
+@import url('../blocks/intro/__slider-pagination/intro__slider-pagination.css');
+@import url('../blocks/intro/__slider-pagination-text/intro__slider-pagination-text.css');
+@import url('../blocks/intro/__slider-item/_active/intro__slider-item_active.css');
+@import url('../blocks/intro/__slider-image/_position/intro__slider-image_position_bottom.css');
+@import url('../blocks/intro/__slider-image/_position/intro__slider-image_position_top.css');
+@import url('../blocks/donation/donation.css');
+@import url('../blocks/donation/__container/donation__container.css');
+@import url('../blocks/donation/__sum/donation__sum.css');
+@import url('../blocks/donation/__checkbox/donation__checkbox.css');
+@import url('../blocks/donation/__text-container/donation__text-container.css');
+@import url('../blocks/donation/__input/donation__input.css');
+@import url('../blocks/donation/__button-size/donation__button-size.css');
 
 /* секция Наши направлени */
 @import url(../blocks/activities/activities.css);
@@ -82,7 +102,7 @@
 @import url(../blocks/activities/__card-content/activities__card-content.css);
 @import url(../blocks/activities/__card-text/activities__card-text.css);
 @import url(../blocks/activities/__card-link/activities__card-link.css);
-/*footer*/
+
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__container/footer__container.css');
 @import url('../blocks/footer/__about-us/footer__about-us.css');
@@ -113,6 +133,18 @@
 @import url('../blocks/purpose/__title/purpose__title.css');
 @import url('../blocks/purpose/__section-title/purpose__section-title.css');
 @import url('../blocks/purpose/__description/purpose__description.css');
+
+/* Секция Главное в работе */
+@import url('../blocks/advantages/advantages.css');
+@import url('../blocks/advantages/__accordions-list/advantages__accordions-list.css');
+@import url('../blocks/advantages/__section-title/advantages__section-title.css');
+@import url('../blocks/accordion/accordion.css');
+@import url('../blocks/accordion/__column/accordion__column.css');
+@import url('../blocks/accordion/__panel/accordion__panel.css');
+@import url('../blocks/accordion/__title/accordion__title.css');
+@import url('../blocks/accordion/__text/accordion__text.css');
+@import url('../blocks/accordion/__text/_hidden/accordion__text_hidden.css');
+@import url('../blocks/accordion/__button-accordion/accordion__button-accordion.css');
 
 /* секция Лучшие проекты агентства */
 @import url('../blocks/projects/projects.css');
