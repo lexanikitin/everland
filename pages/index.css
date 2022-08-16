@@ -131,6 +131,24 @@
 @import url(../blocks/numbers/__description/numbers__description-reviews.css);
 @import url(../blocks/numbers/__description/numbers__description-number.css);
 
+/* Секция special-projects */
+@import url('../blocks/special-projects/__container/special-projects__container.css');
+@import url('../blocks/slider/slider.css');
+@import url('../blocks/slider/__list/slider__list.css');
+@import url('../blocks/slider/__item/slider__item.css');
+@import url('../blocks/slider/__subtitle/slider__subtitle.css');
+@import url('../blocks/slider/__column-container/slider__column-container.css');
+@import url('../blocks/slider/__text-container/slider__text-container.css');
+@import url('../blocks/slider/__title/slider__title.css');
+@import url('../blocks/slider/__text/slider__text.css');
+@import url('../blocks/slider/__image-container/sliger__image-container.css');
+@import url('../blocks/slider/__image/sliger__image.css');
+@import url('../blocks/slider/__buttons/slider__buttons.css');
+@import url('../blocks/slider/__button-size/slider__button-size.css');
+@import url('../blocks/slider/__subtitle/_type/slider__subtitle_type_desktop.css');
+@import url('../blocks/slider/__subtitle/_type/slider__subtitle_type_mobile.css');
+@import url('../blocks/slider/__item/_active/slider__item_active.css');
+
 /* Секция Главное в работе */
 @import url('../blocks/advantages/advantages.css');
 @import url('../blocks/advantages/__accordions-list/advantages__accordions-list.css');

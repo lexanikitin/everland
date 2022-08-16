@@ -1,0 +1,20 @@
+.sliger__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 850px) {
+  .sliger__image {
+    object-fit: fill;
+    transform: scaleX(1.5);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sliger__image {
+    object-fit: cover;
+    transform: scaleX(1);
+  }
+}
