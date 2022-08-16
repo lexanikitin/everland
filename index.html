@@ -621,59 +621,102 @@
           <form class="support-form">
 
             <div class="support-form__button-wrapper support-form__button-wrapper_type_first">
-              <button class="button button_type_secondary support-form__button_size_big">Ежемесячно</button>
-              <button class="button button_type_secondary support-form__button_size_big">Разово</button>
+              <label class="support-form__input-label">
+                <input class="support-form__checkbox" type="checkbox" value="monthly"/>
+                <div class="support-form__button support-form__button_size_big">
+                  <span class="support-form__input-text">Ежемесячно</span>
+                </div>
+              </label>
+              <label class="support-form__input-label">
+                <input class="support-form__checkbox" type="checkbox" value="onetime"/>
+                <div class="support-form__button support-form__button_size_big">
+                  <span class="support-form__input-text">Разово</span>
+                </div>
+              </label>
             </div>
 
-            <h4 class="support-form__heading-wrap"><span class="support-form__heading">Размер пожертвования</span></h4>
+              <h4 class="support-form__heading-wrap"><span class="support-form__heading">Размер пожертвования</span>
+              </h4>
 
-            <div class="support-form__button-wrapper support-form__button-wrapper_type_sum">
-              <button class="button button_type_tertiary support-form__button_size_small">250₽</button>
-              <button class="button button_type_tertiary support-form__button_size_small">500₽</button>
-              <button class="button button_type_tertiary support-form__button_size_small">750₽</button>
-              <button class="button button_type_tertiary support-form__button_size_small">1000₽</button>
-              <button class="button button_type_tertiary support-form__button_size_small">Другая сумма</button>
-            </div>
-
-            <p class="support-form__text">Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим
-              программам работать бесперебойно, что открывает новые востребованные проекты, что максимально эффективно
-              решает социальную задачу.
-              Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться
-              указанная вами сумма.
-            </p>
-
-            <h4 class="support-form__heading-wrap"><span class="support-form__heading">Способ оплаты</span></h4>
-
-            <div class="support-form__button-wrapper support-form__button-wrapper_type_payment">
-              <button class="button support-form__button button_type_tertiary support-form__button_size_middle">Mir Visa
-                MC</button>
-              <button
-                class="button support-form__button button_type_tertiary support-form__button_size_middle">Ю</button>
-              <button
-                class="button support-form__button button_type_tertiary support-form__button_size_middle">WebMoney</button>
-              <button class="support-form__button-arrow"></button>
-            </div>
-
-            <h4 class="support-form__heading-wrap"><span class="support-form__heading">Ваши данные</span></h4>
-            <fieldset class="support-form__data-fieldset">
-              <input type="text" class="support-form__input" id="name" placeholder="Иван Иванов">
-              <input type="email" class="support-form__input" id="email" placeholder="myemail@example.com">
-            </fieldset>
-            <fieldset class="support-form__radio-fieldset">
-              <div class="support-form__place-radio">
-                <input type="radio" class="support-form__checkbox" id="oferta">
-                <label for="oferta" class="support-form__label">Соглашаюсь с <a class="support-form__label-link"
-                    href="#">офертой</a></label>
+              <div class="support-form__button-wrapper support-form__button-wrapper_type_sum">
+                <label class="support-form__input-label">
+                  <input class="support-form__checkbox" type="checkbox" value="250" />
+                  <div class="support-form__button support-form__button_size_small">
+                    <span class="support-form__input-text">250&#8381;</span>
+                  </div>
+                </label>
+                <label class="support-form__input-label">
+                  <input class="support-form__checkbox" type="checkbox" value="500" />
+                  <div class="support-form__button support-form__button_size_small">
+                    <span class="support-form__input-text">500&#8381;</span>
+                  </div>
+                </label>
+                <label class="support-form__input-label">
+                  <input class="support-form__checkbox" type="checkbox" value="750" />
+                  <div class="support-form__button support-form__button_size_small">
+                    <span class="support-form__input-text">750&#8381;</span>
+                  </div>
+                </label>
+                <label class="support-form__input-label">
+                  <input class="support-form__checkbox" type="checkbox" value="1000" />
+                  <div class="support-form__button support-form__button_size_small">
+                    <span class="support-form__input-text">1000&#8381;</span>
+                  </div>
+                </label>
+                <input class="support-form__sum-input" type="number" min="0" placeholder="Другая сумма" />
               </div>
-              <div class="support-form__place-radio">
-                <input type="radio" class="support-form__checkbox" id="my-data">
-                <label for="my-data" class="support-form__label">Соглашаюсь на <a class="support-form__label-link"
-                    href="#">обработку моих персональных
-                    данных</a></label>
+
+              <p class="support-form__text">Регулярные пожертвования очень важны для Everland. Это то, что помогает
+                нашим
+                программам работать бесперебойно, что открывает новые востребованные проекты, что максимально эффективно
+                решает социальную задачу.
+                Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться
+                указанная вами сумма.
+              </p>
+
+              <h4 class="support-form__heading-wrap"><span class="support-form__heading">Способ оплаты</span></h4>
+
+              <div class="support-form__button-wrapper support-form__button-wrapper_type_payment">
+                <label class="support-form__input-label">
+                  <input class="support-form__checkbox" type="checkbox" value="onetime"/>
+                  <div class="support-form__button support-form__button_size_middle support-form__pay_variant_card">
+                    <span class="support-form__pay_variant"></span>
+                  </div>
+                </label>
+                <label class="support-form__input-label">
+                  <input class="support-form__checkbox" type="checkbox" value="onetime"/>
+                  <div class="support-form__button support-form__button_size_middle support-form__pay_variant_you">
+                    <div class="support-form__pay_variant"></div>
+                  </div>
+                </label>
+                <label class="support-form__input-label">
+                  <input class="support-form__checkbox" type="checkbox" value="onetime"/>
+                  <div class="support-form__button support-form__button_size_middle support-form__pay_variant_webmoney">
+                    <div class="support-form__pay_variant"></div>
+                  </div>
+                </label>
+                <button class="support-form__button-arrow"></button>
               </div>
-            </fieldset>
-            <button
-              class="button button_type_primary support-form__button support-form__button-primary">Поддержать</button>
+
+              <h4 class="support-form__heading-wrap"><span class="support-form__heading">Ваши данные</span></h4>
+              <fieldset class="support-form__data-fieldset">
+                <input type="text" class="support-form__input" id="name" placeholder="Иван Иванов">
+                <input type="email" class="support-form__input" id="email" placeholder="myemail@example.com">
+              </fieldset>
+              <fieldset class="support-form__radio-fieldset">
+                <div class="support-form__place-radio">
+                  <input type="checkbox" class="support-form__checkbox" id="oferta">
+                  <label for="oferta" class="support-form__label">Соглашаюсь с <a class="support-form__label-link"
+                      href="#">офертой</a></label>
+                </div>
+                <div class="support-form__place-radio">
+                  <input type="checkbox" class="support-form__checkbox" id="my-data">
+                  <label for="my-data" class="support-form__label">Соглашаюсь на <a class="support-form__label-link"
+                      href="#">обработку моих персональных
+                      данных</a></label>
+                </div>
+              </fieldset>
+              <button class="button button_type_primary support-form__button-primary">Поддержать</button>
           </form>
           <article class="support__donations">
             <h3 class="support__heading">Everland создается силами многих. Мы&nbsp;благодарны каждому за&nbsp;поддержку!
@@ -735,6 +778,13 @@
                   <span>5 часа назад</span>
                 </div>
               </div>
+              <div class="support__donator">Аноним<span
+                class="support__dots">........................................</span>
+              <div class="support__donator-sum">
+                <span>900 ₽</span>
+                <span>5 часа назад</span>
+              </div>
+            </div>
 
             </div>
           </article>

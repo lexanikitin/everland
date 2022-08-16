@@ -1,9 +1,8 @@
 .support-form__button-wrapper_type_sum {
-  row-gap: 12px;
   margin: 0;
   padding: 16px 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  justify-content: center;
+  gap: 12px 5px;
 }

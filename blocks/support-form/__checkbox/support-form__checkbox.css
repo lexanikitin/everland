@@ -1,8 +1,13 @@
 .support-form__checkbox {
+  left: -9999px;
   margin: 0;
-  background-color: #DADADA;
-  border-radius: 10px;
-  padding: 5px 10px;
-  width: 25px;
-  height: 25px;
+  position: absolute;
+}
+
+.support-form__checkbox:checked + .support-form__button {
+  border-color: #0C4BA0;
+}
+
+.support-form__checkbox:hover + .support-form__button {
+  border-color: #333;
 }

@@ -1,5 +1,4 @@
 .support-form__input {
-  align-items: center;
   background: #FFFFFF;
   border: 1px solid #DADADA;
   font-family: 'Raleway';
@@ -9,9 +8,7 @@
   line-height: 130%;
   margin: 0;
   width: 455px;
-  align-items: center;
   border-radius: 10px;
-  flex-direction: row;
   gap: 2px;
   padding: 10px 20px;
 }

@@ -1,11 +1,15 @@
 .support-form__button {
-  box-sizing: border-box;
   align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #DADADA;
+  font-family: 'Raleway', sans-serif;
+  font-variant-numeric: lining-nums;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  box-sizing: border-box;
   display: flex;
-  flex-direction: row;
-  gap: 10px;
   justify-content: center;
-  margin: 0;
-  padding: 5px 15px;
-  font-style: normal;
+  transition: border-color .3s linear;
 }
