@@ -1,10 +1,7 @@
 .footer__contacts {
   display: grid;
-  font-size: 18px;
-  font-weight: 400;
   grid-template-columns: 180px 1fr;
   height: min-content;
-  line-height: 130%;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -12,16 +9,12 @@
 
 @media screen and (max-width: 1439px) {
   .footer__contacts {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 120%;
     row-gap: 16px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer__contacts {
-    font-size: 12px;
     grid-row: 2 / 3;
     margin-top: 22px;
     row-gap: 10px;

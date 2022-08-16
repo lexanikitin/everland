@@ -10,6 +10,7 @@
 @media screen and (max-width: 1439px) {
   .footer__logotypes {
     margin-left: 15px;
+    column-gap: 20px;
   }
 }
 

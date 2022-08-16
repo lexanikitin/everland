@@ -1,14 +1,13 @@
 .footer__social-logotype {
-  background-color: rgba(12, 75, 160, 1);
-  border-radius: 10px;
-  outline: solid 1px white;
+  height: 64px;
+  object-fit: contain;
+  width: 64px;
 }
 
 @media screen and (max-width: 1439px) {
   .footer__social-logotype {
-    height: 40px;
-    object-fit: contain;
-    width: 40px;
+    height: 20px;
+    width: 20px;
   }
 }
 

@@ -1,7 +1,4 @@
 .footer__about-us {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 130%;
   margin: 0;
   max-width: 483px;
   padding: 14px 0 0 0;
@@ -9,15 +6,6 @@
 
 @media screen and (max-width: 1439px) {
   .footer__about-us {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 120%;
     max-width: 300px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .footer__about-us {
-    font-size: 12px;
   }
 }
