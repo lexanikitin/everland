@@ -11,3 +11,9 @@
     grid-row: 2 / 3;
   }
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__address{
+    max-width: 300px;
+  }
+}

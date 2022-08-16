@@ -18,3 +18,10 @@
     max-width: 336px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .footer__copyrigth {
+    font-size: 12px;
+    max-width: 300px;
+  }
+}

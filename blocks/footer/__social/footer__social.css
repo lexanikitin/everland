@@ -8,3 +8,10 @@
     max-width: min-content;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .footer__social {
+    row-gap: 6px;
+    margin-bottom: 4px;
+  }
+}

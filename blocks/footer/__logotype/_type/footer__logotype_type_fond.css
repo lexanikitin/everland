@@ -8,9 +8,16 @@
 }
 
 @media screen and (max-width: 1439px) {
-  ..footer__logotype_type_fond {
+  .footer__logotype_type_fond {
     background-image: url("../../../../images/footer/logo-fond-tablet.svg");
     width: 88px;
     height: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__logotype_type_fond {
+    width: 72px;
+    height: 24px;
   }
 }

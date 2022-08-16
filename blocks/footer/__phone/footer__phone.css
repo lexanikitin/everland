@@ -1,14 +1,18 @@
 .footer__phone {
   display: flex;
   flex-direction: column;
-  /*font-weight: 400;*/
-  /*font-size: 18px;*/
-  /*line-height: 130%;*/
-  /*font-feature-settings: 'pnum' on, 'lnum' on;*/
 }
 
 @media screen and (max-width: 1439px) {
   .footer__phone {
     row-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__phone {
+    grid-column: 1 / -1;
+    column-gap: 16px;
+    flex-direction: row;
   }
 }

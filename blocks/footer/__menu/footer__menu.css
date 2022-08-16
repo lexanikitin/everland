@@ -14,3 +14,11 @@
     gap: 8px 50px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .footer__menu {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 0;
+    gap: 8px 42px;
+  }
+}

@@ -2,6 +2,15 @@
   background-color: rgba(12, 75, 160, 1);
   border-radius: 10px;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__social-logotype {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+}
+
 .footer__social-logotype:hover {
   cursor: pointer;
 }

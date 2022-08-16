@@ -15,3 +15,10 @@
 
   }
 }
+
+@media screen and (max-width: 767px) {
+  .footer__logotype_type_beeline {
+    width: 47px;
+    height: 34px;
+  }
+}

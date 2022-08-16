@@ -10,6 +10,6 @@
 
 @media screen and (max-width: 1439px) {
   .footer__social-logotypes {
-    column-gap: 21px;
+    column-gap: 4px;
   }
 }

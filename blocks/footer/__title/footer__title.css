@@ -12,3 +12,9 @@
     max-width: 190px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .footer__title {
+    font-size: 16px;
+  }
+}

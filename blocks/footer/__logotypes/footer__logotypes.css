@@ -6,3 +6,15 @@
   flex-direction: row;
   column-gap: 50px;
 }
+@media screen and (max-width: 1439px) {
+  .footer__logotypes {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__logotypes {
+    margin-left: 10px;
+    column-gap: 20px;
+  }
+}

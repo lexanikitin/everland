@@ -19,3 +19,11 @@
     line-height: 120%;
   }
 }
+@media screen and (max-width: 767px) {
+  .footer__contacts {
+    margin-top: 22px;
+    grid-row: 2 / 3;
+    row-gap: 10px;
+    font-size: 12px;
+  }
+}
