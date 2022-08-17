@@ -133,6 +133,34 @@ function accordionsAdvantages() {
   );
 }
 
+// работоспособность checkbox'ов и input'а в секции "support"
+function donationIntro() {
+  const checkbox = document.querySelectorAll('.support-form__checkbox');
+  const input = document.querySelector('.support-form__sum-input');
+
+  let value;
+
+  for (let i = 0; i < checkbox.length; i++) {
+    checkbox[i].addEventListener('click', (e) => {
+      for (let j = 0; j < checkbox.length; j++) {
+        if (checkbox[j].checked && (e.target.value !== checkbox[j].value)) {
+          checkbox[j].checked = false;
+        }
+      }
+      value = e.target.value;
+    });
+  }
+
+  input.addEventListener('click', () => {
+    if (value) {
+      checkbox.forEach((item, i) => {
+        if (item.value === value) {
+          checkbox[i].checked = false;
+        }
+      });
+    }
+  });
+};
 function slider(sliderBlockClass, sliderCaseClass, sliderItemClass, sliderItemActiveClass, btnPrevId, btnNextId, sliderTypeBool) {
   const slider = document.querySelector(`.${sliderBlockClass}`);
   const sliderList = document.querySelector(`.${sliderCaseClass}`);
@@ -197,5 +225,4 @@ function slider(sliderBlockClass, sliderCaseClass, sliderItemClass, sliderItemAc
   function pageUpdate() {
     currentPage.textContent = index + 1;
   };
->>>>>>> 201dd81afaab9ef80f95d836f2f9a19f829013cb
 };

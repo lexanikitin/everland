@@ -105,9 +105,6 @@
 @import url(../blocks/activities/__card-link/activities__card-link.css);
 
 @import url('../blocks/footer/footer.css');
-<<<<<<< HEAD
-
-=======
 @import url('../blocks/footer/__container/footer__container.css');
 @import url('../blocks/footer/__about-us/footer__about-us.css');
 @import url('../blocks/footer/__menu/footer__menu.css');
@@ -128,7 +125,7 @@
 @import url('../blocks/footer/__author-logo/footer__author-logo.css');
 @import url('../blocks/footer/__support-logotype/_type/footer__support-logotype_type_beeline.css');
 @import url('../blocks/footer/__support-logotype/_type/footer__support-logotype_type_fond.css');
->>>>>>> 201dd81afaab9ef80f95d836f2f9a19f829013cb
+
 /* секция Для кого мы работаем */
 @import url('../blocks/purpose/__link/purpose__link.css');
 @import url('../blocks/purpose/purpose.css');
@@ -195,7 +192,6 @@
 @import url('../blocks/projects/__card-image/projects__card-image.css');
 @import url('../blocks/projects/__card-title/projects__card-title.css');
 @import url('../blocks/projects/__button/projects__button.css');
-<<<<<<< HEAD
 
 
 /* Секция support*/
@@ -236,5 +232,3 @@
 @import url('../blocks/support-form/__sum-input/support-form__sum-input.css');
 @import url('../blocks/support-form/__text/support-form__text.css');
 @import url('../blocks/support-form/support-form.css');
-=======
->>>>>>> 201dd81afaab9ef80f95d836f2f9a19f829013cb
