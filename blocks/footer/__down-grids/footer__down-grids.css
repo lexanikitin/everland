@@ -7,10 +7,10 @@
 
 @media screen and (max-width: 1439px) {
   .footer__down-grids {
-    column-gap: 78px;
+    column-gap: 54px;
     grid-column: 1 / -1;
-    grid-template-columns: 40% 1fr;
-    row-gap: 26px;
+    grid-template-columns: 300px 1fr;
+    row-gap: 24px;
   }
 }
 
@@ -19,6 +19,5 @@
     padding-top: 10px;
     grid-column: 1 / 2;
     grid-template-columns: 1fr;
-    row-gap: 24px;
   }
 }

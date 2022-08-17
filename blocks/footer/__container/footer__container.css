@@ -8,10 +8,10 @@
 
 @media screen and (max-width: 1439px) {
   .footer__container {
-    column-gap: 78px;
-    grid-template-columns: 40% 1fr;
+    column-gap: 54px;
+    grid-template-columns: 300px 1fr;
     padding: 50px 0;
-    row-gap: 38px;
+    row-gap: 56px;
   }
 }
 
