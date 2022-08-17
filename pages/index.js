@@ -13,7 +13,7 @@ function workHeaderMenu() {
   const menuLists = bigMenu.querySelectorAll('.header__big-menu-list');
 
 
-// фукнция обработки нажития на кпонку бургер меню
+  // фукнция обработки нажатия на кпонку бургер меню
   function toggleBigMenu() {
     bigMenu.classList.toggle('header__big-menu_opened');
     iconBurgerMenu.classList.toggle('header__menu-button_opened');
@@ -21,7 +21,7 @@ function workHeaderMenu() {
     header.classList.toggle('header_shadow');
   }
 
-// фукнция обработки нажатия на подпункт меню второго уровня
+  // фукнция обработки нажатия на подпункт меню второго уровня
   function toggleMenuItems() {
     const menuItem = event.target.closest('.header__big-menu-lists');
     const menuList = menuItem.querySelector('.header__big-menu-list');
@@ -41,12 +41,25 @@ function workHeaderMenu() {
     });
   }
 
-// обработка события click при нажитии на кпонку бургер меню
+  // обработка скролла для добавления или скрытия тени у header-a
+  window.addEventListener('scroll', () => {
+    if (pageYOffset !== 0) {
+      header.classList.add('header_shadow');
+    } else {
+      header.classList.remove('header_shadow');
+    }
+    if (document.documentElement.clientWidth < 1440) {
+      header.classList.add('header_shadow');
+    }
+      });
+  // обработка события click при нажитии на кпонку бургер меню
   menuButton.addEventListener('click', toggleBigMenu);
 
-// обработка события click при нажитии на раздел меню второго уровня
+  // обработка события click при нажитии на раздел меню второго уровня
   menuItems.forEach((menuItem) =>
     menuItem.addEventListener('click', toggleMenuItems));
+  //
+
 }
 
 sliderIntro();
@@ -87,7 +100,7 @@ function sliderIntro() {
     sliderList.style.width = sliderItems[index].getBoundingClientRect().width + 'px';
     sliderList.style.height = heightArr[heightArr.length - 1];
     slider.style.height = heightArr[heightArr.length - 1];
-  };
+  }
 
   function activeSlide(n) {
     // Функция удаляет класс intro__slider-item_active, если он есть в псевдо массиве и добавляет класс intro__slider-item_active на n-ый элемент
@@ -98,27 +111,27 @@ function sliderIntro() {
     sliderItems[n].classList.add('intro__slider-item_active');
     sliderSize();
     pageUpdate();
-  };
+  }
 
   function nextSlide() {
     // Функция обнуляет index если он больше количества элементов в псевдо массиве или инкрементирует index
     // А также вызывает функцию activeSlide() и передает в параметром index
     index === sliderItems.length - 1 ? index = 0 : index++;
     activeSlide(index);
-  };
+  }
 
   function prevSlide() {
     // Функция записывает в index количество слайдов если index=0 или декрементирует index
     // А также вызывает функцию activeSlide() и передает в параметром index
     index === 0 ? index = sliderItems.length - 1 : index--;
     activeSlide(index);
-  };
+  }
 
   function pageUpdate() {
     // Функция обновляет номер слайда при пролыстывании
     currentPage.textContent = index + 1;
-  };
-};
+  }
+}
 
 function donationIntro() {
   const checkbox = document.querySelectorAll('.donation__checkbox');
@@ -152,7 +165,7 @@ function donationIntro() {
       });
     }
   });
-};
+}
 
 
 accordionsAdvantages();
