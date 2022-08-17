@@ -1,10 +1,3 @@
-.small-menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 100%;
-}
-
 @media screen and (max-width: 1439px) {
   .small-menu {
     display: none;
