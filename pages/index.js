@@ -13,7 +13,7 @@ function workHeaderMenu() {
   const menuLists = bigMenu.querySelectorAll('.header__big-menu-list');
 
 
-// фукнция обработки нажития на кпонку бургер меню
+  // фукнция обработки нажития на кпонку бургер меню
   function toggleBigMenu() {
     bigMenu.classList.toggle('header__big-menu_opened');
     iconBurgerMenu.classList.toggle('header__menu-button_opened');
@@ -21,7 +21,7 @@ function workHeaderMenu() {
     header.classList.toggle('header_shadow');
   }
 
-// фукнция обработки нажатия на подпункт меню второго уровня
+  // фукнция обработки нажатия на подпункт меню второго уровня
   function toggleMenuItems() {
     const menuItem = event.target.closest('.header__big-menu-lists');
     const menuList = menuItem.querySelector('.header__big-menu-list');
@@ -41,10 +41,10 @@ function workHeaderMenu() {
     });
   }
 
-// обработка события click при нажитии на кпонку бургер меню
+  // обработка события click при нажитии на кпонку бургер меню
   menuButton.addEventListener('click', toggleBigMenu);
 
-// обработка события click при нажитии на раздел меню второго уровня
+  // обработка события click при нажитии на раздел меню второго уровня
   menuItems.forEach((menuItem) =>
     menuItem.addEventListener('click', toggleMenuItems));
 }
@@ -209,3 +209,32 @@ function accordionsAdvantages() {
     true
   );
 }
+
+
+// работоспособность checkbox'ов и input'а в секции "support"
+function donationIntro() {
+  const checkbox = document.querySelectorAll('.support-form__checkbox');
+  const input = document.querySelector('.support-form__sum-input');
+  let value;
+
+  for (let i = 0; i < checkbox.length; i++) {
+    checkbox[i].addEventListener('click', (e) => {
+      for (let j = 0; j < checkbox.length; j++) {
+        if (checkbox[j].checked && (e.target.value !== checkbox[j].value)) {
+          checkbox[j].checked = false;
+        }
+      }
+      value = e.target.value;
+    });
+  }
+
+  input.addEventListener('click', () => {
+    if (value) {
+      checkbox.forEach((item, i) => {
+        if (item.value === value) {
+          checkbox[i].checked = false;
+        }
+      });
+    }
+  });
+};
