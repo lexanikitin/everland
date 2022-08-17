@@ -139,6 +139,18 @@
 @import url('../blocks/purpose/__section-title/purpose__section-title.css');
 @import url('../blocks/purpose/__description/purpose__description.css');
 
+/* numbers */
+@import url(../blocks/numbers/numbers.css);
+@import url(../blocks/numbers/__title/numbers__title.css);
+@import url(../blocks/numbers/__container/numbers__container.css);
+@import url(../blocks/numbers/__info/numbers__info.css);
+@import url(../blocks/numbers/__photo/numbers__photo.css);
+@import url(../blocks/numbers/__description/numbers__description.css);
+@import url(../blocks/numbers/__description/numbers__description-heading.css);
+@import url(../blocks/numbers/__description/numbers__description-paragraph.css);
+@import url(../blocks/numbers/__description/numbers__description-reviews.css);
+@import url(../blocks/numbers/__description/numbers__description-number.css);
+
 /* Секция Главное в работе */
 @import url('../blocks/advantages/advantages.css');
 @import url('../blocks/advantages/__accordions-list/advantages__accordions-list.css');

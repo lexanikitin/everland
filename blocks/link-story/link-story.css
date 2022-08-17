@@ -1,43 +1,43 @@
 .link-story {
-    align-items: center;
-    background-color: transparent;
-    color: #333;
-    display: inline-flex;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    gap: 10px;
-    justify-content: center;
-    line-height: 120%;
-    text-decoration: none;
-    transition: color 0.3s ease-out;
+  align-items: center;
+  background-color: transparent;
+  color: #333;
+  display: inline-flex;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  gap: 10px;
+  justify-content: center;
+  line-height: 120%;
+  text-decoration: none;
+  transition: color 0.3s ease-out;
 }
 
 .link-story:hover {
-    color: #00275C;
+  color: #00275c;
 }
 
 .link-story:active {
-    color: #0C4BA0;
+  color: #0c4ba0;
 }
 
-.link-story:hover .link-story__image  {
-    fill: #00275C;
+.link-story:hover .link-story__image {
+  fill: #00275c;
 }
 
-.link-story:active .link-story__image  {
-    fill: #0C4BA0;
+.link-story:active .link-story__image {
+  fill: #0c4ba0;
 }
 
 @media screen and (max-width: 1023px) {
-    .link-story  {
-        font-size: 16px;
-    }
+  .link-story {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .link-story {
-        font-size: 12px;
-        font-weight: 500;
-    }
+  .link-story {
+    font-size: 12px;
+    font-weight: 500;
+  }
 }
