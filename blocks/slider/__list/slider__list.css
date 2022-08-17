@@ -1,0 +1,8 @@
+.slider__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
