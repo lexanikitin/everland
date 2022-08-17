@@ -1,0 +1,22 @@
+.slider__column-container {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  width: 46.384%;
+}
+
+@media screen and (max-width: 1023px) {
+  .slider__column-container  {
+    gap: 36px;
+    width: 54%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slider__column-container  {
+    min-width: auto;
+    width: 99.2%;
+    align-self: center;
+    gap: 21px;
+  }
+}

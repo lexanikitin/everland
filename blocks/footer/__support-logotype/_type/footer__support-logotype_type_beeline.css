@@ -1,0 +1,23 @@
+.footer__support-logotype_type_beeline {
+  background-image: url("../../../../images/footer/logo-bilain.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 53px;
+  width: 100px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__support-logotype_type_beeline {
+    background-image: url("../../../../images/footer/logo-bilain-tablet.svg");
+    height: 40px;
+    width: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__support-logotype_type_beeline {
+    height: 34px;
+    width: 47px;
+  }
+}

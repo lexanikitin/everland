@@ -1,0 +1,18 @@
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__social {
+    max-width: min-content;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__social {
+    margin-bottom: 4px;
+    row-gap: 6px;
+  }
+}
