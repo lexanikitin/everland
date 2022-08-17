@@ -18,14 +18,14 @@
 @media screen and (max-width: 1023px) {
   .news__card {
     border-radius: 20px;
-    min-width: 334px;
-    min-height: 551px;
+    max-width: 334px;
+    min-height: 550px;
   }
 }
 @media screen and (max-width: 767px) {
   .news__card {
     /* max-width: 300px; */
-    min-width: 300px;
+    max-width: 300px;
     min-height: 367px;
     padding: 24px;
   }

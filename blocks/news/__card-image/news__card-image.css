@@ -8,12 +8,16 @@
 @media screen and (max-width: 1023px) {
   .news__card-image {
     padding: 20px 0 0;
+    min-width: 274px;
+    max-height: 212px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 767px) {
   .news__card-image {
     padding: 0 0 20px;
+    min-width: 252px;
     max-height: 192px;
     height: 100%;
   }

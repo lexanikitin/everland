@@ -143,17 +143,16 @@
 @import url('../blocks/projects/__button/projects__button.css');
 
 /* Секция news */
-@import url('../blocks/news/news.css');
-@import url('../blocks/news/__header/news__header.css');
-@import url('../blocks/news/__container/news__container.css');
-@import url('../blocks/news/__button/news__button.css');
 @import url('../blocks/news/__button/news__button-tablet.css');
-@import url('../blocks/news/__card-content/news__card-content.css');
+@import url('../blocks/news/__button/news__button.css');
 @import url('../blocks/news/__card-container/news__card-container.css');
-@import url('../blocks/news/__card/news__card.css');
+@import url('../blocks/news/__card-content/news__card-content.css');
+@import url('../blocks/news/__card-date/news__card-date.css');
 @import url('../blocks/news/__card-image/news__card-image.css');
-@import url('../blocks/news/__card/_type/news__card_type_colored.css');
-@import url('../blocks/news/__card-title/news__card-title.css');
 @import url('../blocks/news/__card-text/news__card-text.css');
 @import url('../blocks/news/__card-theme/news__card-theme.css');
-@import url('../blocks/news/__card-date/news__card-date.css');
+@import url('../blocks/news/__card-title/news__card-title.css');
+@import url('../blocks/news/__card/_type/news__card_type_colored.css');
+@import url('../blocks/news/__card/news__card.css');
+@import url('../blocks/news/__container/news__container.css');
+@import url('../blocks/news/news.css');
