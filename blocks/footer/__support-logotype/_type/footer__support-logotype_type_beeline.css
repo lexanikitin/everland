@@ -1,4 +1,4 @@
-.footer__logotype_type_beeline {
+.footer__support-logotype_type_beeline {
   background-image: url("../../../../images/footer/logo-bilain.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .footer__logotype_type_beeline {
+  .footer__support-logotype_type_beeline {
     background-image: url("../../../../images/footer/logo-bilain-tablet.svg");
     height: 40px;
     width: 56px;
@@ -16,7 +16,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .footer__logotype_type_beeline {
+  .footer__support-logotype_type_beeline {
     height: 34px;
     width: 47px;
   }
