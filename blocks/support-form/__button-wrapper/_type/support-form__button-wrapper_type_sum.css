@@ -4,7 +4,7 @@
   gap: 12px 5px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  justify-content: center;
+  justify-content: flex-start;
   margin: 0;
   padding: 16px 0;
 }

@@ -4,3 +4,9 @@
   padding: 0;
   padding: 100px 0 50px;
 }
+
+@media screen and (max-width: 767px) {
+  .support {
+    padding: 0 0 32px 0;
+  }
+}

@@ -6,7 +6,8 @@
 @media screen and (max-width: 1023px) {
   .support-form__button_size_big {
     height: 44px;
-    width: 296px;
+    min-width: 296px;
+    width: 100%;
   }
 }
 

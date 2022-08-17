@@ -17,6 +17,7 @@
 }
 @media screen and (max-width: 767px) {
   .support-form__radio-fieldset {
-    gap: 17px;
+    gap: 16px;
+    padding-bottom: 24px;
   }
 }

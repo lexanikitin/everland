@@ -155,7 +155,6 @@
 
 /* Форма секции support*/
 @import url('../blocks/support-form/__button-arrow/support-form__button-arrow.css');
-@import url('../blocks/support-form/__button-secondary/support-form__button-secondary.css');
 @import url('../blocks/support-form/__button-wrapper/_type/support-form__button-wrapper_type_first.css');
 @import url('../blocks/support-form/__button-wrapper/_type/support-form__button-wrapper_type_payment.css');
 @import url('../blocks/support-form/__button-wrapper/_type/support-form__button-wrapper_type_sum.css');

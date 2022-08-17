@@ -8,6 +8,7 @@
   content: "";
   display: inline-block;
   vertical-align: middle;
+  top: -4px;
   width: 100%;
   border: 1px solid #DADADA;
   position: relative;

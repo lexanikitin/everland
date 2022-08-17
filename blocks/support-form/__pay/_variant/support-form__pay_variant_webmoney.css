@@ -4,3 +4,10 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 767px) {
+  .support-form__pay_variant_webmoney {
+    background-size: 30%;
+  }
+}
+

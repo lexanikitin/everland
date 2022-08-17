@@ -14,14 +14,14 @@
 @media screen and (max-width: 1023px) {
   .support-form {
     max-width: 688px;
+    width: 100%;
     padding: 30px 30px 30px 30px;
   }
 }
 @media screen and (max-width: 767px) {
   .support-form {
+    max-height: 1069px;
     max-width: 300px;
     padding: 32px 20px;
-    /* width: 100%; */
-
   }
 }
