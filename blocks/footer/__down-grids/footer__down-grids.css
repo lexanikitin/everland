@@ -1,0 +1,23 @@
+.footer__down-grids {
+  column-gap: 40px;
+  display: grid;
+  grid-template-columns: 560px 1fr;
+  row-gap: 44px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__down-grids {
+    column-gap: 54px;
+    grid-column: 1 / -1;
+    grid-template-columns: 300px 1fr;
+    row-gap: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__down-grids {
+    padding-top: 10px;
+    grid-column: 1 / 2;
+    grid-template-columns: 1fr;
+  }
+}

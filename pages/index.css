@@ -7,7 +7,8 @@
 @import url('../blocks/section/section.css');
 @import url('../blocks/section/__title/section__title.css');
 @import url('../blocks/content/content.css');
-
+@import url('../blocks/logo/_position/logo_position_header.css');
+@import url('../blocks/logo/_position/logo_position_footer.css');
 /* базовые кнопки */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_primary.css);
@@ -104,6 +105,26 @@
 @import url(../blocks/activities/__card-link/activities__card-link.css);
 
 @import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__container/footer__container.css');
+@import url('../blocks/footer/__about-us/footer__about-us.css');
+@import url('../blocks/footer/__menu/footer__menu.css');
+@import url('../blocks/footer/__down-grids/footer__down-grids.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__title/footer__title.css');
+@import url('../blocks/footer/__support-logotypes/footer__support-logotypes.css');
+@import url('../blocks/footer/__support/footer__support.css');
+@import url('../blocks/footer/__social/footer__social.css');
+@import url('../blocks/footer/__social-logotypes/footer__social-logotypes.css');
+@import url('../blocks/footer/__social-logotype/footer__social-logotype.css');
+@import url('../blocks/footer/__contacts/footer__contacts.css');
+@import url('../blocks/footer/__phone/footer__phone.css');
+@import url('../blocks/footer/__address/footer__address.css');
+@import url('../blocks/footer/__copyrigth/footer__copyrigth.css');
+@import url('../blocks/footer/__author/footer__author.css');
+@import url('../blocks/footer/__author-desp/footer__author-desp.css');
+@import url('../blocks/footer/__author-logo/footer__author-logo.css');
+@import url('../blocks/footer/__support-logotype/_type/footer__support-logotype_type_beeline.css');
+@import url('../blocks/footer/__support-logotype/_type/footer__support-logotype_type_fond.css');
 
 /* секция Для кого мы работаем */
 @import url('../blocks/purpose/__link/purpose__link.css');
@@ -118,6 +139,36 @@
 @import url('../blocks/purpose/__title/purpose__title.css');
 @import url('../blocks/purpose/__section-title/purpose__section-title.css');
 @import url('../blocks/purpose/__description/purpose__description.css');
+
+/* numbers */
+@import url(../blocks/numbers/numbers.css);
+@import url(../blocks/numbers/__title/numbers__title.css);
+@import url(../blocks/numbers/__container/numbers__container.css);
+@import url(../blocks/numbers/__info/numbers__info.css);
+@import url(../blocks/numbers/__photo/numbers__photo.css);
+@import url(../blocks/numbers/__description/numbers__description.css);
+@import url(../blocks/numbers/__description/numbers__description-heading.css);
+@import url(../blocks/numbers/__description/numbers__description-paragraph.css);
+@import url(../blocks/numbers/__description/numbers__description-reviews.css);
+@import url(../blocks/numbers/__description/numbers__description-number.css);
+
+/* Секция special-projects */
+@import url('../blocks/special-projects/__container/special-projects__container.css');
+@import url('../blocks/slider/slider.css');
+@import url('../blocks/slider/__list/slider__list.css');
+@import url('../blocks/slider/__item/slider__item.css');
+@import url('../blocks/slider/__subtitle/slider__subtitle.css');
+@import url('../blocks/slider/__column-container/slider__column-container.css');
+@import url('../blocks/slider/__text-container/slider__text-container.css');
+@import url('../blocks/slider/__title/slider__title.css');
+@import url('../blocks/slider/__text/slider__text.css');
+@import url('../blocks/slider/__image-container/sliger__image-container.css');
+@import url('../blocks/slider/__image/sliger__image.css');
+@import url('../blocks/slider/__buttons/slider__buttons.css');
+@import url('../blocks/slider/__button-size/slider__button-size.css');
+@import url('../blocks/slider/__subtitle/_type/slider__subtitle_type_desktop.css');
+@import url('../blocks/slider/__subtitle/_type/slider__subtitle_type_mobile.css');
+@import url('../blocks/slider/__item/_active/slider__item_active.css');
 
 /* Секция Главное в работе */
 @import url('../blocks/advantages/advantages.css');
