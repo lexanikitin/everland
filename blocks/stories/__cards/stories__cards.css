@@ -1,0 +1,31 @@
+.stories__cards {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1360px;
+  padding-top: 100px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .stories__cards {
+    gap: 32px;
+    padding-top: 32px;
+    max-width: 687px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .stories__cards {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 24px;
+    max-width: 299px;
+  }
+}

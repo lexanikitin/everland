@@ -1,0 +1,22 @@
+.stories__photo-card-description {
+  display: flex;
+  max-width: 366px;
+  width: 100%;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .stories__photo-card-description {
+    max-width: 158px;
+    padding: 20.5px 20px 20.5px 0;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .stories__photo-card-description {
+    max-width: 172px;
+    gap: 8px;
+    padding: 21.62px 16px 21.62px 0;
+  }
+}

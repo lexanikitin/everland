@@ -1,0 +1,25 @@
+.stories__paragraph-heading {
+  font-family: "Raleway", "sans-serif";
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 41px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .stories__paragraph-heading {
+    font-size: 20px;
+    line-height: 120%;
+    max-width: 687px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .stories__paragraph-heading {
+    max-width: 299px;
+    font-size: 16px;
+  }
+}

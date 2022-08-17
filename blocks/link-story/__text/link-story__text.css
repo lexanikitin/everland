@@ -17,5 +17,6 @@
   .link-story__text {
     font-size: 12px;
     font-weight: 500;
+    width: 100px;
   }
 }
