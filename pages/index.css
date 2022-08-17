@@ -7,7 +7,8 @@
 @import url('../blocks/section/section.css');
 @import url('../blocks/section/__title/section__title.css');
 @import url('../blocks/content/content.css');
-
+@import url('../blocks/logo/_position/logo_position_header.css');
+@import url('../blocks/logo/_position/logo_position_footer.css');
 /* базовые кнопки */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_primary.css);
@@ -104,7 +105,26 @@
 @import url(../blocks/activities/__card-link/activities__card-link.css);
 
 @import url('../blocks/footer/footer.css');
-
+@import url('../blocks/footer/__container/footer__container.css');
+@import url('../blocks/footer/__about-us/footer__about-us.css');
+@import url('../blocks/footer/__menu/footer__menu.css');
+@import url('../blocks/footer/__down-grids/footer__down-grids.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__title/footer__title.css');
+@import url('../blocks/footer/__support-logotypes/footer__support-logotypes.css');
+@import url('../blocks/footer/__support/footer__support.css');
+@import url('../blocks/footer/__social/footer__social.css');
+@import url('../blocks/footer/__social-logotypes/footer__social-logotypes.css');
+@import url('../blocks/footer/__social-logotype/footer__social-logotype.css');
+@import url('../blocks/footer/__contacts/footer__contacts.css');
+@import url('../blocks/footer/__phone/footer__phone.css');
+@import url('../blocks/footer/__address/footer__address.css');
+@import url('../blocks/footer/__copyrigth/footer__copyrigth.css');
+@import url('../blocks/footer/__author/footer__author.css');
+@import url('../blocks/footer/__author-desp/footer__author-desp.css');
+@import url('../blocks/footer/__author-logo/footer__author-logo.css');
+@import url('../blocks/footer/__support-logotype/_type/footer__support-logotype_type_beeline.css');
+@import url('../blocks/footer/__support-logotype/_type/footer__support-logotype_type_fond.css');
 /* секция Для кого мы работаем */
 @import url('../blocks/purpose/__link/purpose__link.css');
 @import url('../blocks/purpose/purpose.css');
