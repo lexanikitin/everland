@@ -3,17 +3,23 @@
   display: flex;
   justify-content: space-between;
   max-width: 1360px;
+  padding-bottom: 100px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1023px) {
   .stories__heading {
-    max-width: 687px;
     justify-content: flex-start;
+    max-width: 687px;
+    padding-bottom: 32px;
+    padding-left: 40px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .stories__heading {
-    width: 299px;
+    max-width: 299px;
+    padding-bottom: 24px;
+    padding-left: 9px;
   }
 }

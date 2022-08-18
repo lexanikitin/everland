@@ -7,8 +7,14 @@
   width: 219px;
 }
 
+@media screen and (max-width: 1023px) {
+  .stories__link {
+    max-width: 170px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .stories__link {
-    max-width: 173px;
+    max-width: 153px;
   }
 }
