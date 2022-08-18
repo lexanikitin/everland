@@ -19,6 +19,9 @@ function workHeaderMenu() {
     iconBurgerMenu.classList.toggle('header__menu-button_opened');
     iconCloseMenu.classList.toggle('header__menu-button_opened');
     header.classList.toggle('header_shadow');
+    if (pageYOffset === 0) {
+      header.classList.remove('header_shadow');
+    }
   }
 
   // фукнция обработки нажатия на подпункт меню второго уровня
