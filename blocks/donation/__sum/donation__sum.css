@@ -3,4 +3,9 @@
   cursor: pointer;
   overflow: hidden;
   position: relative;
+  transition: color .3s linear;
+}
+
+.donation__sum:hover {
+  color: #00275C;
 }
