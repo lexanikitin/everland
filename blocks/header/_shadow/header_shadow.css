@@ -1,5 +1,4 @@
-/*@media screen and (max-width: 1439px) {*/
-  .header_shadow {
-    box-shadow: 0 4px 30px rgba(42, 48, 56, 0.1);
-  }
-/*}*/
+.header_shadow {
+  box-shadow: 0 4px 30px rgba(42, 48, 56, 0.1);
+}
+
