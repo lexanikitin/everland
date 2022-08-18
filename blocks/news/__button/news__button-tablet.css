@@ -23,5 +23,6 @@
   .news__button-tablet {
     width: 300px;
     font-size: 14px;
+    margin: 32px auto 0;
   }
 }

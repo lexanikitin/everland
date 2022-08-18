@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 767px) {
   .news__card-image {
-    padding: 0 0 20px;
+    padding: 0 0 15px;
     min-width: 252px;
     max-height: 192px;
     height: 100%;

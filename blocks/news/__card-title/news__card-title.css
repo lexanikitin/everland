@@ -1,7 +1,5 @@
 .news__card-title {
   color: #333;
-  font-family: 'Raleway';
-  font-feature-settings: 'pnum' on, 'lnum' on;
   font-size: 34px;
   font-style: normal;
   font-weight: 700;
@@ -12,7 +10,7 @@
 
 @media screen and (max-width: 1023px) {
   .news__card-title {
-    padding: 20px 0 10px;
+    padding: 15px 0 10px;
     font-size: 26px;
   }
 }
