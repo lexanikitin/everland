@@ -3,13 +3,12 @@
   background-repeat: no-repeat;
   background-size: contain;
   display: none;
-  height: 24px;
-  width: 24px;
+  height: 25px;
+  width: 25px;
 }
 
-@media screen and (max-width: 1439px){
+@media screen and (max-width: 767px){
   .header__menu-button_type_close {
-    height: 20px;
-    width: 20px;
+    height: 22px;
   }
 }
