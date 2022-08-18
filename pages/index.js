@@ -236,3 +236,21 @@ function slider(sliderBlockClass, sliderCaseClass, sliderItemClass, sliderItemAc
     currentPage.textContent = index + 1;
   };
 };
+
+// const paymentButtons = document.querySelectorAll('.supp')
+// const sliderWrapper = document.querySelector('.support-form__button-wrapper_type_payment')
+// let count = 0;
+// let width;
+
+// function slider() {
+//   console.log('resize');
+//   width = sliderWrapper.offsetWidth;
+//   sliderWrapper.style.width = width.paymentButtons.length + 'px';
+//   paymentButtons.forEach((item) => {
+//     item.style.width = width + 'px';
+//     item.style.height = 'auto';
+//   })
+//   console.log(width);
+// }
+// window.addEventListener('resize', slider)
+// slider();
