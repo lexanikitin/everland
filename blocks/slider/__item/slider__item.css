@@ -1,0 +1,14 @@
+.slider__item {
+  position: absolute;
+  opacity: 0;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .slider__item {
+    flex-direction: column-reverse;
+    gap: 21px;
+  }
+}
