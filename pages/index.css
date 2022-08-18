@@ -195,40 +195,46 @@
 
 
 /* Секция support*/
+@import url('../blocks/support/support.css');
+@import url('../blocks/support/__wrapper/support__wrapper.css');
+@import url('../blocks/support/__heading/support__heading.css');
+@import url('../blocks/support/__section-title/support__section-title.css');
 @import url('../blocks/support/__donations-list/support__donations-list.css');
 @import url('../blocks/support/__donator-sum/support__donator-sum.css');
 @import url('../blocks/support/__donator/support__donator.css');
 @import url('../blocks/support/__dots/support__dots.css');
-@import url('../blocks/support/__heading/support__heading.css');
-@import url('../blocks/support/__section-title/support__section-title.css');
-@import url('../blocks/support/__wrapper/support__wrapper.css');
-@import url('../blocks/support/support.css');
+
+
 
 /* Форма секции support*/
+@import url('../blocks/support-form/support-form.css');
+@import url('../blocks/support-form/__checkbox/support-form__checkbox.css');
+@import url('../blocks/support-form/__checkbox-visible/support-form__checkbox-visible.css');
+@import url('../blocks/support-form/__button/support-form__button.css');
+@import url('../blocks/support-form/__button/support-form__button-primary.css');
+@import url('../blocks/support-form/__heading-wrap/support-form__heading-wrap.css');
+@import url('../blocks/support-form/__heading/support-form__heading.css');
+@import url('../blocks/support-form/__text/support-form__text.css');
+@import url('../blocks/support-form/__button-wrapper/support-form__button-wrapper.css');
 @import url('../blocks/support-form/__button-arrow/support-form__button-arrow.css');
+@import url('../blocks/support-form/__radio-fieldset/support-form__radio-fieldset.css');
+@import url('../blocks/support-form/__data-fieldset/support-form__data-fieldset.css');
+@import url('../blocks/support-form/__place-radio/support-form__place-radio.css');
+@import url('../blocks/support-form/__sum-input/support-form__sum-input.css');
+@import url('../blocks/support-form/__input/support-form__input.css');
+@import url('../blocks/support-form/__label/support-form__label.css');
+@import url('../blocks/support-form/__input-label/support-form__input-label.css');
+@import url('../blocks/support-form/__label-link/support-form__label-link.css');
 @import url('../blocks/support-form/__button-wrapper/_type/support-form__button-wrapper_type_first.css');
 @import url('../blocks/support-form/__button-wrapper/_type/support-form__button-wrapper_type_payment.css');
 @import url('../blocks/support-form/__button-wrapper/_type/support-form__button-wrapper_type_sum.css');
-@import url('../blocks/support-form/__button-wrapper/support-form__button-wrapper.css');
 @import url('../blocks/support-form/__button/_size/support-form__button_size_big.css');
 @import url('../blocks/support-form/__button/_size/support-form__button_size_middle.css');
 @import url('../blocks/support-form/__button/_size/support-form__button_size_small.css');
-@import url('../blocks/support-form/__button/support-form__button-primary.css');
-@import url('../blocks/support-form/__button/support-form__button.css');
-@import url('../blocks/support-form/__checkbox-visible/support-form__checkbox-visible.css');
-@import url('../blocks/support-form/__checkbox/support-form__checkbox.css');
-@import url('../blocks/support-form/__data-fieldset/support-form__data-fieldset.css');
-@import url('../blocks/support-form/__heading-wrap/support-form__heading-wrap.css');
-@import url('../blocks/support-form/__heading/support-form__heading.css');
-@import url('../blocks/support-form/__input-label/support-form__input-label.css');
-@import url('../blocks/support-form/__input/support-form__input.css');
-@import url('../blocks/support-form/__label-link/support-form__label-link.css');
-@import url('../blocks/support-form/__label/support-form__label.css');
 @import url('../blocks/support-form/__pay/_variant/support-form__pay_variant_card.css');
 @import url('../blocks/support-form/__pay/_variant/support-form__pay_variant_webmoney.css');
 @import url('../blocks/support-form/__pay/_variant/support-form__pay_variant_you.css');
-@import url('../blocks/support-form/__place-radio/support-form__place-radio.css');
-@import url('../blocks/support-form/__radio-fieldset/support-form__radio-fieldset.css');
-@import url('../blocks/support-form/__sum-input/support-form__sum-input.css');
-@import url('../blocks/support-form/__text/support-form__text.css');
-@import url('../blocks/support-form/support-form.css');
+
+
+
+
