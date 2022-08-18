@@ -7,7 +7,8 @@
   display: flex;
   height: 48px;
   justify-content: center;
-  transition: border-color .3s linear;
+  transition: border-color .3s linear,
+              color .3s linear;
   width: 159px;
 }
 
