@@ -64,6 +64,7 @@
 
 /*small-menu*/
 @import url('../blocks/small-menu/small-menu.css');
+@import url('../blocks/small-menu/__list/small-menu__list.css');
 @import url('../blocks/small-menu/__link/small-menu__link.css');
 
 /* Секция Intro */
