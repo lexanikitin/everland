@@ -91,16 +91,6 @@ function donationIntro() {
       value = e.target.value;
     });
   }
-
-  input.addEventListener('click', () => {
-    if (value) {
-      checkbox.forEach((item, i) => {
-        if (item.value === value) {
-          checkbox[i].checked = false;
-        }
-      });
-    }
-  });
 };
 
 function accordionsAdvantages() {

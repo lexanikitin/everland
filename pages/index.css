@@ -89,8 +89,8 @@
 @import url('../blocks/donation/__sum/donation__sum.css');
 @import url('../blocks/donation/__checkbox/donation__checkbox.css');
 @import url('../blocks/donation/__text-container/donation__text-container.css');
-@import url('../blocks/donation/__input/donation__input.css');
 @import url('../blocks/donation/__button-size/donation__button-size.css');
+@import url('../blocks/donation/__text-container/_other/donation__text-container_other.css');
 
 /* секция Наши направлени */
 @import url(../blocks/activities/activities.css);
