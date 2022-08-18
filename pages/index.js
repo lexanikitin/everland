@@ -6,6 +6,7 @@ accordionsAdvantages();
 slider('slider', 'slider__list', 'slider__item', 'slider__item_active', 'sliderPrev', 'sliderNext', false);
 
 function workHeaderMenu() {
+
   const content = document.querySelector('.page');
   const header = content.querySelector('.header')
   const menuButton = header.querySelector('.header__menu-button');
@@ -16,16 +17,42 @@ function workHeaderMenu() {
   const shevronIcons = bigMenu.querySelectorAll('.header__icon-shevron');
   const menuLists = bigMenu.querySelectorAll('.header__big-menu-list');
 
+  // обработка скролла для добавления или скрытия тени у header-a
+
+  window.addEventListener('scroll', () => {
+    if (pageYOffset !== 0) {
+      header.classList.add('header_shadow');
+    } else if (document.documentElement.clientWidth >= 1440) {
+      header.classList.remove('header_shadow');
+    }
+  });
+  // обработка изменения ширины экрана для добавления или скрытия тени у header-a
+  window.addEventListener('resize', toggleShadowHeader);
+
+  document.addEventListener("DOMContentLoaded", toggleShadowHeader);
+
+
+  // обработка события click при нажитии на кпонку бургер меню
+  menuButton.addEventListener('click', toggleBigMenu);
+
+  // обработка события click при нажитии на раздел меню второго уровня
+  menuItems.forEach((menuItem) =>
+    menuItem.addEventListener('click', toggleMenuItems));
+
+  //функция обработки скрытия или добавления тени у у header-a
+  function toggleShadowHeader() {
+    if (document.documentElement.clientWidth < 1440) {
+      header.classList.add('header_shadow');
+    } else {
+      header.classList.remove('header_shadow');
+    }
+  }
 
   // фукнция обработки нажатия на кпонку бургер меню
   function toggleBigMenu() {
     bigMenu.classList.toggle('header__big-menu_opened');
     iconBurgerMenu.classList.toggle('header__menu-button_opened');
     iconCloseMenu.classList.toggle('header__menu-button_opened');
-    header.classList.toggle('header_shadow');
-    if (pageYOffset === 0) {
-      header.classList.remove('header_shadow');
-    }
   }
 
   // фукнция обработки нажатия на подпункт меню второго уровня
@@ -47,24 +74,6 @@ function workHeaderMenu() {
       }
     });
   }
-
-  // обработка скролла для добавления или скрытия тени у header-a
-  window.addEventListener('scroll', () => {
-    if (pageYOffset !== 0) {
-      header.classList.add('header_shadow');
-    } else {
-      header.classList.remove('header_shadow');
-    }
-    if (document.documentElement.clientWidth < 1440) {
-      header.classList.add('header_shadow');
-    }
-      });
-  // обработка события click при нажитии на кпонку бургер меню
-  menuButton.addEventListener('click', toggleBigMenu);
-
-  // обработка события click при нажитии на раздел меню второго уровня
-  menuItems.forEach((menuItem) =>
-    menuItem.addEventListener('click', toggleMenuItems));
 }
 
 function donationIntro() {
@@ -183,8 +192,8 @@ function slider(sliderBlockClass, sliderCaseClass, sliderItemClass, sliderItemAc
       }
     }
     heightArr.sort();
-    sliderList.style.height = heightArr[heightArr.length-1];
-    slider.style.height = heightArr[heightArr.length-1];
+    sliderList.style.height = heightArr[heightArr.length - 1];
+    slider.style.height = heightArr[heightArr.length - 1];
   };
 
   function activeSlide(n) {
