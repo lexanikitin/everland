@@ -1,0 +1,30 @@
+.news__card {
+  background: #FFF;
+  border-radius: 30px;
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  margin: 0;
+  max-width: 440px;
+  min-height: 800px;
+  padding: 30px;
+  position: relative;
+}
+
+@media screen and (max-width: 1023px) {
+  .news__card {
+    border-radius: 20px;
+    max-width: 334px;
+    min-height: 550px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .news__card {
+    max-width: 300px;
+    min-height: 367px;
+    padding: 24px;
+  }
+}

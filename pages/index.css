@@ -126,6 +126,7 @@
 @import url('../blocks/footer/__author-logo/footer__author-logo.css');
 @import url('../blocks/footer/__support-logotype/_type/footer__support-logotype_type_beeline.css');
 @import url('../blocks/footer/__support-logotype/_type/footer__support-logotype_type_fond.css');
+
 /* секция Для кого мы работаем */
 @import url('../blocks/purpose/__link/purpose__link.css');
 @import url('../blocks/purpose/purpose.css');
@@ -192,3 +193,21 @@
 @import url('../blocks/projects/__card-image/projects__card-image.css');
 @import url('../blocks/projects/__card-title/projects__card-title.css');
 @import url('../blocks/projects/__button/projects__button.css');
+
+/* Секция news */
+@import url('../blocks/news/news.css');
+@import url('../blocks/news/__container/news__container.css');
+@import url('../blocks/news/__card-container/news__card-container.css');
+@import url('../blocks/news/__card/news__card.css');
+@import url('../blocks/news/__card/_type/news__card_type_colored.css');
+@import url('../blocks/news/__card-content/news__card-content.css');
+@import url('../blocks/news/__card-theme/news__card-theme.css');
+@import url('../blocks/news/__card-title/news__card-title.css');
+@import url('../blocks/news/__card-text/news__card-text.css');
+@import url('../blocks/news/__card-date/news__card-date.css');
+@import url('../blocks/news/__card-image/news__card-image.css');
+@import url('../blocks/news/__button/news__button-tablet.css');
+@import url('../blocks/news/__button/news__button.css');
+
+
+
