@@ -11,6 +11,7 @@
   margin: 0 auto;
   max-width: 1440px;
   position: sticky;
+  transition: box-shadow 0.3s ease-out;
   top: 0;
   width: 100%;
   z-index: 10;
