@@ -1,8 +1,7 @@
 .donation__input {
   -moz-appearance: textfield;
-  border-radius: 10px;
-  border: 1px solid #fff;
   border: none;
+  border-radius: 10px;
   box-sizing: border-box;
   color: #333;
   font-family: 'Raleway', sans-serif;
