@@ -1,0 +1,25 @@
+.footer__menu {
+  display: grid;
+  gap: 8px 145px;
+  grid-template-columns: 166px 1fr;
+  height: min-content;
+  list-style: none;
+  margin: 0;
+  max-width: min-content;
+  padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__menu {
+    gap: 8px 50px;
+    padding-top: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__menu {
+    gap: 8px 42px;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 0;
+  }
+}
