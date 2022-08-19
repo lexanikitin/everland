@@ -5,13 +5,13 @@
 }
 .support-form__heading-wrap::before,
 .support-form__heading-wrap::after {
+  border: 1px solid #DADADA;
   content: "";
   display: inline-block;
-  vertical-align: middle;
-  top: -4px;
-  width: 100%;
-  border: 1px solid #DADADA;
   position: relative;
+  top: -4px;
+  vertical-align: middle;
+  width: 100%;
 }
 .support-form__heading-wrap::before {
   margin-left: -100%;

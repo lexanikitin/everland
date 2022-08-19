@@ -1,8 +1,8 @@
 .support-form__pay_variant_webmoney {
   background-image: url('../../../../images/support-form/webmoney.png');
-  background-size: 40%;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 40%;
 }
 
 @media screen and (max-width: 767px) {

@@ -5,8 +5,8 @@
 }
 @media screen and (max-width: 1280px) {
   .support__wrapper {
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     gap: 50px;
   }
 }
