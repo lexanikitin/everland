@@ -1,0 +1,27 @@
+.stories__avatar-description {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 0;
+  max-width: 366px;
+  padding: 30px 30px 30px 0;  
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .stories__avatar-description {
+    justify-content: center;
+    padding: 0;
+    max-width: 187px;
+    gap: 9px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .stories__avatar-description {
+    max-width: 172px;
+    gap: 10px;
+  }
+}

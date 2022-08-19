@@ -182,6 +182,32 @@
 @import url('../blocks/accordion/__text/_hidden/accordion__text_hidden.css');
 @import url('../blocks/accordion/__button-accordion/accordion__button-accordion.css');
 
+/* stories */
+@import url(../blocks/stories/stories.css);
+@import url(../blocks/stories/__container/stories__container.css);
+@import url(../blocks/stories/__cards/stories__cards.css);
+@import url(../blocks/stories/__photo/stories__photo.css);
+@import url(../blocks/stories/__photo-first/stories__photo-first.css);
+@import url(../blocks/stories/__photo-second/stories__photo-second.css);
+@import url(../blocks/stories/__icon/stories__icon.css);
+@import url(../blocks/stories/__description/stories__description.css);
+@import url(../blocks/stories/__paragraph/stories__paragraph.css);
+@import url(../blocks/stories/__paragraph-heading/stories__paragraph-heading.css);
+@import url(../blocks/stories/__paragraph-info/stories__paragraph-info.css);
+@import url(../blocks/stories/__photo-cards/stories__photo-cards.css);
+@import url(../blocks/stories/__photo-card/stories__photo-card.css);
+@import url(../blocks/stories/__photo-card/stories__photo-card-description.css);
+@import url(../blocks/stories/__avatar/stories__avatar.css);
+@import url(../blocks/stories/__avatar-description/stories__avatar-description.css);
+@import url(../blocks/stories/__avatar-first/stories__avatar-first.css);
+@import url(../blocks/stories/__avatar-second/stories__avatar-second.css);
+@import url(../blocks/stories/__button/stories__button.css);
+@import url(../blocks/stories/__button/stories__button-down.css);
+@import url(../blocks/stories/__link/stories__link.css);
+@import url(../blocks/stories/__heading/stories__heading.css);
+@import url(../blocks/stories/__avatar-name/stories__avatar-name.css);
+@import url(../blocks/stories/__avatar-heading/stories__avatar-heading.css);
+
 /* секция Лучшие проекты агентства */
 @import url('../blocks/projects/projects.css');
 @import url('../blocks/projects/__section-title/projects__section-title.css');

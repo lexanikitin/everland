@@ -1,0 +1,26 @@
+.stories__avatar {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 224px;
+  margin: 30px 0 30px 30px;
+  max-width: 224px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .stories__avatar {
+    height: 120px;
+    margin: 25px 0 25px 20px;
+    max-width: 120px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .stories__avatar {
+    height: 80px;
+    margin: 16px 0 16px 16px;
+    max-width: 80px;
+  }
+}

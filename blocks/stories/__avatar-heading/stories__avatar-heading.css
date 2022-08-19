@@ -1,0 +1,24 @@
+.stories__avatar-heading {
+  font-family: 'Raleway', 'sans-serif';
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 0;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+  .stories__avatar-heading {
+    font-size: 20px;
+    padding-top: 6px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .stories__avatar-heading {
+    font-size: 16px;
+    padding-top: 1px;
+  }
+}
