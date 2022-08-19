@@ -3,7 +3,10 @@ workHeaderMenu();
 slider('intro__slider', 'intro__slider-list', 'intro__slider-item', 'intro__slider-item_active', 'buttonPrev', 'buttonNext', true);
 donationIntro();
 accordionsAdvantages();
-slider('slider', 'slider__list', 'slider__item', 'slider__item_active', 'sliderPrev', 'sliderNext', false);
+document.addEventListener('DOMContentLoaded', () => {
+  slider('slider', 'slider__list', 'slider__item', 'slider__item_active', 'sliderPrev', 'sliderNext', false);
+});
+
 
 function workHeaderMenu() {
 
@@ -78,8 +81,6 @@ function workHeaderMenu() {
 
 function donationIntro() {
   const checkbox = document.querySelectorAll('.donation__checkbox');
-  const input = document.querySelector('.donation__input');
-  let value;
 
   for (let i = 0; i < checkbox.length; i++) {
     checkbox[i].addEventListener('click', (e) => {
@@ -88,7 +89,6 @@ function donationIntro() {
           checkbox[j].checked = false;
         }
       }
-      value = e.target.value;
     });
   }
 };
@@ -170,7 +170,7 @@ function slider(sliderBlockClass, sliderCaseClass, sliderItemClass, sliderItemAc
   function sliderSize() {
     let heightArr = [];
     if (!sliderTypeBool) {
-      window.innerWidth <= 768 ? padding = 48 : padding = 60;
+      window.innerWidth <= 767 ? padding = 48 : padding = 60;
       for (item of sliderItems) {
         item.style.width = (slider.getBoundingClientRect().width - padding) + 'px';
         heightArr.push(item.getBoundingClientRect().height + 'px');
