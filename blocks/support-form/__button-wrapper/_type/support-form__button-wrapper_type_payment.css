@@ -3,6 +3,7 @@
   padding: 16px 0 40px;
   gap: 18px;
   justify-content: center;
+  position: relative;
 }
 
 @media screen and (max-width: 1023px) {
@@ -13,6 +14,6 @@
 }
 @media screen and (max-width: 767px) {
   .support-form__button-wrapper_type_payment {
-    padding: 16px 0 24px;
+    padding: 16px 0 45px;
   }
 }
