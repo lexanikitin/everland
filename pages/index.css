@@ -88,9 +88,9 @@
 @import url('../blocks/donation/__container/donation__container.css');
 @import url('../blocks/donation/__sum/donation__sum.css');
 @import url('../blocks/donation/__checkbox/donation__checkbox.css');
-@import url('../blocks/donation/__text-container/donation__text-container.css');
+@import url('../blocks/donation/__text/donation__text.css');
 @import url('../blocks/donation/__button-size/donation__button-size.css');
-@import url('../blocks/donation/__text-container/_other/donation__text-container_other.css');
+@import url('../blocks/donation/__text/_other/donation__text_other.css');
 
 /* секция Наши направлени */
 @import url(../blocks/activities/activities.css);
@@ -142,7 +142,6 @@
 @import url('../blocks/purpose/__description/purpose__description.css');
 
 /* numbers */
-@import url(../blocks/numbers/numbers.css);
 @import url(../blocks/numbers/__title/numbers__title.css);
 @import url(../blocks/numbers/__container/numbers__container.css);
 @import url(../blocks/numbers/__info/numbers__info.css);
