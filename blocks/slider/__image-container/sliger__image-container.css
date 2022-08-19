@@ -1,22 +1,22 @@
 .sliger__image-container {
+  align-self: center;
+  border-radius: 30px;
+  height: 393px;
   overflow: hidden;
   width: 42.7%;
-  height: 393px;
-  border-radius: 30px;
-  align-self: center;
 }
 
 @media screen and (max-width: 1023px) {
   .sliger__image-container {
-    width: 41.4%;
-    height: 284px;
     border-radius: 10px;
+    height: 284px;
+    width: 41.4%;
   }
 }
 
 @media screen and (max-width: 767px) {
   .sliger__image-container {
-    width: 100%;
     height: 70.866%;
+    width: 100%;
   }
 }

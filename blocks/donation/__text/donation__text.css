@@ -1,4 +1,4 @@
-.donation__text-container {
+.donation__text {
   align-items: center;
   background-color: #fff;
   border-radius: 10px;
@@ -13,25 +13,25 @@
 }
 
 @media screen and (max-width: 1250px) {
-  .donation__text-container {
+  .donation__text {
     width: 120px;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .donation__text-container {
+  .donation__text {
     height: 44px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .donation__text-container {
+  .donation__text {
     width: 75px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .donation__text-container {
+  .donation__text {
     width: 100%;
   }
 }

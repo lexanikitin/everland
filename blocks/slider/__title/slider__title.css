@@ -1,9 +1,9 @@
 .slider__title {
-  margin: 0;
-  font-weight: 700;
   font-size: 64px;
-  line-height: 120%;
+  font-weight: 700;
   letter-spacing: -.01em;
+  line-height: 120%;
+  margin: 0;
   max-width: 603px;
 }
 

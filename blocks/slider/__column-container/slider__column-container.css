@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 52px;
+  justify-content: space-between;
   width: 46.384%;
 }
 
@@ -14,9 +15,9 @@
 
 @media screen and (max-width: 767px) {
   .slider__column-container  {
-    min-width: auto;
-    width: 99.2%;
     align-self: center;
     gap: 21px;
+    min-width: auto;
+    width: 99.2%;
   }
 }

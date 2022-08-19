@@ -9,3 +9,9 @@
 .donation__sum:hover {
   color: #00275C;
 }
+
+@media screen and (max-width: 767px) {
+  .donation__sum:nth-last-child(1):not(:nth-child(even)) {
+    grid-column: 1/3;
+  }
+}
