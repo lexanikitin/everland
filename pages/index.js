@@ -28,7 +28,6 @@ function workHeaderMenu() {
   });
   // обработка изменения ширины экрана для добавления или скрытия тени у header-a
   window.addEventListener('resize', toggleShadowHeader);
-
   document.addEventListener("DOMContentLoaded", toggleShadowHeader);
 
 
@@ -74,11 +73,79 @@ function workHeaderMenu() {
       }
     });
   }
-}
-
+};
 function donationIntro() {
   const checkbox = document.querySelectorAll('.donation__checkbox');
-  const input = document.querySelector('.donation__input');
+  let value;
+
+  for (let i = 0; i < checkbox.length; i++) {
+    checkbox[i].addEventListener('click', (e) => {
+      for (let j = 0; j < checkbox.length; j++) {
+        if (checkbox[j].checked && (e.target.value !== checkbox[j].value)) {
+          checkbox[j].checked = false;
+        }
+      }
+      value = e.target.value;
+    });
+  }
+};
+
+function accordionsAdvantages() {
+  const advantagesSectionNode = document.querySelector(
+    "#advantages .accordion__column"
+  );
+  let currentTextNode = null;
+  advantagesSectionNode
+    .querySelectorAll(".button-accordion")
+    .forEach((currentButtonNode) => {
+      currentButtonNode.addEventListener("click", (event) => {
+        const buttonNode = event.target.closest(".button-accordion");
+        if (
+          !buttonNode.classList.contains("button-accordion_active") &&
+          currentTextNode
+        ) {
+          currentTextNode
+            .closest(".accordion")
+            .querySelector(".button-accordion")
+            .classList.remove("button-accordion_active");
+          currentTextNode.classList.add("accordion__text_hidden");
+          currentTextNode.style.maxHeight = 0;
+        }
+        buttonNode.classList.toggle("button-accordion_active");
+        currentTextNode = buttonNode
+          .closest(".accordion")
+          .querySelector(".accordion__text");
+        currentTextNode.classList.toggle("accordion__text_hidden");
+        if (currentTextNode.classList.contains("accordion__text_hidden")) {
+          currentTextNode.style.maxHeight = 0;
+          currentTextNode = null;
+        } else
+          currentTextNode.style.maxHeight =
+            currentTextNode.scrollHeight + 20 + "px"; //20px - верхний паддинг
+      });
+    });
+
+  //Из-за анимации не используется свойство fit-content
+  //Событие resize необходимо, чтобы пересчитывать высоту текстовых блоков
+  //например при переходе на смартфоне из вертикального в
+  //горизонтальное ориентирование экрана
+  window.addEventListener(
+    "resize",
+    () => {
+      if (currentTextNode) {
+        currentTextNode.style.maxHeight =
+          currentTextNode.scrollHeight + 20 + "px"; //20px - верхний паддинг
+      }
+    },
+    true
+  );
+}
+
+// работоспособность checkbox'ов и input'а в секции "support"
+function donationIntro() {
+  const checkbox = document.querySelectorAll('.support-form__checkbox');
+  const input = document.querySelector('.support-form__sum-input');
+
   let value;
 
   for (let i = 0; i < checkbox.length; i++) {
@@ -102,60 +169,6 @@ function donationIntro() {
     }
   });
 };
-
-function accordionsAdvantages() {
-  const advantagesSectionNode = document.querySelector(
-    "#advantages .accordion__column"
-  );
-  let currentTextNode = null;
-  advantagesSectionNode
-    .querySelectorAll(".button-accordion")
-    .forEach((currentButtonNode) => {
-      currentButtonNode.addEventListener("click", (event) => {
-        const buttonNode = event.target.closest(".button-accordion");
-        if (
-          !buttonNode.classList.contains("button-accordion_active") &&
-          currentTextNode !== null
-        ) {
-          currentTextNode
-            .closest(".accordion")
-            .querySelector(".button-accordion")
-            .classList.remove("button-accordion_active");
-          currentTextNode.classList.add("accordion__text_hidden");
-          currentTextNode.style.maxHeight = 0;
-        }
-        buttonNode.classList.toggle("button-accordion_active");
-        currentTextNode = buttonNode
-          .closest(".accordion")
-          .querySelector(".accordion__text");
-        currentTextNode.classList.toggle("accordion__text_hidden");
-        if (currentTextNode.classList.contains("accordion__text_hidden")) {
-          currentTextNode.style.maxHeight = 0;
-        } else
-          currentTextNode.style.maxHeight =
-            currentTextNode.scrollHeight + 20 + "px"; //20px - верхний паддинг
-      });
-    });
-
-  //Из-за анимации не используется свойство fit-content
-  //Событие resize необходимо, чтобы пересчитывать высоту текстовых блоков
-  //например при переходе на смартфоне из вертикального в
-  //горизонтальное ориентирование экрана
-  window.addEventListener(
-    "resize",
-    function () {
-      advantagesSectionNode
-        .querySelectorAll(".accordion__text")
-        .forEach((textNode) => {
-          if (textNode.classList.contains("accordion__text_hidden")) {
-            textNode.style.maxHeight = 0;
-          } else textNode.style.maxHeight = textNode.scrollHeight + 20 + "px"; //20px - верхний паддинг
-        });
-    },
-    true
-  );
-}
-
 function slider(sliderBlockClass, sliderCaseClass, sliderItemClass, sliderItemActiveClass, btnPrevId, btnNextId, sliderTypeBool) {
   const slider = document.querySelector(`.${sliderBlockClass}`);
   const sliderList = document.querySelector(`.${sliderCaseClass}`);

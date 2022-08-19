@@ -1,0 +1,31 @@
+.support-form {
+  background: #FFF;
+  border-radius: 30px;
+  box-shadow: 0 4px 30px rgba(42, 48, 56, 0.1);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+  justify-content: center;
+  margin: 0;
+  max-width: 691px;
+  min-height: 953px;
+  padding: 30px 20px;
+}
+
+@media screen and (max-width: 1023px) {
+  .support-form {
+    max-width: 688px;
+    min-height: 858px;
+    padding: 30px 30px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .support-form {
+    border-radius: 20px;
+    max-height: 1069px;
+    max-width: 300px;
+    padding: 32px 20px;
+  }
+}
