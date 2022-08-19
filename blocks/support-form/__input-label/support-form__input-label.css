@@ -1,0 +1,7 @@
+.support-form__input-label {
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
