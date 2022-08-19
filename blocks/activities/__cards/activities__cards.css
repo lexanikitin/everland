@@ -11,9 +11,8 @@
 
 @media screen and (max-width: 767px) {
   .activities__cards {
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 16px;
   }
 }

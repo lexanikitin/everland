@@ -11,6 +11,7 @@
 @media screen and (max-width: 767px) {
   .projects__button {
     width: 100%;
+    max-width: 300px;
   }
 }
 
