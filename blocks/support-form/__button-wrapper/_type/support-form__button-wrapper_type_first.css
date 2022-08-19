@@ -11,8 +11,8 @@
     justify-content: center;
   }
 }
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .support-form__button-wrapper_type_first {
-    justify-content: center;
+    padding: 0 0 30px;
   }
-}
+} */

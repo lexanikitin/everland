@@ -219,8 +219,9 @@
 @import url('../blocks/support/__heading/support__heading.css');
 @import url('../blocks/support/__section-title/support__section-title.css');
 @import url('../blocks/support/__donations-list/support__donations-list.css');
-@import url('../blocks/support/__donator-sum/support__donator-sum.css');
 @import url('../blocks/support/__donator/support__donator.css');
+@import url('../blocks/support/__donator-sum/support__donator-sum.css');
+@import url('../blocks/support/__donator-name/support__donator-name.css');
 @import url('../blocks/support/__dots/support__dots.css');
 
 /* Форма секции support*/

@@ -7,9 +7,9 @@
   font-variant-numeric: lining-nums;
   font-weight: 400;
   gap: 10px;
-  justify-content: space-between;
   line-height: 130%;
   text-align: left;
+  max-width: 396px;
 }
 
 @media screen and (max-width: 1023px) {

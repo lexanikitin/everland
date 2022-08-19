@@ -4,3 +4,10 @@
   background-repeat: no-repeat;
   background-size: 10%;
 }
+
+@media screen and (max-width: 767px) {
+  .support-form__pay_variant_you {
+    background-size: 8%;
+  }
+}
+
