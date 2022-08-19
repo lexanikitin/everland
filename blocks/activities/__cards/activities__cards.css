@@ -9,11 +9,17 @@
   padding: 0;
 }
 
+@media screen and (max-width: 1439px) {
+  .activities__cards {
+    margin-top: 32px;
+  }
+}
+
+
 @media screen and (max-width: 767px) {
   .activities__cards {
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 16px;
   }
 }

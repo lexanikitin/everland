@@ -4,7 +4,7 @@
   position: absolute;
 }
 
-.donation__checkbox:checked + .donation__text-container {
+.donation__checkbox:checked + .donation__text {
   border-color: #0C4BA0;
   color: #0C4BA0;
 }

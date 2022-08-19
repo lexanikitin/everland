@@ -7,13 +7,13 @@
   justify-content: space-between;
   min-height: 428px;
   padding: 30px;
-  width: 440px;
+  max-width: 439px;
 }
 
 @media screen and (max-width: 1439px) {
   .activities__card {
     min-height: 200px;
-    width: 334px;
+    max-width: 334px;
     border-radius: 20px;
   }
 
@@ -45,7 +45,7 @@
 @media screen and (max-width: 767px) {
   .activities__card {
     padding: 24px;
-    width: 300px;
+    max-width: 300px;
   }
 
   .activities__card:nth-child(1) {
