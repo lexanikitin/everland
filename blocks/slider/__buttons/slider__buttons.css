@@ -1,0 +1,22 @@
+.slider__buttons {
+  bottom: 30px;
+  display: flex;
+  gap: 8px;
+  left: 47.1%;
+  position: absolute;
+  z-index: 10;
+}
+
+@media screen and (max-width: 1023px) {
+  .slider__buttons {
+    left: 46%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slider__buttons {
+    left: auto;
+    right: 24px;
+    top: 24px;
+  }
+}

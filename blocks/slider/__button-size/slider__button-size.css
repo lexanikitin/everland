@@ -1,0 +1,17 @@
+.slider__button-size {
+  height: 48px;
+  width: 194px;
+}
+
+@media screen and (max-width: 1023px) {
+  .slider__button-size {
+    height: 44px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slider__button-size {
+    width: 100%;
+  }
+}

@@ -1,0 +1,10 @@
+.footer__about-us {
+  margin: 0;
+  max-width: 483px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__about-us {
+    max-width: 300px;
+  }
+}

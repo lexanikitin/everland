@@ -1,0 +1,9 @@
+.advantages__section-title {
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width:1439px) {
+  .advantages__section-title {
+    padding-bottom: 32px;
+  }
+}

@@ -1,0 +1,27 @@
+.donation__text_other {
+  width: 211px;;
+}
+
+@media screen and (max-width: 1250px) {
+  .donation__text_other {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .donation__text_other {
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .donation__text_other {
+    width: 135px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation__text_other {
+    width: 100%;
+  }
+}

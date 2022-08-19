@@ -1,0 +1,14 @@
+.support-form__label {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 1023px) {
+  .support-form__label {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 120%;
+  }
+}

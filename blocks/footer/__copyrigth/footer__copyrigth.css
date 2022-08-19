@@ -1,0 +1,19 @@
+.footer__copyrigth {
+  color: rgba(38, 38, 38, 0.5);
+  margin: 0;
+  max-width: 630px;
+  padding: 0;
+  width: 630px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__copyrigth {
+    max-width: 336px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyrigth {
+    max-width: 300px;
+  }
+}

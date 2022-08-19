@@ -1,0 +1,23 @@
+.news__card-date {
+  color: rgba(38, 38, 38, 0.5);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 130%;
+  margin: 0;
+  font-style: normal;
+  font-variant-numeric: lining-nums;
+}
+
+@media screen and (max-width: 1023px) {
+  .news__card-date {
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__card-date {
+    font-size: 12px;
+  }
+}

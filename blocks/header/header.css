@@ -1,6 +1,18 @@
-.header{
+.header {
+  background: #FFFFFF;
+  box-sizing: border-box;
+  color: #333333;
   display: flex;
+  flex-direction: column;
   flex-shrink: 0;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
   justify-content: center;
+  margin: 0 auto;
+  max-width: 1440px;
+  position: sticky;
+  transition: box-shadow 0.3s ease-out;
+  top: 0;
   width: 100%;
+  z-index: 10;
 }

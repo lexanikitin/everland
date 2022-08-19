@@ -1,0 +1,32 @@
+.projects__card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .projects__card {
+    max-width: 334px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .projects__card {
+    max-width: 334px;
+  }
+
+  .projects__card:last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects__card {
+    gap: 16px;
+    max-width: 100%;
+  }
+
+  .projects__card:last-child {
+    display: flex;
+  }
+}
