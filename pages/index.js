@@ -105,7 +105,7 @@ function accordionsAdvantages() {
         const buttonNode = event.target.closest(".button-accordion");
         if (
           !buttonNode.classList.contains("button-accordion_active") &&
-          currentTextNode !== null
+          currentTextNode
         ) {
           currentTextNode
             .closest(".accordion")
@@ -121,6 +121,7 @@ function accordionsAdvantages() {
         currentTextNode.classList.toggle("accordion__text_hidden");
         if (currentTextNode.classList.contains("accordion__text_hidden")) {
           currentTextNode.style.maxHeight = 0;
+          currentTextNode = null;
         } else
           currentTextNode.style.maxHeight =
             currentTextNode.scrollHeight + 20 + "px"; //20px - верхний паддинг
@@ -133,14 +134,11 @@ function accordionsAdvantages() {
   //горизонтальное ориентирование экрана
   window.addEventListener(
     "resize",
-    function () {
-      advantagesSectionNode
-        .querySelectorAll(".accordion__text")
-        .forEach((textNode) => {
-          if (textNode.classList.contains("accordion__text_hidden")) {
-            textNode.style.maxHeight = 0;
-          } else textNode.style.maxHeight = textNode.scrollHeight + 20 + "px"; //20px - верхний паддинг
-        });
+    () => {
+      if (currentTextNode) {
+        currentTextNode.style.maxHeight =
+          currentTextNode.scrollHeight + 20 + "px"; //20px - верхний паддинг
+      }
     },
     true
   );
