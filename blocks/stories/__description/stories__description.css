@@ -4,7 +4,7 @@
   gap: 19px;
   padding: 0px;
   width: 100%;
-  width: 1056px;
+  max-width: 1056px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -16,6 +16,6 @@
 
 @media screen and (max-width: 767px) {
   .stories__description {
-    gap: 10px;
+    gap: 16px;
   }
 }

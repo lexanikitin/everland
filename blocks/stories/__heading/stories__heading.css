@@ -12,7 +12,6 @@
     justify-content: flex-start;
     max-width: 687px;
     padding-bottom: 32px;
-    padding-left: 40px;
   }
 }
 
@@ -20,6 +19,5 @@
   .stories__heading {
     max-width: 299px;
     padding-bottom: 24px;
-    padding-left: 9px;
   }
 }
