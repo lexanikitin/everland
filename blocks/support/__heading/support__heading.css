@@ -1,12 +1,12 @@
 .support__heading {
-  margin: 0;
   font-size: 34px;
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
-  text-align: center;
+  margin: 0;
   max-width: 488px;
   padding-top: 38px;
+  text-align: center;
 }
 
 @media screen and (max-width: 1023px) {
@@ -19,7 +19,7 @@
 @media screen and (max-width: 767px) {
   .support__heading {
     font-size: 18px;
-    width: 300px;
     margin: 0 auto;
+    width: 300px;
   }
 }
