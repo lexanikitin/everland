@@ -1,0 +1,19 @@
+.support-form__button-wrapper_type_payment {
+  margin: 0;
+  padding: 16px 0 40px;
+  gap: 18px;
+  justify-content: center;
+  position: relative;
+}
+
+@media screen and (max-width: 1023px) {
+  .support-form__button-wrapper_type_payment {
+    gap: 16px;
+    padding: 24px 0 48px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .support-form__button-wrapper_type_payment {
+    padding: 16px 0 44px;
+  }
+}

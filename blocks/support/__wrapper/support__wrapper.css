@@ -1,0 +1,19 @@
+.support__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 117px;
+}
+@media screen and (max-width: 1280px) {
+  .support__wrapper {
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__wrapper {
+    gap: 32px;
+  }
+}
+

@@ -1,0 +1,47 @@
+.support-form__sum-input {
+  -moz-appearance: textfield;
+  border-radius: 10px;
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-variant-numeric: lining-nums;
+  font-weight: 500;
+  height: 48px;
+  line-height: 120%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  transition: border-color .3s linear;
+  width: 159px;
+}
+
+.support-form__sum-input::placeholder {
+  color: #333;
+}
+
+.support-form__sum-input:focus {
+  border-color: #0C4BA0;
+  outline: none;
+}
+
+.support-form__sum-input::-webkit-outer-spin-button,
+.support-form__sum-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .support-form__sum-input {
+    font-size: 16px;
+    height: 44px;
+    width: 190px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .support-form__sum-input {
+    font-size: 14px;
+    width: 260px;
+  }
+}

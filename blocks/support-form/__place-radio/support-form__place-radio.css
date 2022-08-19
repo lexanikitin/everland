@@ -1,0 +1,8 @@
+.support-form__place-radio {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin: 0;
+}
+
