@@ -1,5 +1,4 @@
 .support__donations-list {
-  align-items: stretch ;
   display: flex;
   flex-direction: column;
   gap: 28px;
@@ -9,7 +8,6 @@
   max-height: 640px;
   overflow: hidden;
   position: relative;
-  z-index: 0;
 }
 
 .support__donations-list::after {
@@ -49,5 +47,4 @@
     position: absolute;
     width: 100%;
   }
-
 }

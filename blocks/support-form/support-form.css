@@ -1,13 +1,15 @@
 .support-form {
-  background: #FFFFFF;
+  background: #FFF;
   border-radius: 30px;
-  box-shadow: 0px 4px 30px rgba(42, 48, 56, 0.1);
+  box-shadow: 0 4px 30px rgba(42, 48, 56, 0.1);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  font-family: 'Raleway', sans-serif;
   justify-content: center;
   margin: 0;
   max-width: 691px;
+  min-height: 953px;
   padding: 30px 20px;
 }
 
@@ -15,7 +17,8 @@
   .support-form {
     max-width: 688px;
     width: 100%;
-    padding: 30px 30px 30px 30px;
+    padding: 30px 30px;
+    min-height: 858px;
   }
 }
 @media screen and (max-width: 767px) {

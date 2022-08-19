@@ -5,7 +5,8 @@
   background-size: 70%;
   border: none;
   outline: none;
-  visibility: hidden; /* спрятал кнопку */
+  background-color: #FFF;
+  /* visibility: hidden; спрятал кнопку */
 }
 
 @media screen and (max-width: 767px) {

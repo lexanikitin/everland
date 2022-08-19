@@ -223,8 +223,6 @@
 @import url('../blocks/support/__donator/support__donator.css');
 @import url('../blocks/support/__dots/support__dots.css');
 
-
-
 /* Форма секции support*/
 @import url('../blocks/support-form/support-form.css');
 @import url('../blocks/support-form/__checkbox/support-form__checkbox.css');
