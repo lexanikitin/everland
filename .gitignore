@@ -3,4 +3,4 @@ node_modules
 .pnp.*
 .yarn/*
 .idea
-DS_Store
+.DS_Store

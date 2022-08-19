@@ -28,7 +28,6 @@ function workHeaderMenu() {
   });
   // обработка изменения ширины экрана для добавления или скрытия тени у header-a
   window.addEventListener('resize', toggleShadowHeader);
-
   document.addEventListener("DOMContentLoaded", toggleShadowHeader);
 
 
@@ -74,11 +73,9 @@ function workHeaderMenu() {
       }
     });
   }
-}
-
+};
 function donationIntro() {
   const checkbox = document.querySelectorAll('.donation__checkbox');
-  const input = document.querySelector('.donation__input');
   let value;
 
   for (let i = 0; i < checkbox.length; i++) {
@@ -144,6 +141,34 @@ function accordionsAdvantages() {
   );
 }
 
+// работоспособность checkbox'ов и input'а в секции "support"
+function donationIntro() {
+  const checkbox = document.querySelectorAll('.support-form__checkbox');
+  const input = document.querySelector('.support-form__sum-input');
+
+  let value;
+
+  for (let i = 0; i < checkbox.length; i++) {
+    checkbox[i].addEventListener('click', (e) => {
+      for (let j = 0; j < checkbox.length; j++) {
+        if (checkbox[j].checked && (e.target.value !== checkbox[j].value)) {
+          checkbox[j].checked = false;
+        }
+      }
+      value = e.target.value;
+    });
+  }
+
+  input.addEventListener('click', () => {
+    if (value) {
+      checkbox.forEach((item, i) => {
+        if (item.value === value) {
+          checkbox[i].checked = false;
+        }
+      });
+    }
+  });
+};
 function slider(sliderBlockClass, sliderCaseClass, sliderItemClass, sliderItemActiveClass, btnPrevId, btnNextId, sliderTypeBool) {
   const slider = document.querySelector(`.${sliderBlockClass}`);
   const sliderList = document.querySelector(`.${sliderCaseClass}`);

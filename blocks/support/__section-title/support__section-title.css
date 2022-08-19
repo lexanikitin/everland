@@ -1,0 +1,16 @@
+.support__section-title {
+  padding: 0 0 50px;
+}
+
+@media screen and (max-width: 1280px) {
+  .support__section-title {
+    margin: 0 auto;
+    max-width: 347px;
+    padding: 44px 0 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .support__section-title {
+    max-width: 215px;
+  }
+}
