@@ -184,8 +184,8 @@
 
 /* stories */
 @import url(../blocks/stories/stories.css);
-@import url(../blocks/stories/__container/stories__container.css);
 @import url(../blocks/stories/__cards/stories__cards.css);
+@import url(../blocks/stories/__container/stories__container.css);
 @import url(../blocks/stories/__photo/stories__photo.css);
 @import url(../blocks/stories/__photo-first/stories__photo-first.css);
 @import url(../blocks/stories/__photo-second/stories__photo-second.css);
