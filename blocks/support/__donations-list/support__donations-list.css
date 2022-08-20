@@ -11,7 +11,7 @@
 }
 
 .support__donations-list::after {
-  background: linear-gradient(to top, #E7F0FF, transparent 70%);
+  background: linear-gradient(to top, rgba(231, 240, 255, 255), rgba(231, 240, 255, 0));
   bottom: 0;
   content: '';
   height: 90%;
@@ -39,12 +39,12 @@
     width: 300px;
   }
   .support__donations-list::after {
-    background: linear-gradient(to top, #E7F0FF, transparent 70%);
-    bottom: 0;
-    content: '';
+    /* background: linear-gradient(to top, #E7F0FF, transparent 70%); */
+    /* bottom: 0;
+    content: ''; */
     height: 80%;
-    left: 0;
+    /* left: 0;
     position: absolute;
-    width: 100%;
+    width: 100%; */
   }
 }
