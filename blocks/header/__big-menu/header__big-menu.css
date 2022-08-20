@@ -2,13 +2,16 @@
   background-color: #ffffff;
   box-sizing: border-box;
   column-gap: 30px;
-  display: none;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
   left: 0;
   margin: 0;
+  opacity: 0;
   padding: 32px 40px 0 40px;
   position: absolute;
   top: 80px;
+  transition: visibility 0s linear 0.25s, opacity 0.25s linear;
+  visibility: hidden;
   width: 100%;
 }
 

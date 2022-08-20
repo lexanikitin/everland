@@ -1,3 +1,5 @@
 .header__big-menu_opened {
-  display: grid;
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
 }
