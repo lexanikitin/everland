@@ -4,11 +4,11 @@
   position: absolute;
 }
 
-.support-form__checkbox:checked + .support-form__button {
+.support-form__checkbox:checked + .support-form__input-text {
   border-color: #0C4BA0;
 }
 
-.support-form__checkbox:hover + .support-form__button {
+.support-form__checkbox:hover + .support-form__input-text {
   border-color: #0C4BA0;
 }
 .support-form__checkbox:checked + .support-form__checkbox-visible {
