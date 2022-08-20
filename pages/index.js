@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 formLogics();
 checkboxLigics('support-form__checkbox-payment');
 checkboxLigics('support-form__checkbox');
+checkboxLigics('support-form__checkbox-payment-system');
 
 function workHeaderMenu() {
 
