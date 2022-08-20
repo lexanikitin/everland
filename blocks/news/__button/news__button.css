@@ -9,12 +9,12 @@
   justify-content: center;
   text-align: center;
   position: absolute;
-  top: 17px;
+  top: 117px;
   right: 0;
 }
 
 @media screen and (max-width: 1023px) {
   .news__button {
-    visibility: hidden;
+    display: none;
   }
 }
