@@ -130,6 +130,7 @@
 /* секция Для кого мы работаем */
 @import url('../blocks/purpose/__link/purpose__link.css');
 @import url('../blocks/purpose/purpose.css');
+@import url('../blocks/purpose/__container/purpose__container.css');
 @import url('../blocks/purpose/__cards/purpose__cards.css');
 @import url('../blocks/purpose/__card/purpose__card.css');
 @import url('../blocks/purpose/__content/purpose__content.css');
@@ -142,6 +143,7 @@
 @import url('../blocks/purpose/__description/purpose__description.css');
 
 /* numbers */
+@import url(../blocks/numbers/numbers.css);
 @import url(../blocks/numbers/__title/numbers__title.css);
 @import url(../blocks/numbers/__container/numbers__container.css);
 @import url(../blocks/numbers/__info/numbers__info.css);
@@ -172,6 +174,7 @@
 
 /* Секция Главное в работе */
 @import url('../blocks/advantages/advantages.css');
+@import url('../blocks/advantages/__container/advantages__container.css');
 @import url('../blocks/advantages/__accordions-list/advantages__accordions-list.css');
 @import url('../blocks/advantages/__section-title/advantages__section-title.css');
 @import url('../blocks/accordion/accordion.css');
@@ -210,6 +213,7 @@
 
 /* секция Лучшие проекты агентства */
 @import url('../blocks/projects/projects.css');
+@import url('../blocks/projects/__container/projects__container.css');
 @import url('../blocks/projects/__section-title/projects__section-title.css');
 @import url('../blocks/projects/__subtitle/projects__subtitle.css');
 @import url('../blocks/projects/__wrapper/projects__wrapper.css');
@@ -240,6 +244,7 @@
 
 /* Секция support*/
 @import url('../blocks/support/support.css');
+@import url('../blocks/support/__container/support__container.css');
 @import url('../blocks/support/__wrapper/support__wrapper.css');
 @import url('../blocks/support/__heading/support__heading.css');
 @import url('../blocks/support/__section-title/support__section-title.css');

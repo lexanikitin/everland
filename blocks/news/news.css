@@ -1,16 +1,4 @@
 .news {
-  margin: 0;
-  padding: 100px 0;
   font-family: 'Raleway', sans-serif;
-}
-
-@media screen and (max-width: 1023px) {
-  .news {
-    padding: 50px 0 56px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .news {
-    padding: 32px 0 32px;
-  }
+  margin: 0;
 }

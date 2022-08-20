@@ -2,17 +2,4 @@
   background: #F5F5F5;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
-  padding: 100px 0;
-}
-
-@media screen and (max-width: 1439px) {
-  .projects {
-    padding: 50px 0;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .projects {
-    padding: 32px 0;
-  }
 }

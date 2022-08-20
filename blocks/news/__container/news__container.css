@@ -1,3 +1,16 @@
 .news__container {
+  padding: 100px 0;
   position: relative;
+}
+
+@media screen and (max-width: 1023px) {
+  .news__container {
+    padding: 50px 0 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__container {
+    padding: 32px 0 32px;
+  }
 }
