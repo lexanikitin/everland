@@ -39,12 +39,6 @@
     width: 300px;
   }
   .support__donations-list::after {
-    /* background: linear-gradient(to top, #E7F0FF, transparent 70%); */
-    /* bottom: 0;
-    content: ''; */
     height: 80%;
-    /* left: 0;
-    position: absolute;
-    width: 100%; */
   }
 }
