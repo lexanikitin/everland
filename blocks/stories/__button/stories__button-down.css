@@ -1,0 +1,22 @@
+.stories__button-down {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .stories__button-down {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 44px;
+    justify-content: center;
+    margin: 40px auto 0;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .stories__button-down {
+    margin-top: 24px;
+    width: 300px;
+  }
+}

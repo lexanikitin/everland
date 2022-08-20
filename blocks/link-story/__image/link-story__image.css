@@ -1,20 +1,23 @@
 .link-story__image {
+    background-image: url(../../../images/link-story/link-story-image.svg);
+    background-position: center;
+    object-fit: contain;
     fill: #333;
-    height: 7.54px;
+    height: 8px;
     transition: fill 0.3s ease-out;
-    width: 8.12px;
+    width: 9px;
 }
 
 @media screen and (max-width: 1023px) {
     .link-story__image  {
-        height: 5.28px;
-        width: 5.68px;
+        height: 6px;
+        width: 6px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .link-story__image {
-        height: 4.52px;
-        width: 4.87px;
+        height: 7px;
+        width: 7px;
     }
 }

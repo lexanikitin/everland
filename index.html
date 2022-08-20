@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <title>Everland</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <link href="pages/index.css" rel="stylesheet" />
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="pages/index.css" rel="stylesheet"/>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon"/>
 </head>
-
 <body class="page">
   <header class="header">
     <div class="header__head">
@@ -86,7 +84,6 @@
               </li>
             </ul>
           </li>
-
         </ul>
         <ul class="header__big-menu-lists">
           <li>
@@ -159,7 +156,7 @@
               <a href="#stories" class=" small-menu__link">Истории</a>
             </li>
             <li>
-              <a href="#" class=" small-menu__link">Агентство</a>
+              <a href="#projects" class=" small-menu__link">Агентство</a>
             </li>
             <li>
               <a href="#news" class=" small-menu__link">Новости</a>
@@ -281,7 +278,6 @@
             </label>
             <label class="donation__sum">
               <input class="donation__checkbox" type="checkbox" value="1000"/>
-
                 <span class="donation__text">1000&#8381;</span>
               </label>
             <label class="donation__sum">
@@ -684,7 +680,109 @@
 
       </div>
     </section>
-
+ <!-- stories -->
+ <section class="section stories" id="stories">
+  <div class="container stories__container">
+    <div class="stories__heading">
+      <h3 class="section__title">Истории</h3>
+      <button class="button button_type_secondary stories__button">
+        Все истории
+      </button>
+    </div>
+    <div class="stories__cards">
+      <div class="stories__photo stories__photo-first"></div>
+      <div class="stories__description">
+        <div class="stories__icon"></div>
+        <div class="stories__paragraph">
+          <p class="stories__paragraph-heading">
+            Мне интересно слушать интервью с&nbsp;людьми. Это мотивация и
+            вдохновение, которых так не&nbsp;хватает
+          </p>
+          <p class="stories__paragraph-info">
+            Максиму Гильфанову из&nbsp;Узбекистана 41&nbsp;год. Диплом
+            программиста и&nbsp;курсы по&nbsp;веб-дизайну не&nbsp;решили
+            проблему с&nbsp;трудоустройством
+          </p>
+          <a href="#" class="link link_color_blue stories__link">
+            <span class="link__text">История Максима</span>
+            <div class="link__image-container">
+              <svg class="link__image">
+                <use href="./images/link/link-image.svg#arrow"></use>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="stories__cards">
+      <div class="stories__description">
+        <div class="stories__icon"></div>
+        <div class="stories__paragraph">
+          <p class="stories__paragraph-heading">
+            <span class="stories__bold-text">
+              Платформа дала надежду: кто-то заинтересован в
+              трудоустройстве инвалидов
+            </span>
+          </p>
+          <p class="stories__paragraph-info">
+            Максиму Чернышову из&nbsp;Набережных Челнов 32&nbsp;года.
+            В&nbsp;детстве он неудачно сделал сальто и&nbsp;повредил
+            позвоночник. С&nbsp;тех пор ему тяжело передвигаться
+            на&nbsp;большие расстояния
+          </p>
+          <a href="#" class="link link_color_blue stories__link">
+            <span class="link__text">История Максима</span>
+            <div class="link__image-container">
+              <svg class="link__image">
+                <use href="./images/link/link-image.svg#arrow"></use>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="stories__photo stories__photo-second"></div>
+    </div>
+    <div class="stories__photo-cards">
+      <div class="stories__photo-card">
+        <div class="stories__avatar stories__avatar-first"></div>
+        <div class="stories__avatar-description">
+          <div>
+            <p class="stories__avatar-name">Айслу Асан</p>
+            <h3 class="stories__avatar-heading">Когда хочется жить</h3>
+          </div>
+          <a href="#" class="link-story">
+            <span class="link-story__text">История Айслу</span>
+            <div class="link-story__image-container">
+              <div class="link-story__image"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="stories__photo-card">
+        <div class="stories__avatar stories__avatar-second"></div>
+        <div class="stories__avatar-description">
+          <div>
+            <p class="stories__avatar-name">Артём Плаксин</p>
+            <h3 class="stories__avatar-heading">
+              Не видеть
+              и смотреть в
+              будущее
+            </h3>
+          </div>
+          <a href="#" class="link-story">
+            <span class="link-story__text">История&nbsp;Артема</span>
+            <div class="link-story__image-container">
+              <div class="link-story__image"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <button class="button button_type_secondary stories__button-down">
+      Все истории
+    </button>
+  </div>
+</section>
     <section class="section projects" id="projects">
       <div class="container">
         <h2 class="section__title projects__section-title">Лучшие проекты агентства</h2>
@@ -830,7 +928,10 @@
                 <span
                   class="support-form__pay support-form__pay_size support-form__pay_variant_webmoney support-form__pay_variant"></span>
               </label>
-              <button class="support-form__button-arrow"></button>
+              <button class="support-form__button-arrow"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 15L11 10L6 5L7 3L14 10L7 17L6 15Z" fill="#333333"/>
+                </svg>
+                </button>
             </div>
             <h4 class="support-form__heading-wrap"><span class="support-form__heading">Ваши данные</span></h4>
             <fieldset class="support-form__data-fieldset">
@@ -1002,5 +1103,4 @@
   </footer>
   <script src="pages/index.js"></script>
 </body>
-
 </html>

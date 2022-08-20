@@ -1,0 +1,21 @@
+.stories__description {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  padding: 0px;
+  width: 100%;
+  max-width: 1056px;
+}
+
+@media screen and (max-width: 1023px) {
+  .stories__description {
+    gap: 8px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .stories__description {
+    gap: 16px;
+  }
+}
