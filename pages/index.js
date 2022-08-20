@@ -1,12 +1,14 @@
 // Функция для локализации области видимости
 workHeaderMenu();
 slider('intro__slider', 'intro__slider-list', 'intro__slider-item', 'intro__slider-item_active', 'buttonPrev', 'buttonNext', true);
-donationIntro();
+checkboxLigics('donation__checkbox', false);
 accordionsAdvantages();
 document.addEventListener('DOMContentLoaded', () => {
   slider('slider', 'slider__list', 'slider__item', 'slider__item_active', 'sliderPrev', 'sliderNext', false);
 });
-
+formLogics();
+checkboxLigics('support-form__checkbox-payment', false);
+checkboxLigics('support-form__checkbox', true);
 
 function workHeaderMenu() {
 
@@ -77,8 +79,10 @@ function workHeaderMenu() {
     });
   }
 };
-function donationIntro() {
-  const checkbox = document.querySelectorAll('.donation__checkbox');
+function checkboxLigics(checkboxClass, checkboxBlockTypeBool) {
+  const checkbox = document.querySelectorAll(`.${checkboxClass}`);
+  const input = document.querySelector('.support-form__sum-input');
+  let value;
 
   for (let i = 0; i < checkbox.length; i++) {
     checkbox[i].addEventListener('click', (e) => {
@@ -86,6 +90,19 @@ function donationIntro() {
         if (checkbox[j].checked && (e.target.value !== checkbox[j].value)) {
           checkbox[j].checked = false;
         }
+      }
+      value = e.target.value;
+    });
+  }
+
+  if (checkboxBlockTypeBool) {
+    input.addEventListener('click', () => {
+      if (value) {
+        checkbox.forEach((item, i) => {
+          if (item.value === value) {
+            checkbox[i].checked = false;
+          }
+        });
       }
     });
   }
@@ -142,34 +159,6 @@ function accordionsAdvantages() {
   );
 }
 
-// работоспособность checkbox'ов и input'а в секции "support"
-function donationIntro() {
-  const checkbox = document.querySelectorAll('.support-form__checkbox');
-  const input = document.querySelector('.support-form__sum-input');
-
-  let value;
-
-  for (let i = 0; i < checkbox.length; i++) {
-    checkbox[i].addEventListener('click', (e) => {
-      for (let j = 0; j < checkbox.length; j++) {
-        if (checkbox[j].checked && (e.target.value !== checkbox[j].value)) {
-          checkbox[j].checked = false;
-        }
-      }
-      value = e.target.value;
-    });
-  }
-
-  input.addEventListener('click', () => {
-    if (value) {
-      checkbox.forEach((item, i) => {
-        if (item.value === value) {
-          checkbox[i].checked = false;
-        }
-      });
-    }
-  });
-};
 function slider(sliderBlockClass, sliderCaseClass, sliderItemClass, sliderItemActiveClass, btnPrevId, btnNextId, sliderTypeBool) {
   const slider = document.querySelector(`.${sliderBlockClass}`);
   const sliderList = document.querySelector(`.${sliderCaseClass}`);
@@ -233,5 +222,63 @@ function slider(sliderBlockClass, sliderCaseClass, sliderItemClass, sliderItemAc
 
   function pageUpdate() {
     currentPage.textContent = index + 1;
+  };
+};
+
+function formLogics() {
+  const buttonIntroSupport = document.querySelector('#buttonIntroSupport');
+  const buttonHeaderSupport = document.querySelector('#buttonHeaderSupport');
+  const donationCheckbox = document.querySelectorAll('.donation__checkbox');
+  const supportCheckbox = document.querySelectorAll('.support-form__checkbox');
+  const inputSupport = document.querySelector('.support-form__sum-input');
+  const sectionSupport = document.querySelector('#support');
+  let value = 0;
+
+  buttonHeaderSupport.addEventListener('click', () => {
+    transitionToForm();
+  });
+
+  donationCheckbox.forEach((item) => {
+    item.addEventListener('change', (e) => {
+      if (e.target.checked){
+        value = item.value;
+      }
+    });
+  });
+
+  buttonIntroSupport.addEventListener('click', () => {
+    supportCheckbox.forEach((item) => {
+      item.checked = false;
+    });
+    inputSupport.blur();
+
+    if (value !== 'other' && value !== 0) {
+      supportCheckbox.forEach((item) => {
+        item.checked = false;
+        if (item.value === value) {
+          item.checked = true;
+        }
+      });
+
+      transitionToForm();
+    } else if (value === 'other') {
+      supportCheckbox.forEach((item) => {
+        item.checked = false;
+      });
+      inputSupport.focus({
+        preventScroll: true
+      });
+
+      transitionToForm();
+    }
+
+    value = 0;
+  });
+
+  function transitionToForm() {
+    sectionSupport.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
   };
 };
