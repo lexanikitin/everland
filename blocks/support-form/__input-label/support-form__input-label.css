@@ -5,3 +5,9 @@
   overflow: hidden;
   position: relative;
 }
+
+@media screen and (max-width: 767px) {
+  .support-form__input-label:nth-last-child(1):not(:nth-child(even)) {
+    grid-column: 1/3;
+  }
+}

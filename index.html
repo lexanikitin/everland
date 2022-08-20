@@ -893,7 +893,10 @@
                 <input class="support-form__checkbox" type="checkbox" value="1000" />
                 <span class="support-form__input-text support-form__input-text_size_small">1000&#8381;</span>
               </label>
-              <input class="support-form__sum-input" id="formInput" type="number" min="0" placeholder="Другая сумма" />
+              <label class="support-form__input-label" id="checboxFormOther">
+                <input class="support-form__checkbox" type="checkbox" value="other" />
+                <span class="support-form__input-text support-form__input-text_size_small support-form__input-text_size_other">Другая сумма</span>
+              </label>
             </div>
             <p class="support-form__text">Регулярные пожертвования очень важны для Everland. Это&nbsp;то, что помогает
               нашим
@@ -906,15 +909,15 @@
             <h4 class="support-form__heading-wrap"><span class="support-form__heading">Способ оплаты</span></h4>
             <div class="support-form__button-wrapper support-form__button-wrapper_type_payment">
               <label class="support-form__input-label payment-button">
-                <input class="support-form__checkbox" type="checkbox" value="card" />
+                <input class="support-form__checkbox-payment-system" type="checkbox" value="card" />
                   <span class="support-form__pay support-form__pay_size support-form__pay_variant_card support-form__pay_variant"></span>
               </label>
               <label class="support-form__input-label payment-button">
-                <input class="support-form__checkbox" type="checkbox" value="io" />
+                <input class="support-form__checkbox-payment-system" type="checkbox" value="io" />
                 <span class="support-form__pay support-form__pay_size support-form__pay_variant_you support-form__pay_variant"></span>
               </label>
               <label class="support-form__input-label payment-button">
-                <input class="support-form__checkbox" type="checkbox" value="webmoney" />
+                <input class="support-form__checkbox-payment-system" type="checkbox" value="webmoney" />
                 <span
                   class="support-form__pay support-form__pay_size support-form__pay_variant_webmoney support-form__pay_variant"></span>
               </label>
@@ -926,18 +929,19 @@
             </div>
             <h4 class="support-form__heading-wrap"><span class="support-form__heading">Ваши данные</span></h4>
             <fieldset class="support-form__data-fieldset">
-              <input type="text" class="support-form__input" id="name" placeholder="Иван Иванов">
-              <input type="email" class="support-form__input" id="email" placeholder="myemail@example.com">
+              <input type="text" class="support-form__input" id="name" placeholder="Иван Иванов"/>
+              <input type="email" class="support-form__input" id="email" placeholder="myemail@example.com"/>
+              <input type="number" class="support-form__input support-form__input_donation" id="inputFormDonation" placeholder="Размер пожертвования"/>
             </fieldset>
             <fieldset class="support-form__radio-fieldset">
               <label for="oferta" class="support-form__place-radio">
-                <input type="checkbox" class="support-form__checkbox" id="oferta">
+                <input type="checkbox" class="support-form__checkbox-agreement" id="oferta">
                 <span class="support-form__checkbox-visible"></span>
                 <span class="support-form__label">Соглашаюсь c <a class="support-form__label-link"
                                                                   href="#">офертой</a></span>
               </label>
               <label for="my-data" class="support-form__place-radio">
-                <input type="checkbox" class="support-form__checkbox" id="my-data">
+                <input type="checkbox" class="support-form__checkbox-agreement" id="my-data">
                 <span class="support-form__checkbox-visible"></span>
                 <span class="support-form__label">Соглашаюсь на <a class="support-form__label-link" href="#">обработку
                     моих персональных

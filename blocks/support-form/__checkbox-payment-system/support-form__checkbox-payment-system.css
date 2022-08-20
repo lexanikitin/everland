@@ -1,0 +1,9 @@
+.support-form__checkbox-payment-system {
+  left: -9999px;
+  margin: 0;
+  position: absolute;
+}
+
+.support-form__checkbox-payment-system:checked + .support-form__pay {
+  border-color: #0C4BA0;
+}

@@ -1,0 +1,12 @@
+.support-form__checkbox-agreement {
+  left: -9999px;
+  margin: 0;
+  position: absolute;
+}
+
+.support-form__checkbox-agreement:checked + .support-form__checkbox-visible {
+  background-image: url('../../../images/support-form/Icon_check.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}

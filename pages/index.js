@@ -1,14 +1,15 @@
 // Функция для локализации области видимости
 workHeaderMenu();
 slider('intro__slider', 'intro__slider-list', 'intro__slider-item', 'intro__slider-item_active', 'buttonPrev', 'buttonNext', true);
-checkboxLigics('donation__checkbox', false);
+checkboxLigics('donation__checkbox');
 accordionsAdvantages();
 document.addEventListener('DOMContentLoaded', () => {
   slider('slider', 'slider__list', 'slider__item', 'slider__item_active', 'sliderPrev', 'sliderNext', false);
 });
 formLogics();
-checkboxLigics('support-form__checkbox-payment', false);
-checkboxLigics('support-form__checkbox', true);
+checkboxLigics('support-form__checkbox-payment');
+checkboxLigics('support-form__checkbox');
+checkboxLigics('support-form__checkbox-payment-system');
 
 function workHeaderMenu() {
 
@@ -79,10 +80,9 @@ function workHeaderMenu() {
     });
   }
 };
-function checkboxLigics(checkboxClass, checkboxBlockTypeBool) {
+
+function checkboxLigics(checkboxClass) {
   const checkbox = document.querySelectorAll(`.${checkboxClass}`);
-  const input = document.querySelector('.support-form__sum-input');
-  let value;
 
   for (let i = 0; i < checkbox.length; i++) {
     checkbox[i].addEventListener('click', (e) => {
@@ -90,19 +90,6 @@ function checkboxLigics(checkboxClass, checkboxBlockTypeBool) {
         if (checkbox[j].checked && (e.target.value !== checkbox[j].value)) {
           checkbox[j].checked = false;
         }
-      }
-      value = e.target.value;
-    });
-  }
-
-  if (checkboxBlockTypeBool) {
-    input.addEventListener('click', () => {
-      if (value) {
-        checkbox.forEach((item, i) => {
-          if (item.value === value) {
-            checkbox[i].checked = false;
-          }
-        });
       }
     });
   }
@@ -230,8 +217,9 @@ function formLogics() {
   const buttonHeaderSupport = document.querySelector('#buttonHeaderSupport');
   const donationCheckbox = document.querySelectorAll('.donation__checkbox');
   const supportCheckbox = document.querySelectorAll('.support-form__checkbox');
-  const inputSupport = document.querySelector('.support-form__sum-input');
   const sectionSupport = document.querySelector('#support');
+  const inputFormDonation = document.querySelector('#inputFormDonation');
+  const checboxFormOther = document.querySelector('#checboxFormOther');
   let value = 0;
 
   buttonHeaderSupport.addEventListener('click', () => {
@@ -250,9 +238,8 @@ function formLogics() {
     supportCheckbox.forEach((item) => {
       item.checked = false;
     });
-    inputSupport.blur();
 
-    if (value !== 'other' && value !== 0) {
+    if (value !== 0) {
       supportCheckbox.forEach((item) => {
         item.checked = false;
         if (item.value === value) {
@@ -260,19 +247,30 @@ function formLogics() {
         }
       });
 
-      transitionToForm();
-    } else if (value === 'other') {
-      supportCheckbox.forEach((item) => {
-        item.checked = false;
-      });
-      inputSupport.focus({
-        preventScroll: true
-      });
+      if (value === 'other') {
+        inputFormDonation.classList.add('support-form__input_active');
+      }
 
       transitionToForm();
     }
 
     value = 0;
+  });
+
+  checboxFormOther.addEventListener('change', (e) => {
+    if (e.target.checked){
+      inputFormDonation.classList.add('support-form__input_active');
+    } else {
+      inputFormDonation.classList.remove('support-form__input_active');
+    }
+  });
+
+  supportCheckbox.forEach((item) => {
+    item.addEventListener('change', (e) => {
+      if (e.target.value !== 'other') {
+        inputFormDonation.classList.remove('support-form__input_active');
+      }
+    });
   });
 
   function transitionToForm() {

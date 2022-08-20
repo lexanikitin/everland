@@ -24,7 +24,6 @@
 @media screen and (max-width: 767px) {
   .support-form {
     border-radius: 20px;
-    max-height: 1069px;
     max-width: 300px;
     padding: 32px 20px;
   }

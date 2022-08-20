@@ -1,0 +1,10 @@
+.support-form__input_donation {
+  display: none;
+  -moz-appearance: textfield;
+}
+
+.support-form__input_donation::-webkit-outer-spin-button,
+.support-form__input_donation::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
