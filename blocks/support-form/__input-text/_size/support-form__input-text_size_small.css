@@ -1,16 +1,16 @@
-.support-form__button_size_small {
+.support-form__input-text_size_small {
   height: 48px;
   width: 159px;
 }
 
 @media screen and (max-width: 1023px) {
-  .support-form__button_size_small {
+  .support-form__input-text_size_small {
     height: 44px;
     max-width: 145px;
   }
 }
 @media screen and (max-width: 767px) {
-  .support-form__button_size_small {
+  .support-form__input-text_size_small {
     width: 122px;
   }
 }

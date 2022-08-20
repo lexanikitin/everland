@@ -1,0 +1,13 @@
+.support-form__checkbox-payment {
+  left: -9999px;
+  margin: 0;
+  position: absolute;
+}
+
+.support-form__checkbox-payment:checked + .support-form__input-text {
+  border-color: #0C4BA0;
+}
+
+.support-form__checkbox-payment:hover + .support-form__input-text {
+  border-color: #0C4BA0;
+}
