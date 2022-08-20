@@ -270,6 +270,7 @@
 @import url('../blocks/support-form/__input-text/support-form__input-text.css');
 @import url('../blocks/support-form/__label-link/support-form__label-link.css');
 @import url('../blocks/support-form/__checkbox-payment-system/support-form__checkbox-payment-system.css');
+@import url('../blocks/support-form/__checkbox-agreement/support-form__checkbox-agreement.css');
 @import url('../blocks/support-form/__button-wrapper/_type/support-form__button-wrapper_type_first.css');
 @import url('../blocks/support-form/__button-wrapper/_type/support-form__button-wrapper_type_payment.css');
 @import url('../blocks/support-form/__button-wrapper/_type/support-form__button-wrapper_type_sum.css');
