@@ -259,13 +259,11 @@
 @import url('../blocks/support-form/__text/support-form__text.css');
 @import url('../blocks/support-form/__button-wrapper/support-form__button-wrapper.css');
 @import url('../blocks/support-form/__checkbox-payment/support-form__checkbox-payment.css');
-
 @import url('../blocks/support-form/__button-arrow/support-form__button-arrow.css');
 @import url('../blocks/support-form/__pay/support-form__pay.css');
 @import url('../blocks/support-form/__radio-fieldset/support-form__radio-fieldset.css');
 @import url('../blocks/support-form/__data-fieldset/support-form__data-fieldset.css');
 @import url('../blocks/support-form/__place-radio/support-form__place-radio.css');
-@import url('../blocks/support-form/__sum-input/support-form__sum-input.css');
 @import url('../blocks/support-form/__input/support-form__input.css');
 @import url('../blocks/support-form/__label/support-form__label.css');
 @import url('../blocks/support-form/__input-label/support-form__input-label.css');
@@ -276,10 +274,13 @@
 @import url('../blocks/support-form/__button-wrapper/_type/support-form__button-wrapper_type_sum.css');
 @import url('../blocks/support-form/__input-text/_size/support-form__input-text_size_big.css');
 @import url('../blocks/support-form/__input-text/_size/support-form__input-text_size_small.css');
+@import url('../blocks/support-form/__input-text/_size/support-form__input-text_size_other.css');
 @import url('../blocks/support-form/__pay/_size/support-form__pay_size.css');
 @import url('../blocks/support-form/__pay/_variant/support-form__pay_variant_card.css');
 @import url('../blocks/support-form/__pay/_variant/support-form__pay_variant_webmoney.css');
 @import url('../blocks/support-form/__pay/_variant/support-form__pay_variant_you.css');
+@import url('../blocks/support-form/__input/_donation/support-form__input_donation.css');
+@import url('../blocks/support-form/__input/_active/support-form__input_active.css');
 
 
 
