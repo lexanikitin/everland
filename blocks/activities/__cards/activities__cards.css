@@ -15,11 +15,8 @@
   }
 }
 
-
 @media screen and (max-width: 767px) {
   .activities__cards {
-    flex-direction: row;
-    flex-wrap: wrap;
     gap: 16px;
   }
 }

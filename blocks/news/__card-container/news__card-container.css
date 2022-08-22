@@ -24,7 +24,6 @@
   .news__card-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 24px 0 0;
     gap: 16px;
