@@ -36,14 +36,18 @@ function workHeaderMenu() {
   document.addEventListener("DOMContentLoaded", toggleShadowHeader);
 
 
-  // обработка события click при нажитии на кпонку бургер меню
+  // обработка события click при нажатии на кнопку бургер меню
   menuButton.addEventListener('click', toggleBigMenu);
 
-  // обработка события click при нажитии на раздел меню второго уровня
+  // обработка события наведения курсора мыши на кнопку бургер меню
+  menuButton.addEventListener('mouseenter', toggleBigMenu);
+  bigMenu.addEventListener('mouseleave', toggleBigMenu);
+
+  // обработка события click при нажатии на раздел меню второго уровня
   menuItems.forEach((menuItem) =>
     menuItem.addEventListener('click', toggleMenuItems));
 
-  //функция обработки скрытия или добавления тени у у header-a
+  // функция обработки скрытия или добавления тени у у header-a
   function toggleShadowHeader() {
     if (document.documentElement.clientWidth < 1440) {
       header.classList.add('header_shadow');
@@ -52,13 +56,13 @@ function workHeaderMenu() {
     }
   }
 
-  // фукнция обработки нажатия на кпонку бургер меню
+  // функция обработки нажатия на кнопку бургер меню
   function toggleBigMenu() {
     bigMenu.classList.toggle('header__big-menu_opened');
     iconButtonMenu.classList.toggle('header__menu-button-icon_type_close');
   }
 
-  // фукнция обработки нажатия на подпункт меню второго уровня
+  // функция обработки нажатия на подпункт меню второго уровня
   function toggleMenuItems() {
     const menuItem = event.target.closest('.header__big-menu-lists');
     const menuList = menuItem.querySelector('.header__big-menu-list');
@@ -77,7 +81,7 @@ function workHeaderMenu() {
       }
     });
   }
-};
+}
 
 function checkboxLigics(checkboxClass) {
   const checkbox = document.querySelectorAll(`.${checkboxClass}`);
