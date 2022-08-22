@@ -46,7 +46,7 @@
 @import url('../blocks/header/__big-menu-lists/header__big-menu-lists.css');
 @import url('../blocks/header/__big-menu-list/header__big-menu-list.css');
 @import url('../blocks/header/__big-menu-list/_opened/header__big-menu-list_opened.css');
-@import url('../blocks/header/__big-menu-list/_last/header__big-menu-list_last.css');
+@import url('../blocks/header/__big-menu-item/header__big-menu-item.css');
 @import url('../blocks/header/__checkbox-button-big-menu/header__checkbox-button-big-menu.css');
 @import url('../blocks/header/__icon-shevron/header__icon-shevron.css');
 @import url('../blocks/header/__icon-shevron/_rotate/header__icon-shevron_rotate.css');
