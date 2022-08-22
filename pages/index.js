@@ -16,8 +16,7 @@ function workHeaderMenu() {
   const content = document.querySelector('.page');
   const header = content.querySelector('.header')
   const menuButton = header.querySelector('.header__menu-button');
-  const iconBurgerMenu = header.querySelector('.header__menu-button_type_burger');
-  const iconCloseMenu = header.querySelector('.header__menu-button_type_close');
+  const iconButtonMenu = menuButton.querySelector('.header__menu-button-icon');
   const bigMenu = header.querySelector('.header__big-menu');
   const menuItems = bigMenu.querySelectorAll('.header__checkbox-button-big-menu');
   const shevronIcons = bigMenu.querySelectorAll('.header__icon-shevron');
@@ -56,8 +55,7 @@ function workHeaderMenu() {
   // фукнция обработки нажатия на кпонку бургер меню
   function toggleBigMenu() {
     bigMenu.classList.toggle('header__big-menu_opened');
-    iconBurgerMenu.classList.toggle('header__menu-button_opened');
-    iconCloseMenu.classList.toggle('header__menu-button_opened');
+    iconButtonMenu.classList.toggle('header__menu-button-icon_type_close');
   }
 
   // фукнция обработки нажатия на подпункт меню второго уровня
