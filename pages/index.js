@@ -47,7 +47,7 @@ function workHeaderMenu() {
   menuItems.forEach((menuItem) =>
     menuItem.addEventListener('click', toggleMenuItems));
 
-  // функция обработки скрытия или добавления тени у у header-a
+  // функция обработки скрытия или добавления тени у header-a
   function toggleShadowHeader() {
     if (document.documentElement.clientWidth < 1440) {
       header.classList.add('header_shadow');
