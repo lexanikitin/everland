@@ -1,0 +1,9 @@
+.slider-support__checkbox {
+  left: -9999px;
+  margin: 0;
+  position: absolute;
+}
+
+.slider-support__checkbox:checked + .slider-support__card-container {
+  border-color: #0C4BA0;
+}

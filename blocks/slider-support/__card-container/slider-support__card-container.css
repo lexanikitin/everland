@@ -1,0 +1,16 @@
+.slider-support__card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 186px;
+  height: 48px;
+  box-sizing: border-box;
+  border: 1px solid #DADADA;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: border-color .3s linear;
+}
+
+.slider-support__card-container:hover {
+  border-color: #0C4BA0;
+}

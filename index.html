@@ -915,33 +915,77 @@
               указанная вами сумма.
             </p>
             <h4 class="support-form__heading-wrap"><span class="support-form__heading">Способ оплаты</span></h4>
-            <div class="support-form__button-wrapper support-form__button-wrapper_type_payment">
-              <label class="support-form__input-label payment-button">
-                <input class="support-form__checkbox-payment-system" type="checkbox" value="card"/>
-                <span
-                  class="support-form__pay support-form__pay_size support-form__pay_variant_card support-form__pay_variant"></span>
-              </label>
-              <label class="support-form__input-label payment-button">
-                <input class="support-form__checkbox-payment-system" type="checkbox" value="io"/>
-                <span
-                  class="support-form__pay support-form__pay_size support-form__pay_variant_you support-form__pay_variant"></span>
-              </label>
-              <label class="support-form__input-label payment-button">
-                <input class="support-form__checkbox-payment-system" type="checkbox" value="webmoney"/>
-                <span
-                  class="support-form__pay support-form__pay_size support-form__pay_variant_webmoney support-form__pay_variant"></span>
-              </label>
-              <button class="support-form__button-arrow">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M6 15L11 10L6 5L7 3L14 10L7 17L6 15Z" fill="#333333"/>
+
+            <div class="support-form__button-wrapper  slider-support">
+              <buttton class="slider-support__button" id="sliderSupportPrev">
+                <svg class="slider-support__image slider-support__image_prev">
+                  <use href="./images/support-form/slider-button.svg#slider-support-button"></use>
                 </svg>
-              </button>
+              </buttton>
+              <div class="slider-support__container">
+                <ul class="slider-support__list">
+                  <li class="slider-support__item">
+                    <label class="slider-support__card">
+                      <input type="checkbox" class="slider-support__checkbox" value="card">
+                      <span class="slider-support__card-container">
+                        <img src="./images/support-form/cards.png" alt="Оплата банковской картой." class="slider-support__card-image slider-support__card-image_type_card">
+                      </span>
+                    </label>
+                  </li>
+                  <li class="slider-support__item">
+                    <label class="slider-support__card">
+                      <input type="checkbox" class="slider-support__checkbox" value="ju">
+                      <span class="slider-support__card-container">
+                        <img src="./images/support-form/io-1.png" alt="Оплата банковской картой." class="slider-support__card-image slider-support__card-image_type_ju">
+                      </span>
+                    </label>
+                  </li>
+                  <li class="slider-support__item">
+                    <label class="slider-support__card">
+                      <input type="checkbox" class="slider-support__checkbox" value="webmoney">
+                      <span class="slider-support__card-container">
+                        <img src="./images/support-form/webmoney.png" alt="Оплата банковской картой." class="slider-support__card-image slider-support__card-image_type_webmoney">
+                      </span>
+                    </label>
+                  </li>
+                  <li class="slider-support__item">
+                    <label class="slider-support__card">
+                      <input type="checkbox" class="slider-support__checkbox" value="other1">
+                      <span class="slider-support__card-container">
+                        <img src="./images/support-form/cards.png" alt="Оплата банковской картой." class="slider-support__card-image slider-support__card-image_type_card">
+                      </span>
+                    </label>
+                  </li>
+                  <li class="slider-support__item">
+                    <label class="slider-support__card">
+                      <input type="checkbox" class="slider-support__checkbox" value="other2">
+                      <span class="slider-support__card-container">
+                        <img src="./images/support-form/io-1.png" alt="Оплата банковской картой." class="slider-support__card-image slider-support__card-image_type_ju">
+                      </span>
+                    </label>
+                  </li>
+                  <li class="slider-support__item">
+                    <label class="slider-support__card">
+                      <input type="checkbox" class="slider-support__checkbox" value="other3">
+                      <span class="slider-support__card-container">
+                        <img src="./images/support-form/webmoney.png" alt="Оплата банковской картой." class="slider-support__card-image slider-support__card-image_type_webmoney">
+                      </span>
+                    </label>
+                  </li>
+                </ul>
+              </div>
+              <buttton class="slider-support__button" id="sliderSupportNext">
+                <svg class="slider-support__image">
+                  <use href="./images/support-form/slider-button.svg#slider-support-button"></use>
+                </svg>
+              </buttton>
             </div>
+
             <h4 class="support-form__heading-wrap"><span class="support-form__heading">Ваши данные</span></h4>
             <fieldset class="support-form__data-fieldset">
               <input type="text" class="support-form__input" id="name" placeholder="Иван Иванов"/>
               <input type="email" class="support-form__input" id="email" placeholder="myemail@example.com"/>
-              <input type="number" class="support-form__input support-form__input_donation" id="inputFormDonation"
+              <input type="number" class="support-form__input support-form__input_donation" id="inputFormDonation" min="0"
                      placeholder="Размер пожертвования"/>
             </fieldset>
             <fieldset class="support-form__radio-fieldset">

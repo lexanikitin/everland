@@ -1,14 +1,11 @@
 .support-form__button-wrapper_type_payment {
   margin: 0;
-  padding: 16px 0 40px;
-  gap: 18px;
-  justify-content: center;
-  position: relative;
+  padding: 16px 6px 40px;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 1023px) {
   .support-form__button-wrapper_type_payment {
-    gap: 16px;
     padding: 24px 0 48px;
   }
 }

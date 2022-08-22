@@ -10,6 +10,8 @@ formLogics();
 checkboxLigics('support-form__checkbox-payment');
 checkboxLigics('support-form__checkbox');
 checkboxLigics('support-form__checkbox-payment-system');
+checkboxLigics('slider-support__checkbox');
+sliderSupport();
 
 function workHeaderMenu() {
 
@@ -296,3 +298,52 @@ function setSmoothNavigation(){
 });
 
 }
+
+function sliderSupport() {
+  const sliderList = document.querySelector('.slider-support__list');
+  const sliderItem = document.querySelectorAll('.slider-support__item');
+  const buttonPrev = document.querySelector('#sliderSupportPrev');
+  const buttonNext = document.querySelector('#sliderSupportNext');
+  let sliderItemWidth = sliderItem[0].getBoundingClientRect().width;
+  let gapWidth = parseInt(window.getComputedStyle(sliderList).columnGap, 10);
+  let offsetWidth = sliderItemWidth + gapWidth;
+  let sliderLength = sliderItem.length - 3;
+  let index = 0;
+  let count = 0;
+
+  buttonNext.classList.add('slider-support__button_opacity');
+  buttonNext.style.pointerEvents = 'auto';
+  buttonPrev.style.pointerEvents = 'none';
+
+  buttonPrev.addEventListener('click', () => {
+    index--;
+    count -= offsetWidth;
+    sliderList.style.transform = 'translate(-' + count + 'px)';
+
+    if (index < sliderLength) {
+      buttonNext.classList.add('slider-support__button_opacity');
+      buttonNext.style.pointerEvents = 'auto';
+    }
+
+    if (index === 0) {
+      buttonPrev.classList.remove('slider-support__button_opacity');
+      buttonPrev.style.pointerEvents = 'none';
+    }
+  });
+
+  buttonNext.addEventListener('click', () => {
+    index++;
+    count += offsetWidth;
+    sliderList.style.transform = 'translate(-' + count + 'px)';
+
+    if (index > 0) {
+      buttonPrev.classList.add('slider-support__button_opacity');
+      buttonPrev.style.pointerEvents = 'auto';
+    }
+
+    if (index === sliderLength) {
+      buttonNext.classList.remove('slider-support__button_opacity');
+      buttonNext.style.pointerEvents = 'none';
+    }
+  });
+};
