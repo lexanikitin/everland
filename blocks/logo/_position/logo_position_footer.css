@@ -1,12 +1,18 @@
 .logo_position_footer {
-  width: 262px;
   height: 46px;
-  margin-bottom: 14px;
+  margin-bottom: 20px;
+  width: 262px;
 }
 
 @media screen and (max-width: 1439px) {
   .logo_position_footer {
     height: 24px;
     width: 137px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo_position_footer {
+    margin-bottom: 16px;
   }
 }

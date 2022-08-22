@@ -6,6 +6,7 @@
 @import url('../blocks/section/section.css');
 @import url('../blocks/section/__title/section__title.css');
 @import url('../blocks/content/content.css');
+@import url('../blocks/logo/logo.css');
 @import url('../blocks/logo/_position/logo_position_header.css');
 @import url('../blocks/logo/_position/logo_position_footer.css');
 /* базовые кнопки */
@@ -269,6 +270,7 @@
 @import url('../blocks/footer/__author/footer__author.css');
 @import url('../blocks/footer/__author-desp/footer__author-desp.css');
 @import url('../blocks/footer/__author-logo/footer__author-logo.css');
+@import url('../blocks/footer/__support-logotype/footer__support-logotype.css');
 @import url('../blocks/footer/__support-logotype/_type/footer__support-logotype_type_beeline.css');
 @import url('../blocks/footer/__support-logotype/_type/footer__support-logotype_type_fond.css');
 
