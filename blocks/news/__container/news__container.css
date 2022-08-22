@@ -11,6 +11,6 @@
 
 @media screen and (max-width: 767px) {
   .news__container {
-    padding: 32px 0 32px;
+    padding: 32px 0;
   }
 }

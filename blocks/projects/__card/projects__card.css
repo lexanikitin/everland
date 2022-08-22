@@ -11,10 +11,6 @@
 }
 
 @media screen and (max-width: 1240px) {
-  .projects__card {
-    max-width: 334px;
-  }
-
   .projects__card:last-child {
     display: none;
   }

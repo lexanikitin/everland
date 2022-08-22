@@ -5,7 +5,7 @@
     border: 1px solid #DADADA;
     box-sizing: border-box;
     display: flex;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-size: 20px;
     font-variant-numeric: lining-nums;
     font-weight: 500;

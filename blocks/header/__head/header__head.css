@@ -10,7 +10,8 @@
 @media screen and (max-width: 767px) {
   .header__head {
     min-height: 54px;
-    padding: 0 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 

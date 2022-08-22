@@ -1,10 +1,6 @@
 .footer__support-logotype_type_fond {
   background-image: url("../../../../images/footer/logo-fond.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
   height: 48px;
-  width: 100px;
 }
 
 @media screen and (max-width: 1439px) {

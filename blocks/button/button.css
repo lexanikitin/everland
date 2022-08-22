@@ -3,10 +3,10 @@
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 500;
-    line-height: 120%; 
+    line-height: 120%;
     overflow: hidden;
     padding: 0;
 }
