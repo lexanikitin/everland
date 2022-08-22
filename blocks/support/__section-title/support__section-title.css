@@ -1,5 +1,6 @@
 .support__section-title {
   padding: 0 0 50px;
+  width: fit-content;
 }
 
 @media screen and (max-width: 1280px) {
@@ -9,6 +10,7 @@
     padding: 44px 0 24px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .support__section-title {
     max-width: 215px;
