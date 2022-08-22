@@ -5,7 +5,7 @@
   color: #333333;
   display: flex;
   flex-shrink: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', 'Arial', sans-serif;
   font-feature-settings: 'pnum' on, 'lnum' on;
   font-size: 18px;
   font-style: normal;
