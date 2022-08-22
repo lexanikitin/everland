@@ -20,7 +20,6 @@
 @media screen and (max-width: 767px) {
   .support-form__button-primary {
     font-size: 14px;
-    height: 44px;
     width: 260px;
   }
 }

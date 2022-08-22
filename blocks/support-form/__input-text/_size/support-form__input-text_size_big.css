@@ -14,6 +14,5 @@
 @media screen and (max-width: 767px) {
   .support-form__input-text_size_big {
     min-width: 122px;
-    width: 100%;
   }
 }
