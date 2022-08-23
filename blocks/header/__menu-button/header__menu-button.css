@@ -9,15 +9,7 @@
   font-style: normal;
   gap: 12px;
   justify-content: center;
-  margin-right: -100px;
   padding: 0;
-}
-
-@media screen and (max-width: 1439px) {
-  .header__menu-button {
-    margin-right: 0;
-    order: 2;
-  }
 }
 
 .header__menu-button:hover {
