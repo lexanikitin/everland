@@ -1,0 +1,36 @@
+.numbers__description-reviews {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .numbers__description-reviews {
+    gap: 10px;
+    max-width: 333px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .numbers__description-reviews {
+    gap: 5px;
+    max-width: 300px;
+  }
+  .numbers__description-reviews:nth-child(1) {
+    order: 0;
+  }
+
+  .numbers__description-reviews:nth-child(2) {
+    order: 2;
+  }
+
+  .numbers__description-reviews:nth-child(3) {
+    order: 1;
+  }
+
+  .numbers__description-reviews:nth-child(4) {
+    order: 3;
+  }
+}
