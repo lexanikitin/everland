@@ -13,6 +13,7 @@ function workHeaderMenu() {
 
   const content = document.querySelector('.page');
   const header = content.querySelector('.header')
+  const menu = header.querySelector('.header__menu');
   const menuButton = header.querySelector('.header__menu-button');
   const iconButtonMenu = menuButton.querySelector('.header__menu-button-icon');
   const bigMenu = header.querySelector('.header__big-menu');
@@ -30,10 +31,31 @@ function workHeaderMenu() {
     }
   });
   // обработка изменения ширины экрана для добавления или скрытия тени у header-a
-  window.addEventListener('resize', toggleShadowHeader);
+  window.addEventListener('resize', () => {
+    toggleShadowHeader();
+    if (document.documentElement.clientWidth < 1440 && bigMenu.style.visibility === 'visible'
+      && bigMenu.style.opacity === '1') {
+      iconButtonMenu.classList.add('header__menu-button-icon_type_close');
+      bigMenu.classList.add('header__big-menu_opened');
+    }
+  });
   document.addEventListener("DOMContentLoaded", toggleShadowHeader);
 
-
+  //
+  menu.addEventListener('mouseover', () => {
+    if (document.documentElement.clientWidth >= 1440) {
+      bigMenu.style.visibility = 'visible';
+      bigMenu.style.opacity = '1';
+    }
+  });
+  menu.addEventListener('mouseout', () => {
+    if (document.documentElement.clientWidth >= 1440) {
+      bigMenu.style.visibility = 'hidden';
+      bigMenu.style.opacity = '0';
+      iconButtonMenu.classList.remove('header__menu-button-icon_type_close');
+      bigMenu.classList.remove('header__big-menu_opened');
+    }
+  });
   // обработка события click при нажатии на кнопку бургер меню
   menuButton.addEventListener('click', toggleBigMenu);
 
@@ -55,11 +77,16 @@ function workHeaderMenu() {
     if (document.documentElement.clientWidth < 1440) {
       bigMenu.classList.toggle('header__big-menu_opened');
       iconButtonMenu.classList.toggle('header__menu-button-icon_type_close');
+      bigMenu.style.visibility = '';
+      bigMenu.style.opacity = '';
     } else if (bigMenu.classList.contains('header__big-menu_opened')) {
       bigMenu.classList.remove('header__big-menu_opened');
       iconButtonMenu.classList.remove('header__menu-button-icon_type_close');
-      bigMenu.setAttribute('visibility', 'hidden');
-      bigMenu.setAttribute('opacity', '0');
+      bigMenu.style.visibility = 'hidden';
+      bigMenu.style.opacity = '0';
+    } else {
+      bigMenu.style.visibility = 'visible';
+      bigMenu.style.opacity = '1';
     }
   }
 

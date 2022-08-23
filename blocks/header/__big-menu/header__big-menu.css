@@ -10,7 +10,7 @@
   padding: 32px 40px 0 40px;
   position: absolute;
   top: 80px;
-  transition: visibility 0s linear 0.25s, opacity 0.25s linear;
+  transition: visibility .25s linear .25s, opacity .25s linear .25s;
   visibility: hidden;
   width: 100%;
 }
