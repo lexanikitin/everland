@@ -1,4 +1,4 @@
-.header__big-menu-lists_last {
+.header__big-menu-lists_position_last {
   column-gap: 30px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .header__big-menu-lists_last {
+  .header__big-menu-lists_position_last {
     column-gap: 22px;
     grid-column: 1 / -2;
     grid-template-columns: repeat(2, 1fr);
@@ -18,7 +18,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .header__big-menu-lists_last {
+  .header__big-menu-lists_position_last {
     grid-template-columns: repeat(1, 1fr);
     row-gap: 22px;
   }

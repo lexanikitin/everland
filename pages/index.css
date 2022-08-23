@@ -53,7 +53,7 @@
 @import url('../blocks/header/__link/_bold/header__link_bold.css');
 @import url('../blocks/header/__link/_position/header__link_position_big-menu.css');
 @import url('../blocks/header/__big-menu/_opened/header__big-menu_opened.css');
-@import url('../blocks/header/__big-menu-lists/_last/header__big-menu-lists_last.css');
+@import url('../blocks/header/__big-menu-lists/_position/header__big-menu-lists_position_last.css');
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/_type/button_type_primary.css');
 @import url('../blocks/button/_type/button_type_secondary.css');
