@@ -201,7 +201,7 @@
 @import url('../blocks/news/__card-text/news__card-text.css');
 @import url('../blocks/news/__card-date/news__card-date.css');
 @import url('../blocks/news/__card-image/news__card-image.css');
-@import url('../blocks/news/__button/news__button-tablet.css');
+@import url('../blocks/news/__button-tablet/news__button-tablet.css');
 @import url('../blocks/news/__button/news__button.css');
 /* Секция Поддержите нас */
 @import url('../blocks/support/support.css');
