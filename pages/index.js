@@ -99,7 +99,7 @@ function checkboxLigics(checkboxClass) {
 
 function accordionsAdvantages() {
   const advantagesSectionNode = document.querySelector(
-    "#advantages .accordion__column"
+    "#advantages .advantages__content"
   );
   let currentTextNode = null;
   advantagesSectionNode
