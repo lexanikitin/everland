@@ -10,7 +10,9 @@
   font-weight: 500;
   justify-content: center;
   line-height: 120%;
+  position: relative;
   transition: border-color .3s linear;
+  z-index: 5;
 }
 
 @media screen and (max-width: 1023px) {
