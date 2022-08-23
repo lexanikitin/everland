@@ -103,7 +103,7 @@
 @import url('../blocks/purpose/__description/purpose__description.css');
 /* секция Наши направления */
 @import url('../blocks/activities/activities.css');
-@import url('../blocks/activities/_container/activities__container.css');
+@import url('../blocks/activities/__container/activities__container.css');
 @import url('../blocks/activities/__cards/activities__cards.css');
 @import url('../blocks/activities/__card/activities__card.css');
 @import url('../blocks/activities/__card/_color/activities__card_color_blue.css');
@@ -132,10 +132,10 @@
 @import url('../blocks/numbers/__info/numbers__info.css');
 @import url('../blocks/numbers/__photo/numbers__photo.css');
 @import url('../blocks/numbers/__description/numbers__description.css');
-@import url('../blocks/numbers/__description/numbers__description-heading.css');
-@import url('../blocks/numbers/__description/numbers__description-paragraph.css');
-@import url('../blocks/numbers/__description/numbers__description-reviews.css');
-@import url('../blocks/numbers/__description/numbers__description-number.css');
+@import url('../blocks/numbers/__description-heading/numbers__description-heading.css');
+@import url('../blocks/numbers/__description-paragraph/numbers__description-paragraph.css');
+@import url('../blocks/numbers/__description-reviews/numbers__description-reviews.css');
+@import url('../blocks/numbers/__description-number/numbers__description-number.css');
 /* Секция Спецпроекты */
 @import url('../blocks/special-projects/__container/special-projects__container.css');
 @import url('../blocks/slider/slider.css');
@@ -167,13 +167,13 @@
 @import url('../blocks/stories/__paragraph-info/stories__paragraph-info.css');
 @import url('../blocks/stories/__photo-cards/stories__photo-cards.css');
 @import url('../blocks/stories/__photo-card/stories__photo-card.css');
-@import url('../blocks/stories/__photo-card/stories__photo-card-description.css');
+@import url('../blocks/stories/__photo-card-description/stories__photo-card-description.css');
 @import url('../blocks/stories/__avatar/stories__avatar.css');
 @import url('../blocks/stories/__avatar-description/stories__avatar-description.css');
 @import url('../blocks/stories/__avatar-first/stories__avatar-first.css');
 @import url('../blocks/stories/__avatar-second/stories__avatar-second.css');
 @import url('../blocks/stories/__button/stories__button.css');
-@import url('../blocks/stories/__button/stories__button-down.css');
+@import url('../blocks/stories/__button-down/stories__button-down.css');
 @import url('../blocks/stories/__link/stories__link.css');
 @import url('../blocks/stories/__heading/stories__heading.css');
 @import url('../blocks/stories/__avatar-name/stories__avatar-name.css');
@@ -201,7 +201,7 @@
 @import url('../blocks/news/__card-text/news__card-text.css');
 @import url('../blocks/news/__card-date/news__card-date.css');
 @import url('../blocks/news/__card-image/news__card-image.css');
-@import url('../blocks/news/__button/news__button-tablet.css');
+@import url('../blocks/news/__button-tablet/news__button-tablet.css');
 @import url('../blocks/news/__button/news__button.css');
 /* Секция Поддержите нас */
 @import url('../blocks/support/support.css');
