@@ -8,7 +8,9 @@
   height: 25px;
   justify-content: center;
   padding: 5px 10px;
+  position: relative;
   width: 25px;
+  z-index: 5;
 }
 
 @media screen and (max-width: 1023px) {

@@ -4,5 +4,6 @@
   flex-direction: row;
   gap: 8px;
   margin: 0;
+  position: relative;
 }
 

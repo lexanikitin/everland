@@ -1,7 +1,9 @@
 .support-form__checkbox-agreement {
-  left: -9999px;
+  bottom: 0;
+  left: 6px;
   margin: 0;
   position: absolute;
+  opacity: 0;
 }
 
 .support-form__checkbox-agreement:checked + .support-form__checkbox-visible {
