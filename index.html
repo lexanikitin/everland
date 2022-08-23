@@ -864,19 +864,16 @@
           <form class="support-form">
             <div class="support-form__button-wrapper support-form__button-wrapper_type_first">
               <label class="support-form__input-label">
-                <input class="support-form__checkbox-payment" type="checkbox" value="monthly"/>
-                <span class="support-form__input-text support-form__input-text_size_big">Ежемесячно <svg width="10"
-                                                                                                         height="10"
-                                                                                                         viewBox="0 0 10 10"
-                                                                                                         fill="none"
-                                                                                                         xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10ZM3.00285 3.54791C2.9797 3.69528 3.10075 3.82002 3.25022 3.82002H3.25075H3.65969C3.79759 3.82002 3.90917 3.71107 3.94391 3.57739C4.06391 3.11791 4.43285 2.83949 4.96391 2.83949C5.57864 2.83949 5.97759 3.21791 5.97759 3.73318C5.97759 4.20318 5.78443 4.46791 5.24233 4.80055C4.62759 5.17476 4.35391 5.58528 4.37654 6.22791L4.37812 6.33318C4.37881 6.40251 4.40684 6.46877 4.45612 6.51756C4.50539 6.56634 4.57193 6.59371 4.64127 6.5937H5.04654C5.11633 6.5937 5.18327 6.56598 5.23262 6.51663C5.28197 6.46727 5.3097 6.40034 5.3097 6.33054V6.31476C5.3097 5.84528 5.47496 5.6037 6.05391 5.25686C6.64601 4.89633 6.99601 4.39949 6.99601 3.69212C6.99601 2.71581 6.19759 2.00002 5.01338 2.00002C3.82969 2.00002 3.14759 2.65265 3.00285 3.54791ZM5.41654 7.74212C5.41654 8.06633 5.16759 8.31581 4.84022 8.31581C4.52127 8.31581 4.26812 8.06633 4.26812 7.7416C4.26812 7.41686 4.52127 7.16739 4.84022 7.16739C5.16759 7.16739 5.41654 7.41686 5.41654 7.74212Z"
-                          fill="#0C4BA0"/>
-                  </svg></span>
+                <input class="support-form__checkbox-payment" required name="payment" type="radio" value="monthly"/>
+                <span class="support-form__input-text support-form__input-text_size_big">Ежемесячно <svg width="10" height="10"
+                  viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10ZM3.00285 3.54791C2.9797 3.69528 3.10075 3.82002 3.25022 3.82002H3.25075H3.65969C3.79759 3.82002 3.90917 3.71107 3.94391 3.57739C4.06391 3.11791 4.43285 2.83949 4.96391 2.83949C5.57864 2.83949 5.97759 3.21791 5.97759 3.73318C5.97759 4.20318 5.78443 4.46791 5.24233 4.80055C4.62759 5.17476 4.35391 5.58528 4.37654 6.22791L4.37812 6.33318C4.37881 6.40251 4.40684 6.46877 4.45612 6.51756C4.50539 6.56634 4.57193 6.59371 4.64127 6.5937H5.04654C5.11633 6.5937 5.18327 6.56598 5.23262 6.51663C5.28197 6.46727 5.3097 6.40034 5.3097 6.33054V6.31476C5.3097 5.84528 5.47496 5.6037 6.05391 5.25686C6.64601 4.89633 6.99601 4.39949 6.99601 3.69212C6.99601 2.71581 6.19759 2.00002 5.01338 2.00002C3.82969 2.00002 3.14759 2.65265 3.00285 3.54791ZM5.41654 7.74212C5.41654 8.06633 5.16759 8.31581 4.84022 8.31581C4.52127 8.31581 4.26812 8.06633 4.26812 7.7416C4.26812 7.41686 4.52127 7.16739 4.84022 7.16739C5.16759 7.16739 5.41654 7.41686 5.41654 7.74212Z"
+                    fill="#0C4BA0" />
+                </svg></span>
               </label>
               <label class="support-form__input-label">
-                <input class="support-form__checkbox-payment" type="checkbox" value="onetime"/>
+                <input class="support-form__checkbox-payment" name="payment" type="radio" value="onetime"/>
                 <span class="support-form__input-text support-form__input-text_size_big">Разово</span>
               </label>
             </div>
@@ -884,23 +881,23 @@
             </h4>
             <div class="support-form__button-wrapper support-form__button-wrapper_type_sum">
               <label class="support-form__input-label">
-                <input class="support-form__checkbox" type="checkbox" value="250"/>
+                <input class="support-form__checkbox" required type="radio" name="sum" value="250"/>
                 <span class="support-form__input-text support-form__input-text_size_small">250&#8381;</span>
               </label>
               <label class="support-form__input-label">
-                <input class="support-form__checkbox" type="checkbox" value="500"/>
+                <input class="support-form__checkbox" type="radio" name="sum" value="500"/>
                 <span class="support-form__input-text support-form__input-text_size_small">500&#8381;</span>
               </label>
               <label class="support-form__input-label">
-                <input class="support-form__checkbox" type="checkbox" value="750"/>
+                <input class="support-form__checkbox" type="radio" name="sum" value="750"/>
                 <span class="support-form__input-text support-form__input-text_size_small">750&#8381;</span>
               </label>
               <label class="support-form__input-label">
-                <input class="support-form__checkbox" type="checkbox" value="1000"/>
+                <input class="support-form__checkbox" type="radio" name="sum" value="1000"/>
                 <span class="support-form__input-text support-form__input-text_size_small">1000&#8381;</span>
               </label>
               <label class="support-form__input-label" id="checboxFormOther">
-                <input class="support-form__checkbox" type="checkbox" value="other"/>
+                <input class="support-form__checkbox" id="radioOther" type="radio" name="sum" value="other"/>
                 <span
                   class="support-form__input-text support-form__input-text_size_small support-form__input-text_size_other">Другая сумма</span>
               </label>
@@ -916,17 +913,17 @@
             <h4 class="support-form__heading-wrap"><span class="support-form__heading">Способ оплаты</span></h4>
             <div class="support-form__button-wrapper support-form__button-wrapper_type_payment">
               <label class="support-form__input-label payment-button">
-                <input class="support-form__checkbox-payment-system" type="checkbox" value="card"/>
+                <input class="support-form__checkbox-payment-system" required name="payment-system" type="radio" value="card"/>
                 <span
                   class="support-form__pay support-form__pay_size support-form__pay_variant_card support-form__pay_variant"></span>
               </label>
               <label class="support-form__input-label payment-button">
-                <input class="support-form__checkbox-payment-system" type="checkbox" value="io"/>
+                <input class="support-form__checkbox-payment-system" name="payment-system" type="radio" value="io"/>
                 <span
                   class="support-form__pay support-form__pay_size support-form__pay_variant_you support-form__pay_variant"></span>
               </label>
               <label class="support-form__input-label payment-button">
-                <input class="support-form__checkbox-payment-system" type="checkbox" value="webmoney"/>
+                <input class="support-form__checkbox-payment-system" name="payment-system" type="radio" value="webmoney"/>
                 <span
                   class="support-form__pay support-form__pay_size support-form__pay_variant_webmoney support-form__pay_variant"></span>
               </label>
@@ -938,27 +935,27 @@
             </div>
             <h4 class="support-form__heading-wrap"><span class="support-form__heading">Ваши данные</span></h4>
             <fieldset class="support-form__data-fieldset">
-              <input type="text" class="support-form__input" id="name" placeholder="Иван Иванов"/>
-              <input type="email" class="support-form__input" id="email" placeholder="myemail@example.com"/>
-              <input type="number" class="support-form__input support-form__input_donation" id="inputFormDonation"
+              <input type="text" required class="support-form__input" id="name" placeholder="Иван Иванов"/>
+              <input type="email" required class="support-form__input" id="email" placeholder="myemail@example.com"/>
+              <input type="number" min="1" class="support-form__input support-form__input_donation" id="inputFormDonation"
                      placeholder="Размер пожертвования"/>
             </fieldset>
             <fieldset class="support-form__radio-fieldset">
               <label for="oferta" class="support-form__place-radio">
-                <input type="checkbox" class="support-form__checkbox-agreement" id="oferta">
+                <input type="checkbox" required class="support-form__checkbox-agreement" id="oferta">
                 <span class="support-form__checkbox-visible"></span>
                 <span class="support-form__label">Соглашаюсь c <a class="support-form__label-link"
                                                                   href="#">офертой</a></span>
               </label>
               <label for="my-data" class="support-form__place-radio">
-                <input type="checkbox" class="support-form__checkbox-agreement" id="my-data">
+                <input type="checkbox" required class="support-form__checkbox-agreement" id="my-data">
                 <span class="support-form__checkbox-visible"></span>
                 <span class="support-form__label">Соглашаюсь на <a class="support-form__label-link" href="#">обработку
                     моих персональных
                     данных</a></span>
               </label>
             </fieldset>
-            <button class="button button_type_primary support-form__button-primary">Поддержать</button>
+            <button class="button button_type_primary support-form__button-primary" type="submit">Поддержать</button>
           </form>
           <article class="support__donations">
             <h3 class="support__heading">Everland создается силами многих. Мы&nbsp;благодарны каждому за&nbsp;поддержку!

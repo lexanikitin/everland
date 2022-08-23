@@ -1,7 +1,10 @@
 .support-form__checkbox-payment-system {
-  left: -9999px;
+  bottom: 0;
+  left: 50%;
   margin: 0;
+  opacity: 0;
   position: absolute;
+  transform: translateX(-50%);
 }
 
 .support-form__checkbox-payment-system:checked + .support-form__pay {

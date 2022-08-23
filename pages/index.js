@@ -7,9 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   slider('slider', 'slider__list', 'slider__item', 'slider__item_active', 'sliderPrev', 'sliderNext', false);
 });
 formLogics();
-checkboxLigics('support-form__checkbox-payment');
-checkboxLigics('support-form__checkbox');
-checkboxLigics('support-form__checkbox-payment-system');
+formRequired();
 
 function workHeaderMenu() {
 
@@ -247,6 +245,7 @@ function formLogics() {
 
       if (value === 'other') {
         inputFormDonation.classList.add('support-form__input_active');
+        inputFormDonation.setAttribute('required', 'required');
       }
 
       transitionToForm();
@@ -294,3 +293,19 @@ function setSmoothNavigation(){
 });
 
 }
+
+function formRequired() {
+  const checkbox = document.querySelectorAll('.support-form__checkbox');
+  const radioOther = document.querySelector('#radioOther');
+  const inputFormDonation = document.querySelector('#inputFormDonation');
+
+  checkbox.forEach((item) => {
+    item.addEventListener('change', () => {
+      if (radioOther.checked) {
+        inputFormDonation.setAttribute('required', 'required');
+      } else {
+        inputFormDonation.removeAttribute('required');
+      }
+    });
+  });
+};
