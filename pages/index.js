@@ -245,6 +245,7 @@ function formLogics() {
 
       if (value === 'other') {
         inputFormDonation.classList.add('support-form__input_active');
+        inputFormDonation.setAttribute('required', 'required');
       }
 
       transitionToForm();
