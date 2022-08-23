@@ -19,7 +19,7 @@
 @media screen and (max-width: 767px) {
   .footer__container {
     grid-template-columns: 1fr;
-    padding: 32px 0;
+    padding: 42px 0 32px 0;
     row-gap: 36px;
   }
 }
