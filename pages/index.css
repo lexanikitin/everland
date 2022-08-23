@@ -50,7 +50,7 @@
 @import url('../blocks/header/__checkbox-button-big-menu/header__checkbox-button-big-menu.css');
 @import url('../blocks/header/__icon-shevron/header__icon-shevron.css');
 @import url('../blocks/header/__icon-shevron/_rotate/header__icon-shevron_rotate.css');
-@import url('../blocks/header/__link/_bold/header__link_bold.css');
+@import url('../blocks/header/__link/_position/header__link_position_item.css');
 @import url('../blocks/header/__link/_position/header__link_position_big-menu.css');
 @import url('../blocks/header/__big-menu/_opened/header__big-menu_opened.css');
 @import url('../blocks/header/__big-menu-lists/_last/header__big-menu-lists_last.css');
