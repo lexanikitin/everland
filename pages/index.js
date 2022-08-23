@@ -34,14 +34,14 @@ function workHeaderMenu() {
   document.addEventListener("DOMContentLoaded", toggleShadowHeader);
 
 
-  // обработка события click при нажитии на кпонку бургер меню
+  // обработка события click при нажатии на кнопку бургер меню
   menuButton.addEventListener('click', toggleBigMenu);
 
-  // обработка события click при нажитии на раздел меню второго уровня
+  // обработка события click при нажатии на раздел меню второго уровня
   menuItems.forEach((menuItem) =>
     menuItem.addEventListener('click', toggleMenuItems));
 
-  //функция обработки скрытия или добавления тени у у header-a
+  //функция обработки скрытия или добавления тени у header-a
   function toggleShadowHeader() {
     if (document.documentElement.clientWidth < 1440) {
       header.classList.add('header_shadow');
@@ -50,13 +50,20 @@ function workHeaderMenu() {
     }
   }
 
-  // фукнция обработки нажатия на кпонку бургер меню
+  // функция обработки нажатия на кнопку бургер меню
   function toggleBigMenu() {
-    bigMenu.classList.toggle('header__big-menu_opened');
-    iconButtonMenu.classList.toggle('header__menu-button-icon_type_close');
+    if (document.documentElement.clientWidth < 1440) {
+      bigMenu.classList.toggle('header__big-menu_opened');
+      iconButtonMenu.classList.toggle('header__menu-button-icon_type_close');
+    } else if (bigMenu.classList.contains('header__big-menu_opened')) {
+      bigMenu.classList.remove('header__big-menu_opened');
+      iconButtonMenu.classList.remove('header__menu-button-icon_type_close');
+      bigMenu.setAttribute('visibility', 'hidden');
+      bigMenu.setAttribute('opacity', '0');
+    }
   }
 
-  // фукнция обработки нажатия на подпункт меню второго уровня
+  // функция обработки нажатия на подпункт меню второго уровня
   function toggleMenuItems() {
     const menuItem = event.target.closest('.header__big-menu-lists');
     const menuList = menuItem.querySelector('.header__big-menu-list');
@@ -224,7 +231,7 @@ function formLogics() {
 
   donationCheckbox.forEach((item) => {
     item.addEventListener('change', (e) => {
-      if (e.target.checked){
+      if (e.target.checked) {
         value = item.value;
       }
     });
@@ -255,7 +262,7 @@ function formLogics() {
   });
 
   checboxFormOther.addEventListener('change', (e) => {
-    if (e.target.checked){
+    if (e.target.checked) {
       inputFormDonation.classList.add('support-form__input_active');
     } else {
       inputFormDonation.classList.remove('support-form__input_active');
@@ -280,17 +287,17 @@ function formLogics() {
 
 setSmoothNavigation();
 
-function setSmoothNavigation(){
+function setSmoothNavigation() {
 
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+      e.preventDefault();
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
     });
-});
+  });
 
 }
 
