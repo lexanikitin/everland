@@ -35,6 +35,7 @@
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/_shadow/header_shadow.css');
 @import url('../blocks/header/__head/header__head.css');
+@import url('../blocks/header/__menu/header__menu.css');
 @import url('../blocks/header/__menu-button/header__menu-button.css');
 @import url('../blocks/header/__menu-button-icon/header__menu-button-icon.css');
 @import url('../blocks/header/__menu-button-icon/_type/header__menu-button-icon_type_close.css');

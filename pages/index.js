@@ -13,6 +13,7 @@ function workHeaderMenu() {
 
   const content = document.querySelector('.page');
   const header = content.querySelector('.header')
+  const menu = header.querySelector('.header__menu');
   const menuButton = header.querySelector('.header__menu-button');
   const iconButtonMenu = menuButton.querySelector('.header__menu-button-icon');
   const bigMenu = header.querySelector('.header__big-menu');
@@ -30,18 +31,39 @@ function workHeaderMenu() {
     }
   });
   // обработка изменения ширины экрана для добавления или скрытия тени у header-a
-  window.addEventListener('resize', toggleShadowHeader);
+  window.addEventListener('resize', () => {
+    toggleShadowHeader();
+    if (document.documentElement.clientWidth < 1440 && bigMenu.style.visibility === 'visible'
+      && bigMenu.style.opacity === '1') {
+      iconButtonMenu.classList.add('header__menu-button-icon_type_close');
+      bigMenu.classList.add('header__big-menu_opened');
+    }
+  });
   document.addEventListener("DOMContentLoaded", toggleShadowHeader);
 
-
-  // обработка события click при нажитии на кпонку бургер меню
+  //
+  menu.addEventListener('mouseover', () => {
+    if (document.documentElement.clientWidth >= 1440) {
+      bigMenu.style.visibility = 'visible';
+      bigMenu.style.opacity = '1';
+    }
+  });
+  menu.addEventListener('mouseout', () => {
+    if (document.documentElement.clientWidth >= 1440) {
+      bigMenu.style.visibility = 'hidden';
+      bigMenu.style.opacity = '0';
+      iconButtonMenu.classList.remove('header__menu-button-icon_type_close');
+      bigMenu.classList.remove('header__big-menu_opened');
+    }
+  });
+  // обработка события click при нажатии на кнопку бургер меню
   menuButton.addEventListener('click', toggleBigMenu);
 
-  // обработка события click при нажитии на раздел меню второго уровня
+  // обработка события click при нажатии на раздел меню второго уровня
   menuItems.forEach((menuItem) =>
     menuItem.addEventListener('click', toggleMenuItems));
 
-  //функция обработки скрытия или добавления тени у у header-a
+  //функция обработки скрытия или добавления тени у header-a
   function toggleShadowHeader() {
     if (document.documentElement.clientWidth < 1440) {
       header.classList.add('header_shadow');
@@ -50,13 +72,25 @@ function workHeaderMenu() {
     }
   }
 
-  // фукнция обработки нажатия на кпонку бургер меню
+  // функция обработки нажатия на кнопку бургер меню
   function toggleBigMenu() {
-    bigMenu.classList.toggle('header__big-menu_opened');
-    iconButtonMenu.classList.toggle('header__menu-button-icon_type_close');
+    if (document.documentElement.clientWidth < 1440) {
+      bigMenu.classList.toggle('header__big-menu_opened');
+      iconButtonMenu.classList.toggle('header__menu-button-icon_type_close');
+      bigMenu.style.visibility = '';
+      bigMenu.style.opacity = '';
+    } else if (bigMenu.classList.contains('header__big-menu_opened')) {
+      bigMenu.classList.remove('header__big-menu_opened');
+      iconButtonMenu.classList.remove('header__menu-button-icon_type_close');
+      bigMenu.style.visibility = 'hidden';
+      bigMenu.style.opacity = '0';
+    } else {
+      bigMenu.style.visibility = 'visible';
+      bigMenu.style.opacity = '1';
+    }
   }
 
-  // фукнция обработки нажатия на подпункт меню второго уровня
+  // функция обработки нажатия на подпункт меню второго уровня
   function toggleMenuItems() {
     const menuItem = event.target.closest('.header__big-menu-lists');
     const menuList = menuItem.querySelector('.header__big-menu-list');
@@ -224,7 +258,7 @@ function formLogics() {
 
   donationCheckbox.forEach((item) => {
     item.addEventListener('change', (e) => {
-      if (e.target.checked){
+      if (e.target.checked) {
         value = item.value;
       }
     });
@@ -255,7 +289,7 @@ function formLogics() {
   });
 
   checboxFormOther.addEventListener('change', (e) => {
-    if (e.target.checked){
+    if (e.target.checked) {
       inputFormDonation.classList.add('support-form__input_active');
     } else {
       inputFormDonation.classList.remove('support-form__input_active');
@@ -280,17 +314,17 @@ function formLogics() {
 
 setSmoothNavigation();
 
-function setSmoothNavigation(){
+function setSmoothNavigation() {
 
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+      e.preventDefault();
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
     });
-});
+  });
 
 }
 
