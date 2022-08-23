@@ -31,3 +31,15 @@
     top: 54px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .header__big-menu::before {
+    content: '';
+    display: block;
+    height: 30px;
+    max-width: 1440px;
+    position: absolute;
+    top: -30px;
+    width: 100%;
+    z-index: 10;
+  }
+}

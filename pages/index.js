@@ -35,13 +35,8 @@ function workHeaderMenu() {
   window.addEventListener('resize', toggleShadowHeader);
   document.addEventListener("DOMContentLoaded", toggleShadowHeader);
 
-
   // обработка события click при нажатии на кнопку бургер меню
   menuButton.addEventListener('click', toggleBigMenu);
-
-  // обработка события наведения курсора мыши на кнопку бургер меню
-  menuButton.addEventListener('mouseenter', toggleBigMenu);
-  bigMenu.addEventListener('mouseleave', toggleBigMenu);
 
   // обработка события click при нажатии на раздел меню второго уровня
   menuItems.forEach((menuItem) =>
@@ -56,10 +51,12 @@ function workHeaderMenu() {
     }
   }
 
-  // функция обработки нажатия на кнопку бургер меню
+  // функция обработки нажатия на кнопку бургер меню для экранов меньше 1440px
   function toggleBigMenu() {
-    bigMenu.classList.toggle('header__big-menu_opened');
-    iconButtonMenu.classList.toggle('header__menu-button-icon_type_close');
+    if (document.documentElement.clientWidth < 1440) {
+      bigMenu.classList.toggle('header__big-menu_opened');
+      iconButtonMenu.classList.toggle('header__menu-button-icon_type_close');
+    }
   }
 
   // функция обработки нажатия на подпункт меню второго уровня
@@ -230,7 +227,7 @@ function formLogics() {
 
   donationCheckbox.forEach((item) => {
     item.addEventListener('change', (e) => {
-      if (e.target.checked){
+      if (e.target.checked) {
         value = item.value;
       }
     });
@@ -260,7 +257,7 @@ function formLogics() {
   });
 
   checboxFormOther.addEventListener('change', (e) => {
-    if (e.target.checked){
+    if (e.target.checked) {
       inputFormDonation.classList.add('support-form__input_active');
     } else {
       inputFormDonation.classList.remove('support-form__input_active');
@@ -285,16 +282,16 @@ function formLogics() {
 
 setSmoothNavigation();
 
-function setSmoothNavigation(){
+function setSmoothNavigation() {
 
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+      e.preventDefault();
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
     });
-});
+  });
 
 }
