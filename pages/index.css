@@ -86,7 +86,7 @@
 @import url('../blocks/donation/__checkbox/donation__checkbox.css');
 @import url('../blocks/donation/__text/donation__text.css');
 @import url('../blocks/donation/__button-size/donation__button-size.css');
-@import url('../blocks/donation/__text/_other/donation__text_other.css');
+@import url('../blocks/donation/__text/_width/donation__text_width_larger.css');
 /* секция Для кого мы работаем */
 @import url('../blocks/purpose/__link/purpose__link.css');
 @import url('../blocks/purpose/purpose.css');
@@ -146,12 +146,12 @@
 @import url('../blocks/slider/__text-container/slider__text-container.css');
 @import url('../blocks/slider/__title/slider__title.css');
 @import url('../blocks/slider/__text/slider__text.css');
-@import url('../blocks/slider/__image-container/sliger__image-container.css');
-@import url('../blocks/slider/__image/sliger__image.css');
+@import url('../blocks/slider/__image-container/slider__image-container.css');
+@import url('../blocks/slider/__image/slider__image.css');
 @import url('../blocks/slider/__buttons/slider__buttons.css');
 @import url('../blocks/slider/__button-size/slider__button-size.css');
-@import url('../blocks/slider/__subtitle/_type/slider__subtitle_type_desktop.css');
-@import url('../blocks/slider/__subtitle/_type/slider__subtitle_type_mobile.css');
+@import url('../blocks/slider/__subtitle/_display/slider__subtitle_display_desktop.css');
+@import url('../blocks/slider/__subtitle/_display/slider__subtitle_display_mobile.css');
 @import url('../blocks/slider/__item/_active/slider__item_active.css');
 /* секция Истории */
 @import url('../blocks/stories/stories.css');

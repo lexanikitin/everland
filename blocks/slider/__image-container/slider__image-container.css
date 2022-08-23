@@ -1,4 +1,4 @@
-.sliger__image-container {
+.slider__image-container {
   align-self: center;
   border-radius: 30px;
   height: 393px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .sliger__image-container {
+  .slider__image-container {
     border-radius: 10px;
     height: 284px;
     width: 41.4%;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .sliger__image-container {
+  .slider__image-container {
     height: 70.866%;
     width: 100%;
   }
