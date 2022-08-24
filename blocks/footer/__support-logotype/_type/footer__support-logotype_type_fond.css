@@ -1,0 +1,19 @@
+.footer__support-logotype_type_fond {
+  background-image: url("../../../../images/footer/logo-fond.svg");
+  height: 48px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__support-logotype_type_fond {
+    background-image: url("../../../../images/footer/logo-fond-tablet.svg");
+    height: 30px;
+    width: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__support-logotype_type_fond {
+    height: 24px;
+    width: 72px;
+  }
+}

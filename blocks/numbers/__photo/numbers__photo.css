@@ -1,0 +1,25 @@
+.numbers__photo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 30px;
+  height: 368px;
+  width: 555px;
+}
+
+@media screen and (max-width: 1023px) {
+  .numbers__photo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .numbers__photo {
+    border-radius: 20px;
+    display: flex;
+    height: 200px;
+    margin-top: 24px;
+    order: 1;
+    width: 300px;
+  }
+}

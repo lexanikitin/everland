@@ -1,0 +1,44 @@
+.support__donations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin: 0;
+  max-height: 640px;
+  max-width: 396px;
+  overflow: hidden;
+  padding: 74px 0 0 46px;
+  position: relative;
+}
+
+.support__donations-list::after {
+  background: linear-gradient(to top, rgba(231, 240, 255, 255), rgba(231, 240, 255, 0));
+  bottom: 0;
+  content: '';
+  height: 90%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+@media screen and (max-width:1023px) {
+  .support__donations-list {
+    align-items: center;
+    gap: 26px;
+    margin: 0 auto;
+    max-height: 459px;
+    max-width: 349px;
+    padding: 32px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__donations-list {
+    gap: 16px;
+    max-height: 265px;
+    padding: 36px 0 0;
+    width: 300px;
+  }
+  .support__donations-list::after {
+    height: 80%;
+  }
+}

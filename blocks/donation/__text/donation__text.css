@@ -1,0 +1,37 @@
+.donation__text {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  transition: border-color .3s linear,
+              color .3s linear;
+  width: 159px;
+}
+
+@media screen and (max-width: 1250px) {
+  .donation__text {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .donation__text {
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .donation__text {
+    width: 75px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation__text {
+    width: 100%;
+  }
+}

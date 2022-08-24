@@ -1,0 +1,16 @@
+.footer__social-logotype {
+  height: 64px;
+  object-fit: contain;
+  width: 64px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__social-logotype {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.footer__social-logotype:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.header__menu {
+  margin-right: -100px;
+}
+@media screen and (max-width: 1439px) {
+  .header__menu {
+    margin-right: 0;
+    order: 2;
+  }
+}

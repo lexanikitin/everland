@@ -1,0 +1,15 @@
+.activities__container {
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+@media screen and (max-width: 1023px) {
+  .activities__container {
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .activities__container {
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+}

@@ -1,0 +1,16 @@
+.header__icon-shevron {
+  background-image: url(../../../images/header/icon-shevron.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: none;
+  height: 24px;
+  width: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__icon-shevron {
+    display: block;
+    transition: transform .5s ease-in-out;
+  }
+}

@@ -1,0 +1,21 @@
+.intro__slider-title {
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: -.02em;
+  line-height: 120%;
+  margin: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .intro__slider-title {
+    font-size: 38px;
+    letter-spacing: -.03em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__slider-title {
+    font-size: 28px;
+    padding-left: 2px;
+  }
+}

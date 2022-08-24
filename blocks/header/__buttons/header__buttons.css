@@ -1,0 +1,17 @@
+.header__buttons {
+  column-gap: 16px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__buttons {
+    column-gap: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__buttons {
+    display: none;
+  }
+}

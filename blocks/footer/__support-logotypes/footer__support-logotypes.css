@@ -1,0 +1,21 @@
+.footer__support-logotypes {
+  column-gap: 50px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__support-logotypes {
+    margin-left: 15px;
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__support-logotypes {
+    margin-left: 10px;
+  }
+}

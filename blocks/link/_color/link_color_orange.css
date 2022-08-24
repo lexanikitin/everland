@@ -1,0 +1,21 @@
+.link_color_orange {
+    background-color: #FEEFEA;
+    color: #E98509;
+}
+
+.link_color_orange:hover {
+    background-color: #E98509;
+    color: #fff;
+}
+
+.link_color_orange:active {
+    background-color: #864A00;
+}
+
+.link_color_orange .link__image {
+    fill: #E98509;
+}
+
+.link_color_orange:hover .link__image {
+    fill: #fff;
+}

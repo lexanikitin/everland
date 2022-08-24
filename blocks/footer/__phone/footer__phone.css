@@ -1,0 +1,18 @@
+.footer__phone {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__phone {
+    row-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__phone {
+    column-gap: 16px;
+    flex-direction: row;
+    grid-column: 1 / -1;
+  }
+}

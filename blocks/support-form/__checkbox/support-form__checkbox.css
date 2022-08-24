@@ -1,0 +1,22 @@
+.support-form__checkbox {
+  bottom: 0;
+  left: 50%;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.support-form__checkbox:checked + .support-form__input-text {
+  border-color: #0C4BA0;
+}
+
+.support-form__checkbox:hover + .support-form__input-text {
+  border-color: #0C4BA0;
+}
+.support-form__checkbox:checked + .support-form__checkbox-visible {
+  background-image: url('../../../images/support-form/Icon_check.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}

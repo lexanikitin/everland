@@ -1,0 +1,24 @@
+.news__card-image {
+  max-height: 300px;
+  width: 100%;
+  padding: 30px 0 0;
+  object-fit: fit-content;
+}
+
+@media screen and (max-width: 1023px) {
+  .news__card-image {
+    padding: 20px 0 0;
+    min-width: 274px;
+    max-height: 212px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__card-image {
+    padding: 0 0 15px;
+    min-width: 252px;
+    max-height: 192px;
+    height: 100%;
+  }
+}

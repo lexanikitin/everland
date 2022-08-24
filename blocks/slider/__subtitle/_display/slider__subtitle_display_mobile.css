@@ -1,0 +1,9 @@
+.slider__subtitle_display_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .slider__subtitle_display_mobile {
+    display: block;
+  }
+}

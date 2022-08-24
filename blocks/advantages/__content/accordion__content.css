@@ -1,0 +1,12 @@
+.advantages__content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media screen and (max-width:767px) {
+  .advantages__content {
+    gap: 16px;
+  }
+}

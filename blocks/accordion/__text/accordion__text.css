@@ -1,0 +1,21 @@
+.accordion__text {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 400;
+  height: fit-content;
+  line-height: 24px;
+  margin: 0;
+  max-height: 100px;
+  overflow: hidden;
+  padding: 20px 0 0;
+  transition: max-height 0.3s ease-out, padding-top 0.3s ease-out,
+    padding-bottom 0.3s ease-out;
+  visibility: visible;
+}
+
+@media screen and (max-width: 1439px) {
+  .accordion__text {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+}

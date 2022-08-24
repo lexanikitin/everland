@@ -1,0 +1,34 @@
+.support-form__input {
+  background: #FFF;
+  border-radius: 10px;
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  gap: 2px;
+  height: 48px;
+  line-height: 130%;
+  margin: 0;
+  padding: 10px 20px;
+  width: 455px;
+}
+.support-form__input:checked {
+  border-color: #0C4BA0;
+}
+
+@media screen and (max-width: 1023px) {
+  .support-form__input {
+  font-size: 14px;
+    height: 44px;
+    line-height: 120%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .support-form__input {
+    width: 260px;
+    height: 48px;
+  }
+}

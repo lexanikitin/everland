@@ -1,0 +1,8 @@
+.button-accordion_active {
+    background-color: #0C4BA0;
+}
+
+.button-accordion_active .button-accordion__image {
+    stroke: #fff;
+    transform: rotate(45deg);
+}

@@ -1,0 +1,25 @@
+.projects__subtitle {
+  color: #333333;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 20px 0 50px 0;
+  max-width: 955px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .projects__subtitle {
+    font-size: 20px;
+    margin: 16px 0 22px 0;
+    max-width: 504px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects__subtitle {
+    font-size: 16px;
+    margin: 10px 0 24px 0;
+  }
+}

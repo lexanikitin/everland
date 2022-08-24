@@ -1,0 +1,18 @@
+.support-form__input-text_size_big {
+  height: 48px;
+  width: 315px;
+}
+
+@media screen and (max-width: 1023px) {
+  .support-form__input-text_size_big {
+    height: 44px;
+    min-width: 296px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support-form__input-text_size_big {
+    min-width: 122px;
+  }
+}

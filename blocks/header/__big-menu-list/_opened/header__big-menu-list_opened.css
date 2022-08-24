@@ -1,0 +1,10 @@
+@media screen and (max-width: 767px) {
+  .header__big-menu-list_opened {
+    height: fit-content;
+    max-height: 200px;
+    overflow: hidden;
+    padding-bottom: 4px;
+    padding-top: 14px;
+    visibility: visible;
+  }
+}

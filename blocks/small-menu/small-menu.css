@@ -1,0 +1,9 @@
+.small-menu {
+  font-family: 'Raleway', 'Arial', sans-serif;
+}
+
+@media screen and (max-width: 1439px) {
+  .small-menu {
+    display: none;
+  }
+}

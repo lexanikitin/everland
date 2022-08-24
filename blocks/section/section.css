@@ -1,0 +1,6 @@
+.section {
+  font-family: 'Raleway', 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

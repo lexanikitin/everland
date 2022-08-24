@@ -1,0 +1,14 @@
+.slider__list {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .slider__list {
+    align-items: start;
+  }
+}

@@ -1,0 +1,14 @@
+.header__menu-button-icon {
+  background-image: url('../../../images/header/burger-menu.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 25px;
+  width: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-button_type_burger {
+    height: 22px;
+  }
+}
+

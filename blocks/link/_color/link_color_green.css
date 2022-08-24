@@ -1,0 +1,22 @@
+.link_color_green {
+    background-color: #DAEFD5;
+    color: #319B17;
+
+}
+
+.link_color_green:hover {
+    background-color: #319B17;
+    color: #fff;
+}
+
+.link_color_green:active {
+    background-color: #0E4900;
+}
+
+.link_color_green .link__image {
+    fill: #319B17;
+}
+
+.link_color_green:hover .link__image {
+    fill: #fff;
+}
